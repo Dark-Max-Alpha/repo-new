@@ -16,7 +16,7 @@ const Language = require('../language');
 const Lang = Language.getString('_plugin');
 const NLang = Language.getString('updater');
 
-let msg = Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*අනුමත කරන ලද ප්ලගීනයකි..* ✅' : '*This Plugin is Officially Approved!* ✅'
+let msg = Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*අනුමත කරන ... ලද ප්ලගීනයකි..* ✅' : '*This Plugin is Officially Approved!* ✅'
 let unmsg = Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*අනුමත නොකරන ලද ප්ලගීනයකි..!* ❌' : '*This Plugin isn\'t Officially Approved!* ❌'
 
 const heroku = new Heroku({
