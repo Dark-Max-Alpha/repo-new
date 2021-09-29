@@ -15,7 +15,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v7.9.1',
+    VERSION: 'V 3.0.0',
     ZRUN: "zenzapi",
     CHANNEL: 'https://t.me/amazoneplug',
     SESSION: process.env.TREX_SESSION === undefined ? '' : process.env.TREX_SESSION,
@@ -63,7 +63,7 @@ module.exports = {
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     YAK: process.env.YAK === undefined ? '94766598862,0' : process.env.YAK,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    BRANCH: 'master',
+    BRANCH: 'main',
     HNLOCK: 'hadi-api',
     ZLOCK: 'zeks',
     ZNLOCK: 'zenzapi.xyz',
