@@ -18,7 +18,7 @@ module.exports = {
     VERSION: 'v7.9.1',
     ZRUN: "zenzapi",
     CHANNEL: 'https://t.me/amazoneplug',
-    SESSION: process.env.NEUTRO_SESSION === undefined ? '' : process.env.NEUTRO_SESSION,
+    SESSION: process.env.TREX_SESSION === undefined ? '' : process.env.TREX_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
