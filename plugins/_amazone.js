@@ -13,7 +13,7 @@ const Lang = Language.getString('_trex');
 
 if (Config.WORKTYPE == 'private') {
 
-    amazone.addCommand({pattern: 'alexa ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    amazone.addrex({pattern: 'alexa ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
         
         var CMD_HELP = '';
         if (match[1] === '') {
@@ -120,7 +120,7 @@ if (Config.WORKTYPE == 'private') {
         }
     }));
     
-    amazone.addCommand({pattern: 't566778 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    amazone.addrex({pattern: 't566778 ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
         var CMD_HELP = '';
         if (match[1] === '') {
@@ -245,7 +245,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-     amazone.addCommand({pattern: 'alexa ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+     amazone.addrex({pattern: 'alexa ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
          
         var CMD_HELP = '';
         if (match[1] === '') {
@@ -354,7 +354,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
 
 else if (Config.WORKTYPE == 'public') {
 
-    amazone.addCommand({pattern: 'alexa ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    amazone.addrex({pattern: 'alexa ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
         
         var CMD_HELP = '';
         if (match[1] === '') {
@@ -463,7 +463,7 @@ else if (Config.WORKTYPE == 'public') {
 
     
 
-    amazone.addCommand({pattern: 'hashzi ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    amazone.addrex({pattern: 'hashzi ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
         
         var CMD_HELP = '';
         if (match[1] === '') {
