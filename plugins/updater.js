@@ -1,7 +1,7 @@
-/* Copyright (C) 2021 TENUX-Neotro.
+/* Copyright (C) 2021 T-REX
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-NEOTROX - TEENUHX
+T-REX HIRUWA 👿
 
 
 const simpleGit = require('simple-git');
@@ -98,7 +98,7 @@ Asena.addCommand({pattern: 'update now$', fromMe: true, desc: Lang.UPDATE_NOW_DE
 
 const simpleGit = require('simple-git');
 const git = simpleGit();
-const Amdi = require('../events');
+const Trex = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const Config = require('../config');
 const exec = require('child_process').exec;
@@ -110,7 +110,7 @@ const Language = require('../language');
 const Lang = Language.getString('updater');
 
 
-Amdi.addrex({pattern: 'up$', fromMe: true,  deleteCommand: false,  desc: Lang.UPDATER_DESC, dontAddCommandList: true}, (async (message, match) => {
+Trex.addCommand({pattern: 'up$', fromMe: true,  deleteCommand: false,  desc: Lang.UPDATER_DESC, dontAddCommandList: true}, (async (message, match) => {
     await git.fetch();
     var commits = await git.log([Config.BRANCH + '..origin/' + Config.BRANCH]);
     if (commits.total === 0) {
@@ -133,7 +133,7 @@ Amdi.addrex({pattern: 'up$', fromMe: true,  deleteCommand: false,  desc: Lang.UP
     }
 }));
 
-Amdi.addrex({pattern: 'uptrex$', fromMe: true,  deleteCommand: false,  desc: Lang.UPDATE_NOW_DESC, dontAddCommandList: true}, (async (message, match) => {
+Trex.addCommand({pattern: 'uptrex$', fromMe: true,  deleteCommand: false,  desc: Lang.UPDATE_NOW_DESC, dontAddCommandList: true}, (async (message, match) => {
     await git.fetch();
     var commits = await git.log([Config.BRANCH + '..origin/' + Config.BRANCH]);
     if (commits.total === 0) {
@@ -179,7 +179,7 @@ Amdi.addrex({pattern: 'uptrex$', fromMe: true,  deleteCommand: false,  desc: Lan
                     exec('npm install').stderr.pipe(process.stderr);
                 } else if (err) {
                     await message.client.sendMessage(
-                        message.jid,'*❌ යාවත්කාලීන කිරීම අසාර්ථක විය!*\n*දෝෂයකි:* ```' + err + '```', MessageType.text);
+                        message.jid,'*❌ Can not update now please try again!*\n*Error:* ```' + err + '```', MessageType.text);
                 }
             }));
             await guncelleme.delete();
