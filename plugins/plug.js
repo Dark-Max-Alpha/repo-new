@@ -27,7 +27,7 @@ const heroku = new Heroku({
 
 let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 
-Asena.addCommand({pattern: 'npkg ?(.*)', fromMe: true, desc: ALang.PKG, warn: Lang.WARN}, (async (message, match) => {
+Asena.addrex({pattern: 'npkg ?(.*)', fromMe: true, desc: ALang.PKG, warn: Lang.WARN}, (async (message, match) => {
     if (match[1] === '') return await message.sendMessage(Lang.NEED_URL + '.npkg https://paste-bin.xyz/paste.php?raw&id=2416&password')
     try {
         var url = new URL(match[1]);
@@ -69,7 +69,7 @@ Asena.addCommand({pattern: 'npkg ?(.*)', fromMe: true, desc: ALang.PKG, warn: La
     }
 }));
 
-Asena.addCommand({pattern: 'nplug', fromMe: true, desc: ALang.PLUG }, (async (message, match) => {
+Asena.addrex({pattern: 'nplug', fromMe: true, desc: ALang.PLUG }, (async (message, match) => {
     var mesaj = Lang.INSTALLED_FROM_REMOTE;
     var plugins = await Db.PluginDB.findAll();
     if (plugins.length < 1) {
@@ -85,7 +85,7 @@ Asena.addCommand({pattern: 'nplug', fromMe: true, desc: ALang.PLUG }, (async (me
     }
 }));
 
-Asena.addCommand({pattern: 'rm(?: |$)(.*)', fromMe: true, desc: ALang.REMOVE}, (async (message, match) => {
+Asena.addrex({pattern: 'rm(?: |$)(.*)', fromMe: true, desc: ALang.REMOVE}, (async (message, match) => {
     if (match[1] === '') return await message.sendMessage(Lang.NEED_PLUGIN);
     if (!match[1].startsWith('__')) match[1] = '__' + match[1];
     var plugin = await Db.PluginDB.findAll({ where: {name: match[1]} });
