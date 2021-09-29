@@ -28,7 +28,7 @@ function secondsToHms(d) {
     return hDisplay + mDisplay + sDisplay; 
 }
 
-Trex.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
+Trex.addrex({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (Config.AFKMSG == 'default') {
 
         if (AFK.isAfk && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
@@ -80,7 +80,7 @@ Trex.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (messa
     }
 }));
 
-Trex.addCommand({on: 'online', fromMe: true, deleteCommand: false}, (async (message, match) => {
+Trex.addrex({on: 'online', fromMe: true, deleteCommand: false}, (async (message, match) => {
     if (AFK.isAfk && !message.id.startsWith('3EB0')) {
         AFK.lastseen = 0;
         AFK.reason = false;
@@ -90,7 +90,7 @@ Trex.addCommand({on: 'online', fromMe: true, deleteCommand: false}, (async (mess
     }
 }));
 
-Trex.addCommand({pattern: 'afk ?(.*)', fromMe: true, dontAddCommandList: true, deleteCommand: false, desc: Lang.AFK_DESC}, (async (message, match) => {     
+Trex.addrex({pattern: 'afk ?(.*)', fromMe: true, dontAddCommandList: true, deleteCommand: false, desc: Lang.AFK_DESC}, (async (message, match) => {     
     if (!AFK.isAfk) {
         AFK.lastseen = Math.round((new Date()).getTime() / 1000);
         if (match[1] !== '') { AFK.reason = match[1]; }
