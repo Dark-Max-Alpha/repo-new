@@ -33,7 +33,7 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
       W_PRI = '👩‍🦰ඔබේ Bot පෞද්ගලික ආකාරයට ක්‍රියාකරයි.'
     }
 
- Neotro.addCommand({pattern: 'work ?(.*)', fromMe: true, dontAddCommandList: false, desc: Lang.WORK}, (async (message, match) => {
+ Neotro.addrex({pattern: 'work ?(.*)', fromMe: true, dontAddCommandList: false, desc: Lang.WORK}, (async (message, match) => {
         if (match[1] == 'public') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
