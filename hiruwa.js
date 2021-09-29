@@ -8,7 +8,7 @@ NEOTROX - TEENUHX
 var config = require('./config');
 var Commands = [];
 
-function addrex(info, func) {
+function addCommand(info, func) {
     // Basit bir fonksiyon, komut eklemek için.
     var types = ['photo', 'image', 'text', 'message'];
 
@@ -43,6 +43,6 @@ function addrex(info, func) {
 }
 
 module.exports = {
-    addrex: addrex,
+    addCommand: addCommand,
     commands: Commands
 }
