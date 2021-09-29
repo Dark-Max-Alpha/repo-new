@@ -11,6 +11,7 @@ const fs = require('fs');
 const Config = require('../config')
 const axios = require('axios')
 const request = require('request');
+const hrs = new Date().getHours({ timeZone: 'Asia/Colombo' })
 const os = require('os');
 const Language = require('../language');
 const Lang = Language.getString('_trex');
