@@ -31,7 +31,7 @@ var LANG = {
             limit: Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*This Plugin Exceeds Security Limit!*\n*Percentage of Harm* _%' : '*This Plugin Exceeds Security Limit!*\n*Percentage of Harm:* _%',
             imside: Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*You Cant Reinstall Existing Plugins!*' : '*You Cant Reinstall Existing Plugins!*'
 };
-Trex.addCommand({pattern: 'plug ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, warn: Lang.WARN, dontAddCommandList: false}, (async (message, match) => {
+Trex.addrex({pattern: 'plug ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, warn: Lang.WARN, dontAddCommandList: false}, (async (message, match) => {
 
     if (match[1] == '') return await message.client.sendMessage(message.jid,Lang.NEED_URL + '.plug <link>', MessageType.text)
     try {
@@ -48,7 +48,7 @@ Trex.addCommand({pattern: 'plug ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, w
     var response = await got(url);
     if (response.statusCode == 200) {
         // Plugin Name
-        var plugin_name = response.body.match(/addCommand\({.*pattern: ["'](.*)["'].*}/);
+        var plugin_name = response.body.match(/addrex\({.*pattern: ["'](.*)["'].*}/);
         if (plugin_name.length >= 1) {
             plugin_name = "__" + plugin_name[1];
         } else {
@@ -118,7 +118,7 @@ Trex.addCommand({pattern: 'plug ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, w
     }
 }));
 
-Trex.addCommand({pattern: 'myplugin$', fromMe: true, dontAddCommandList: false, desc: Lang.PLUGIN_DESC}, (async (message, match) => {
+Trex.addrex({pattern: 'myplugin$', fromMe: true, dontAddCommandList: false, desc: Lang.PLUGIN_DESC}, (async (message, match) => {
     var mesaj = Lang.INSTALLED_FROM_REMOTE;
     var plugins = await Db.PluginDB.findAll();
     if (plugins.length < 1) {
@@ -134,7 +134,7 @@ Trex.addCommand({pattern: 'myplugin$', fromMe: true, dontAddCommandList: false, 
     }
 }));
 
-Trex.addCommand({pattern: 'unplug(?: |$)(.*)', fromMe: true, dontAddCommandList: false, desc: Lang.REMOVE_DESC}, (async (message, match) => {
+Trex.addrex({pattern: 'unplug(?: |$)(.*)', fromMe: true, dontAddCommandList: false, desc: Lang.REMOVE_DESC}, (async (message, match) => {
     if (match[1] === '') return await message.sendMessage(Lang.NEED_PLUGIN);
     if (!match[1].startsWith('__')) match[1] = '__' + match[1];
     try {
