@@ -1,10 +1,10 @@
-/* Copyright (C) 2021 TENUX-Neotro.
+/* Copyright (C) 2021 T-REX
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-NEOTROX - TEENUHX
+T-REX HIRUWA
 */
 
-const Asena = require('../events');
+const Trex = require('../events');
 const Heroku = require('heroku-client');
 const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
@@ -16,7 +16,7 @@ const Language = require('../language');
 const Lang = Language.getString('_plugin');
 const NLang = Language.getString('updater');
 
-let msg = Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*අනුමත කරන ... ලද ප්ලගීනයකි..* ✅' : '*This Plugin is Officially Approved!* ✅'
+let msg = Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*👿 T-REX අනුමත කරන ලද ප්ලගීනයකි..* ✅' : '*This Plugin is Officially Approved!* ✅'
 let unmsg = Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*අනුමත නොකරන ලද ප්ලගීනයකි..!* ❌' : '*This Plugin isn\'t Officially Approved!* ❌'
 
 const heroku = new Heroku({
@@ -31,9 +31,9 @@ var LANG = {
             limit: Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*This Plugin Exceeds Security Limit!*\n*Percentage of Harm* _%' : '*This Plugin Exceeds Security Limit!*\n*Percentage of Harm:* _%',
             imside: Config.LANG == 'SI' || Config.LANG == 'AZ' ? '*You Cant Reinstall Existing Plugins!*' : '*You Cant Reinstall Existing Plugins!*'
 };
-Asena.addrex({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, warn: Lang.WARN, dontAddCommandList: false}, (async (message, match) => {
+Trex.addCommand({pattern: 'plug ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, warn: Lang.WARN, dontAddCommandList: false}, (async (message, match) => {
 
-    if (match[1] == '') return await message.client.sendMessage(message.jid,Lang.NEED_URL + '.install https://gist.github.com/phaticusthiccy/4232b1c8c4734e1f06c3d991149c6fbd', MessageType.text)
+    if (match[1] == '') return await message.client.sendMessage(message.jid,Lang.NEED_URL + '.plug <link>', MessageType.text)
     try {
         var url = new URL(match[1]);
     } catch {
@@ -59,7 +59,7 @@ Asena.addrex({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, w
         try {
             require('./' + plugin_name);
         } catch (e) {
-            fs.unlinkSync('/root/amazonex/plugins/' + plugin_name + '.js')
+            fs.unlinkSync('/root/plugins/' + plugin_name + '.js')
             return await message.client.sendMessage(message.jid,Lang.INVALID_PLUGIN + ' ```' + e + '```', MessageType.text);
         }
         var DEG = { level: 5 }
@@ -85,24 +85,24 @@ Asena.addrex({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, w
         if (find.includes(plugin_name)) {
             await message.client.sendMessage(message.jid, LANG.duplicate, MessageType.text)
             await new Promise(r => setTimeout(r, 400))
-            fs.unlinkSync('/root/amazonex/plugins/' + plugin_name + '.js')
+            fs.unlinkSync('/root/plugins/' + plugin_name + '.js')
         }
         else if (response.body.includes('formation') && !match[1].includes('phaticusthiccy')) {
             await message.client.sendMessage(message.jid, LANG.harmful, MessageType.text)
             await new Promise(r => setTimeout(r, 400))
-            fs.unlinkSync('/root/amazonex/plugins/' + plugin_name + '.js')
+            fs.unlinkSync('/root/plugins/' + plugin_name + '.js')
         } 
         else if ((response.body.includes('commands.map') || response.body.includes('PluginDB') || response.body.includes('groupRemove') || response.body.includes('groupAdd') || response.body.includes('groupMakeAdmin') || response.body.includes('groupDemoteAdmin') || response.body.includes('groupSettingChange') || response.body.includes('groupInviteCode') || response.body.includes('Math.round((new Date()).getTime() / 1000)') || response.body.includes('https://thiccyscarbonapi.herokuapp.com/?code=') || response.body.includes('filtreler.map') || response.body.includes('heroku.delete') || response.body.includes('heroku.patch') || response.body.includes('Chrome/80.0.3987.149 Mobile Safari/537.36') || response.body.includes('groupLeave') || response.body.includes('updateProfilePicture') || response.body.includes('blockUser') || response.body.includes("Language.getString('system_stats')") || response.body.includes("commits['all'].map") || response.body.includes('await git.fetch') || response.body.includes('jids.push')) && !match[1].includes('phaticusthiccy')) {
             await message.client.sendMessage(message.jid, LANG.imside, MessageType.text)
             await new Promise(r => setTimeout(r, 400))
-            fs.unlinkSync('/root/amazonex/plugins/' + plugin_name + '.js')
+            fs.unlinkSync('/root/plugins/' + plugin_name + '.js')
         } 
         else {
-            if (!match[1].includes('neotro23') && DEG.level > 99) {
+            if (!match[1].includes('Dark-Knight-Hiruwa') && DEG.level > 99) {
                 await message.client.sendMessage(message.jid,LANG.limit + DEG.level + '_', MessageType.text)
-                fs.unlinkSync('/root/amazonex/plugins/' + plugin_name + '.js')
+                fs.unlinkSync('/root/plugins/' + plugin_name + '.js')
             }
-            else if (!match[1].includes('neotro23') && DEG.level < 100) {
+            else if (!match[1].includes('Dark-Knight-Hiruwa') && DEG.level < 100) {
                 await Db.installPlugin(url, plugin_name)
                 await new Promise(r => setTimeout(r, 400))
                 await message.client.sendMessage(message.jid, Lang.UNOFF, MessageType.text)
@@ -118,7 +118,7 @@ Asena.addrex({pattern: 'install ?(.*)', fromMe: true, desc: Lang.INSTALL_DESC, w
     }
 }));
 
-Asena.addrex({pattern: 'plugin$', fromMe: true, dontAddCommandList: false, desc: Lang.PLUGIN_DESC}, (async (message, match) => {
+Trex.addCommand({pattern: 'myplugin$', fromMe: true, dontAddCommandList: false, desc: Lang.PLUGIN_DESC}, (async (message, match) => {
     var mesaj = Lang.INSTALLED_FROM_REMOTE;
     var plugins = await Db.PluginDB.findAll();
     if (plugins.length < 1) {
@@ -126,15 +126,15 @@ Asena.addrex({pattern: 'plugin$', fromMe: true, dontAddCommandList: false, desc:
     } else {
         plugins.map(
             (plugin) => {
-                let vf = plugin.dataValues.url.includes('Neotro23') ? msg : unmsg
-                mesaj += '```' + plugin.dataValues.name + '```: ' + '👩‍🦰 \n' + vf + '\n\n';
+                let vf = plugin.dataValues.url.includes('Dark-Knight-Hiruwa') ? msg : unmsg
+                mesaj += '```' + plugin.dataValues.name + '```: ' + '│▷ \n' + vf + '\n\n';
             }
         );
         return await message.client.sendMessage(message.jid, mesaj, MessageType.text);
     }
 }));
 
-Asena.addrex({pattern: 'remove(?: |$)(.*)', fromMe: true, dontAddCommandList: false, desc: Lang.REMOVE_DESC}, (async (message, match) => {
+Trex.addCommand({pattern: 'unplug(?: |$)(.*)', fromMe: true, dontAddCommandList: false, desc: Lang.REMOVE_DESC}, (async (message, match) => {
     if (match[1] === '') return await message.sendMessage(Lang.NEED_PLUGIN);
     if (!match[1].startsWith('__')) match[1] = '__' + match[1];
     try {
