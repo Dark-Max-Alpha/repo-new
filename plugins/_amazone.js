@@ -9,7 +9,7 @@ const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 const fs = require("fs")
 const Language = require('../language');
-const Lang = Language.getString('_amazone');
+const Lang = Language.getString('_trex');
 
 if (Config.WORKTYPE == 'private') {
 
