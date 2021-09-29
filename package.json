@@ -1,6 +1,6 @@
 {
-  "name": "ales",
-  "version": "7.3.6",
+  "name": "T-REX",
+  "version": "3.0.0",
   "description": ".",
   "main": "./ng19/bot.js",
   "scripts": {
@@ -14,16 +14,16 @@
     "whatsapp",
     "bot",
     "ai",
-    "amazone",
-    "alexa"
+    "T-REX",
+    "T-REX WA"
   ],
-  "author": "Alexa",
-  "developer": "@terror-boy / @HatzuHole",
+  "author": "Hiruwa",
+  "developer": "@Hiruwa / @Hiruwa",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/jesonpro/ales/issues"
+    "url": "https://github.com/DARKCRIME1/ng19/issues"
   },
-  "homepage": "https://github.com/jesonpro/ales#readme",
+  "homepage": "https://github.com/DARKCRIME1/ng19#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.2",
     "@lh2020/speedtest-net": "^2.1.1",
