@@ -110,7 +110,7 @@ const Language = require('../language');
 const Lang = Language.getString('updater');
 
 
-Amdi.addCommand({pattern: 'up$', fromMe: true,  deleteCommand: false,  desc: Lang.UPDATER_DESC, dontAddCommandList: true}, (async (message, match) => {
+Amdi.addrex({pattern: 'up$', fromMe: true,  deleteCommand: false,  desc: Lang.UPDATER_DESC, dontAddCommandList: true}, (async (message, match) => {
     await git.fetch();
     var commits = await git.log([Config.BRANCH + '..origin/' + Config.BRANCH]);
     if (commits.total === 0) {
@@ -133,7 +133,7 @@ Amdi.addCommand({pattern: 'up$', fromMe: true,  deleteCommand: false,  desc: Lan
     }
 }));
 
-Amdi.addCommand({pattern: 'uptrex$', fromMe: true,  deleteCommand: false,  desc: Lang.UPDATE_NOW_DESC, dontAddCommandList: true}, (async (message, match) => {
+Amdi.addrex({pattern: 'uptrex$', fromMe: true,  deleteCommand: false,  desc: Lang.UPDATE_NOW_DESC, dontAddCommandList: true}, (async (message, match) => {
     await git.fetch();
     var commits = await git.log([Config.BRANCH + '..origin/' + Config.BRANCH]);
     if (commits.total === 0) {
