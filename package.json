@@ -2,13 +2,13 @@
   "name": "ales",
   "version": "7.3.6",
   "description": ".",
-  "main": "./ales/bot.js",
+  "main": "./ng19/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jesonpro/ales.git"
+    "url": "git+https://github.com/DARKCRIME1/ng19.git"
   },
   "keywords": [
     "whatsapp",
