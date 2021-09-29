@@ -7,7 +7,7 @@ HIRUWA -T REX
 var config = require('./config');
 var Commands = [];
 
-function Trex(info, func) {
+function teenu(info, func) {
     // Basit bir fonksiyon, komut eklemek için.
     var types = ['photo', 'image', 'text', 'message'];
 
@@ -42,6 +42,6 @@ function Trex(info, func) {
 }
 
 module.exports = {
-    teenu: Trex,
+    teenu: teenu,
     commands: Commands
 }
