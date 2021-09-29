@@ -4,7 +4,7 @@ you may not use this file except in compliance with the License.
 T-REX HIRUWA
 */
 
-const Trex = require('../hiruwa');
+const Trex = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
