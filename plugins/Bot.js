@@ -1,4 +1,4 @@
-const Amdi = require('../events');
+const Trex = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const {spawnSync} = require('child_process');
 const Config = require('../config');
@@ -11,7 +11,7 @@ const Lang = Language.getString('system_stats');
 
 if (Config.WORKTYPE == 'private') {
 
-    Amdi.applyCMD({pattern: 'bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
+    Trex.addrex({pattern: 'bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
             
             var image = await axios.get ('https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg', {responseType: 'arraybuffer'})
        
@@ -103,7 +103,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Amdi.applyCMD({pattern: 'bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
+    Trex.addrex({pattern: 'bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
 
           
             var image = await axios.get ('https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg', {responseType: 'arraybuffer'})
@@ -192,7 +192,7 @@ else if (Config.WORKTYPE == 'public') {
 
     }));
   
-  Amdi.applyCMD({pattern: 'bot', fromMe: false,  deleteCommand: false }, (async (message, match) => {
+  Trex.addrex({pattern: 'bot', fromMe: false,  deleteCommand: false }, (async (message, match) => {
 
           
             var image = await axios.get ('https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg', {responseType: 'arraybuffer'})
