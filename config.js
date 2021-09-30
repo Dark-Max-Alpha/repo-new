@@ -63,7 +63,7 @@ module.exports = {
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     YAK: process.env.YAK === undefined ? '94766598862,0' : process.env.YAK,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    BRANCH: 'trex',
+    BRANCH: 'main',
     HNLOCK: 'hadi-api',
     ZLOCK: 'zeks',
     ZNLOCK: 'zenzapi.xyz',
