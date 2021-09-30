@@ -2,11 +2,11 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 T-REX HIRUWA 👿
-
+*/
 
 const simpleGit = require('simple-git');
 const git = simpleGit();
-const Asena = require('../events');
+const Trex = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const Config = require('../config');
 const exec = require('child_process').exec;
@@ -18,7 +18,7 @@ const Language = require('../language');
 const Lang = Language.getString('updater');
 
 
-Asena.addCommand({pattern: 'update$', fromMe: true, desc: Lang.UPDATER_DESC}, (async (message, match) => {
+Trex.addrex({pattern: 'up$', fromMe: true, desc: Lang.UPDATER_DESC}, (async (message, match) => {
     await git.fetch();
     var commits = await git.log([Config.BRANCH + '..origin/' + Config.BRANCH]);
     if (commits.total === 0) {
@@ -30,7 +30,7 @@ Asena.addCommand({pattern: 'update$', fromMe: true, desc: Lang.UPDATER_DESC}, (a
         var degisiklikler = Lang.NEW_UPDATE;
         commits['all'].map(
             (commit) => {
-                degisiklikler += '🔹 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' ◁◁Hiruwa▷▷\n';
+                degisiklikler += '🍁 ▷ [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' ◁◁Hiruwa▷▷\n';
             }
         );
         
@@ -41,7 +41,7 @@ Asena.addCommand({pattern: 'update$', fromMe: true, desc: Lang.UPDATER_DESC}, (a
     }
 }));
 
-Asena.addCommand({pattern: 'update now$', fromMe: true, desc: Lang.UPDATE_NOW_DESC}, (async (message, match) => {
+Trex.addrex({pattern: 'uptrex$', fromMe: true, desc: Lang.UPDATE_NOW_DESC}, (async (message, match) => {
     await git.fetch();
     var commits = await git.log([Config.BRANCH + '..origin/' + Config.BRANCH]);
     if (commits.total === 0) {
@@ -94,7 +94,7 @@ Asena.addCommand({pattern: 'update now$', fromMe: true, desc: Lang.UPDATE_NOW_DE
         }
     }
 }));
-*/
+/*
 
 const simpleGit = require('simple-git');
 const git = simpleGit();
@@ -185,4 +185,4 @@ Trex.addrex({pattern: 'uptrex$', fromMe: true,  deleteCommand: false,  desc: Lan
             await guncelleme.delete();
         }
     }
-}));
+}));*/
