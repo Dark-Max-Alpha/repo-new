@@ -1,7 +1,7 @@
-/* Copyright (C) 2021 TENUX-Neotro.
+/* Copyright (C) 2021 T-REX
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-NEOTROX - TEENUHX
+T-REX HIRUA
 */
 
 const { Sequelize } = require('sequelize');
@@ -63,7 +63,7 @@ module.exports = {
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     YAK: process.env.YAK === undefined ? '94766598862,0' : process.env.YAK,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    BRANCH: 'main',
+    BRANCH: 'trex',
     HNLOCK: 'hadi-api',
     ZLOCK: 'zeks',
     ZNLOCK: 'zenzapi.xyz',
@@ -88,10 +88,10 @@ module.exports = {
     WHATS_LINK_BLOCK: process.env.WHATS_LINK_BLOCK === undefined ?'false' : process.env.WHATS_LINK_BLOCK,
     SITE: process.env.SITE === undefined ?'netfiletolink.herokuapp.com/' : process.env.SITE,
     MENU_LOGO: process.env.MENU_LOGO === undefined ?'https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg' : process.env.MENU_LOGO,
-    DEVELOPER: 'HATZU TEAM',
-    AUTHOR: 'AMAZONE ALEXA',
+    DEVELOPER: 'HIRUWA',
+    AUTHOR: '👿 T-REX 👿',
     PKGPS: process.env.PKGPS === undefined ?'=xnxcom' : process.env.PKGPS,
-    GIT: 'https://github.com/jesonpro/ales.git',
+    GIT: 'https://githu',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
