@@ -491,9 +491,9 @@ if (config.WORKTYPE == 'private') {
 
 //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ LYRICS
 
-    Trex.addrex({pattern: 'lyric ?(.*)', fromMe: true, desc: Slang.LY_DESC }, (async (message, match) => { 
+    Trex.addrex({pattern: 'lyric ?(.*)', fromMe: true}, (async (message, match) => { 
 
-        if (match[1] === '') return await message.client.sendMessage(message.jid, Slang.NEED, MessageType.text);
+        if (match[1] === '') return await message.client.sendMessage(message.jid, 'NEED WORD 🍁▷', MessageType.text);
 
         var aut = await solenolyrics.requestLyricsFor(`${match[1]}`); 
         var son = await solenolyrics.requestAuthorFor(`${match[1]}`);
@@ -502,7 +502,7 @@ if (config.WORKTYPE == 'private') {
 
         var buffer = await axios.get(cov, {responseType: 'arraybuffer'});
 
-        await message.client.sendMessage(message.jid, Buffer.from(buffer.data),  MessageType.image, {caption: `*${Slang.ARAT}* ` + '```' + `${match[1]}` + '```' + `\n*${Slang.BUL}* ` + '```' + tit + '```' + `\n*${Slang.AUT}* ` + '```' + son + '```' + `\n*${Slang.SLY}*\n\n` + aut });
+        await message.client.sendMessage(message.jid, Buffer.from(buffer.data),  MessageType.image, {caption: 'Name ▷ '+ '```' + `${match[1]}` + '```' + '\n\nTitle ▷ '+ '```' + tit + '```' + '\n\n ▷ ' + '```' + son + '```' + '\n\n▷ '+ aut });
 
     }));
 
@@ -929,9 +929,9 @@ Trex.addrex({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (async (me
         });
     }));
 
-    Trex.addrex({pattern: 'lyric ?(.*)', fromMe: false, desc: Slang.LY_DESC }, (async (message, match) => {
+    Trex.addrex({pattern: 'lyric ?(.*)', fromMe: false }, (async (message, match) => {
 
-        if (match[1] === '') return await message.client.sendMessage(message.jid, Slang.NEED, MessageType.text);
+        if (match[1] === '') return await message.client.sendMessage(message.jid, 'NEED WORD 🍁', MessageType.text);
 
         var aut = await solenolyrics.requestLyricsFor(`${match[1]}`); 
         var son = await solenolyrics.requestAuthorFor(`${match[1]}`);
@@ -940,7 +940,7 @@ Trex.addrex({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (async (me
 
         var buffer = await axios.get(cov, {responseType: 'arraybuffer'});
 
-        await message.client.sendMessage(message.jid, Buffer.from(buffer.data),  MessageType.image, {caption: `*${Slang.ARAT}* ` + '```' + `${match[1]}` + '```' + `\n*${Slang.BUL}* ` + '```' + tit + '```' + `\n*${Slang.AUT}* ` + '```' + son + '```' + `\n*${Slang.SLY}*\n\n` + aut });
+        await message.client.sendMessage(message.jid, Buffer.from(buffer.data),  MessageType.image, {caption: 'NAME ▷ ' + '```' + `${match[1]}` + '```' + '\n▷ '+ '```' + tit + '```' + '\n\n▷ ' + '```' + son + '```' + '\n\n▷ '+ aut });
 
     }));
 //░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
