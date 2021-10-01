@@ -1,11 +1,11 @@
 {
-    "name": "Amazon",
-    "description": "Amazone Alexa Is Powerfull whatsapp bot For Whatsapp",
-    "logo": "https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg",
-    "keywords": ["whatsapp", "userbot", "java", "button bot", "whatsapp", "api", "ai", "asena", "bug", "free rdp" ],
-    "repository": "https://www.github.com/jesonpro/ales",
-    "website":   "wa",
-    "success_url": "https://www.github.com/jesonpro",
+    "name": "T-REX BOT",
+    "description": "T-REX V 3.0.0 Is Powerfull whatsapp bot For Whatsapp",
+    "logo": "https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg",
+    "keywords": ["whatsapp", "userbot", "T-REX", "button bot", "whatsapp", "api", "ai", "asena", "bug", "pearl Team" ],
+    "repository": "https://cutt.ly/www-t-rex-official-com",
+    "website":   "https://cutt.ly/www-t-rex-official-com",
+    "success_url": "https://cutt.ly/www-t-rex-official-com",
     "stack": "container",
     "env": {
         "TREX_SESSION": {
