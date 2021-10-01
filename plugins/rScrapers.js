@@ -277,7 +277,7 @@ if (config.WORKTYPE == 'private') {
 
 //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉CURRENCY //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 
-    Trex.addrex({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', desc: Alang.CURRENCY, fromMe: true}, (async (message, match) => {
+ /*   Trex.addrex({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', desc: Alang.CURRENCY, fromMe: true}, (async (message, match) => {
 
         if(match[1] === undefined || match[2] == undefined || match[3] == undefined) {
             return await message.client.sendMessage(message.jid,Lang.CURRENCY_ERROR,MessageType.text);
@@ -300,11 +300,11 @@ if (config.WORKTYPE == 'private') {
                 console.log(err)
             }
         }
-    }));
+    }));*/
 //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ CURRENCY END //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 
 //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ TTS //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
-    if (config.LANG == 'SI' || config.LANG == 'AZ') {
+/*    if (config.LANG == 'SI' || config.LANG == 'AZ') {
 
         Trex.addrex({pattern: 'tts (.*)', fromMe: true, desc: Lang.TTS_DESC}, (async (message, match) => {
 
@@ -358,7 +358,7 @@ if (config.WORKTYPE == 'private') {
             });
             await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
         }));
-    }
+    }*/
 //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ TTS END //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 
 //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ SONG //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
@@ -762,8 +762,9 @@ else if (config.WORKTYPE == 'public') {
         const rep_7 = res_1 + res_2 + res_3 + res_4 + res_5 + res_6
         await message.client.sendMessage(message.jid,rep_7,MessageType.text, { quoted: message.data });
     }));
-//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
-    Trex.addrex({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', desc: Alang.CURRENCY, fromMe: false}, (async (message, match) => {
+ /*   
+    ///░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
+    Trex.addrex({pattern: 'currency(?: ([0-9.]+) ([a-zA-Z]+) ([a-zA-Z]+)|$|(.*))', fromMe: false}, (async (message, match) => {
 
         if(match[1] === undefined || match[2] == undefined || match[3] == undefined) {
             return await message.client.sendMessage(message.jid,Lang.CURRENCY_ERROR,MessageType.text);
@@ -787,7 +788,7 @@ else if (config.WORKTYPE == 'public') {
             }
         }
     }));
-//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
+//░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓*/
 
     Trex.addrex({pattern: 'tts (.*)', fromMe: false, desc: Lang.TTS_DESC}, (async (message, match) => {
 
