@@ -29,7 +29,7 @@ Trex.addrex({ pattern: 'notes', fromMe: true,  deleteCommand: false,  desc: Lang
     await message.sendMessage(notes.join('\n\n'))
     _notes.filter(note => note.note.includes('IMG;;;')).forEach(async (note) => {
         const imageName = note.note.replace('IMG;;;', '')
-        const image = await fs.readFile(path.resolve('media', imageName))
+        const image = await fs.readFile(path.resolve('src', imageName))
         await message.sendMessage(image, MessageType.image)
     })
 
@@ -67,7 +67,7 @@ Trex.addrex({ pattern: 'save ?(.*)', fromMe: true,  deleteCommand: false,  desc:
                 })
 
                 const randomFileName = savedFileName.split('.')[0] + Math.floor(Math.random() * 50) + path.extname(savedFileName)
-                await fs.copyFile(savedFileName, path.resolve('media', randomFileName))
+                await fs.copyFile(savedFileName, path.resolve('src', randomFileName))
                 await NotesDB.saveNote("IMG;;;" + randomFileName)
                 await message.sendMessage(successfullMessage(Lang.SUCCESSFULLY_ADDED), MessageType.text)
 
@@ -90,10 +90,10 @@ Trex.addrex({ pattern: 'deleteNotes', fromMe: true,  deleteCommand: false,  desc
 
     await NotesDB.deleteAllNotes()
 
-    const mediaFolder = await fs.readdir(path.resolve('media'))
+    const mediaFolder = await fs.readdir(path.resolve('src'))
 
     mediaFolder.forEach(async (file) => {
-        await fs.unlink(path.resolve('media', file))
+        await fs.unlink(path.resolve('src', file))
     })
 
     return await message.sendMessage(successfullMessage(Lang.SUCCESSFULLY_DELETED))
