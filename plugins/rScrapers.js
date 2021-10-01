@@ -38,9 +38,6 @@ const spotifyApi = new SpotifyWebApi({
 const Language = require('../language');
 const Lang = Language.getString('scrapers');
 const Glang = Language.getString('github');
-const Slang = Language.getString('lyrics');
-const Clang = Language.getString('covid');
-const Alang = Language.getString('amazone');
 
 //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ TRANSLATION //▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉
 
