@@ -848,7 +848,7 @@ else if (config.WORKTYPE == 'public') {
                 var stream = get.buffer();
                 
                 stream.then(async (image) => {
-                    await message.client.sendMessage(message.jid,image, MessageType.image, {quoted: message.data , caption: " 🍁▷ T-REX SEARCH ENGINE 🍁"});
+                    await message.client.sendMessage(message.jid,image, MessageType.image, {quoted: message.data });
                 });
             }
 
