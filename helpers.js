@@ -1,17 +1,17 @@
-/* Copyright (C) 2021 TENUX-Neotro.
+/* Copyright (C) 2021 HIRUWA
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-NEOTROX - TEENUHX
+T-REX HIRUWA
 */
 
 function successfullMessage(msg) {
-    return "👩‍🦰 *AMAZONE ALEXA*:  ```" + msg + "```"
+    return "😈 T-REX*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🚀 *AMAZONE ALEXA*:  ```" + msg + "```"
+    return "😈 T-REX*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "🤖 *AMAZONE ALEXA*:  ```" + msg + "```"
+    return "😈 T-REX*:  ```" + msg + "```"
 }
 
 
