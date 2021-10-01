@@ -48,7 +48,7 @@ if (Config.WORKTYPE == 'private') {
         await message.client.sendMessage(message.jid, 
                 `*❰🍁🔱  T Rex BOT  🔱🍁❱*\n\n` + 
                 '```Installed version :```\n' +
-                Lang.version + 
+                ' V 3.0.0 Public
                 `\n\n🍁 Check github for bot: https://github.com/Dark-Knight-Hiruwa/T-REX`
            , MessageType.text);
             
@@ -91,7 +91,7 @@ else if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid, 
                 `*❰🍁🔱  T Rex BOT  🔱🍁❱*\n\n` + 
                 '```Installed version :```\n' +
-                Lang.version + 
+                ' V 3.0.0 - Public
                 `\n\n🍁 Check github for bot:  https://github.com/Dark-Knight-Hiruwa/T-REX`
            , MessageType.text);
             
