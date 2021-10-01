@@ -2,13 +2,13 @@
   "name": "T-REX",
   "version": "V 3.0.0",
   "description": ".",
-  "main": "./T-REX/bot.js",
+  "main": "./ng19/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dark-Knight-Hiruwa/T-REX.git"
+    "url": "git+https://github.com/DARKCRIME1/ng19.git"
   },
   "keywords": [
     "whatsapp",
