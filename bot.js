@@ -288,7 +288,7 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
             if (config.LANG == 'SI') announce = '📢◉◉ \n👾නිවේදන පද්ධතිය 🔘'
             if (config.LANG == 'ID') announce = '📢◉◉ \n👾Announcement System 🔘'
             
-            let video = 'https://imgur.com/u9LLLGV.mp4'
+            let video = 'https://youtu.be/oWDW6_Ewi1U'
             let image = 'https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg'
             
             if (video.includes('http') || video.includes('https')) {
