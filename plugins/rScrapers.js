@@ -506,7 +506,7 @@ if (config.WORKTYPE == 'private') {
 
     }));
 
-    Trex.addrex({pattern: "covid ?(.*)", fromMe: true, desc: Clang.COV_DESC}, (async (message, match) => {
+    Trex.addrex({pattern: "covid ?(.*)", fromMe: true }, (async (message, match) => {
         if (match[1] === "") {
             try{
                 //const resp = await fetch("https://coronavirus-19-api.herokuapp.com/all").then(r => r.json());
@@ -703,7 +703,7 @@ if (config.WORKTYPE == 'private') {
         else {
             return await message.client.sendMessage(
                 message.jid,
-                Clang.NOT,
+                'Wrong 🍁',
                 MessageType.text
             );
         }
@@ -945,7 +945,7 @@ Trex.addrex({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (async (me
     }));
 //░░░░░░░░░▓▓▓▓▓▓░░░░░░░▓▓▓▓▓▓▓░░░░░░▓▓▓▓▓▓
 
-    Trex.addrex({pattern: "covid ?(.*)", fromMe: false, desc: Clang.COV_DESC}, (async (message, match) => {
+    Trex.addrex({pattern: "covid ?(.*)", fromMe: false}, (async (message, match) => {
         if (match[1] === "") {
             try{
                 //const resp = await fetch("https://coronavirus-19-api.herokuapp.com/all").then(r => r.json());
@@ -1142,7 +1142,7 @@ Trex.addrex({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (async (me
         else {
             return await message.client.sendMessage(
                 message.jid,
-                Clang.NOT,
+                'WRONG 🍁',
                 MessageType.text
             );
         }
