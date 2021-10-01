@@ -843,16 +843,16 @@ else if (config.WORKTYPE == 'public') {
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text, {quoted: message.data});
         gis(match[1], async (error, result) => {
-            for (var i = 0; i < (result.length < 6 ? result.length : 6); i++) {
+            for (var i = 0; i < (result.length < 5 ? result.length : 5); i++) {
                 var get = got(result[i].url, {https: {rejectUnauthorized: false}});
                 var stream = get.buffer();
                 
                 stream.then(async (image) => {
-                    await message.client.sendMessage(message.jid,image, MessageType.image, {quoted: message.data});
+                    await message.client.sendMessage(message.jid,image, MessageType.image, {quoted: message.data , caption: " 🍁▷ T-REX SEARCH ENGINE 🍁"});
                 });
             }
 
-            message.reply(Lang.IMG.format((result.length < 6 ? result.length : 6), match[1]));
+            message.reply(Lang.IMG.format((result.length < 5 ? result.length : 5), match[1]));
         });
     }));
 
