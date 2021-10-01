@@ -1,14 +1,14 @@
 {
   "name": "T-REX",
-  "version": "3.0.0",
+  "version": "V 3.0.0",
   "description": ".",
-  "main": "./ng19/bot.js",
+  "main": "./T-REX/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DARKCRIME1/ng19.git"
+    "url": "git+https://github.com/Dark-Knight-Hiruwa/T-REX.git"
   },
   "keywords": [
     "whatsapp",
@@ -21,9 +21,9 @@
   "developer": "@Hiruwa / @Hiruwa",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/DARKCRIME1/ng19/issues"
+    "url": "https://github.com/Dark-Knight-Hiruwa/T-REX/issues"
   },
-  "homepage": "https://github.com/DARKCRIME1/ng19#readme",
+  "homepage": "https://github.com/Dark-Knight-Hiruwa/T-REX#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.2",
     "@lh2020/speedtest-net": "^2.1.1",
