@@ -21,9 +21,9 @@ const Down = '👿 DOWNLOADING STATUS 👿.'
 
         if (message.reply_message.video === false && message.reply_message.image) {
             ffmpeg(location)
-                .save('status.png')
+                .save('stat.png')
                 .on('end', async () => {
-                    await message.client.sendMessage(message.client.user.jid,fs.readFileSync('status.png'), MessageType.image,{mimetype: Mimetype.png, caption: '❰🍁🔱  T Rex BOT  🔱🍁❱' ,quoted: message.data});
+                    await message.client.sendMessage(message.client.user.jid,fs.readFileSync('stat.png'), MessageType.image,{mimetype: Mimetype.png, caption: '❰🍁🔱  T Rex BOT  🔱🍁❱' ,quoted: message.data});
             });
         return 
         }
