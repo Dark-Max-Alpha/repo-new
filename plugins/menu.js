@@ -15,9 +15,6 @@ const hrs = new Date().getHours({ timeZone: 'Asia/Colombo' })
 const os = require('os');
 const Language = require('../language');
 const Lang = Language.getString('_trex');
-var clh = { cd: 'L3Jvb3QvV2hhdHNBc2VuYUR1cGxpY2F0ZWQv', pay: '' }    
-var ggg = Buffer.from(clh.cd, 'base64')
-var ddd = ggg.toString('utf-8')
 
 
 if (Config.WORKTYPE == 'public') {
@@ -94,6 +91,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │
  │▷ .video { vid link }
  │▷ .vid2 { vid link }
+ │▷ .down { status down }
  │▷ .song { song name }
  │▷ .fsong { song name }
  │▷ .play { song name }
@@ -914,6 +912,7 @@ Example : .covid Sri Lanka°
  │
  │▷ .video { vid link }
  │▷ .vid2 { vid link }
+ │▷ .down { status down }
  │▷ .song { song name }
  │▷ .fsong { song name }
  │▷ .play { song name }
@@ -1021,6 +1020,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │
  │▷ .video { vid link }
  │▷ .vid2 { vid link }
+ │▷ .down { status down }
  │▷ .song { song name }
  │▷ .fsong { song name }
  │▷ .play { song name }
@@ -1841,6 +1841,7 @@ Example : .covid Sri Lanka°
  │
  │▷ .video { vid link }
  │▷ .vid2 { vid link }
+ │▷ .down { status down }
  │▷ .song { song name }
  │▷ .fsong { song name }
  │▷ .play { song name }
@@ -1956,6 +1957,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │  🍁👿 Downloader 👿🍁
  │
  │▷ .video { vid link }
+ │▷ .down { status down }
  │▷ .vid2 { vid link }
  │▷ .song { song name }
  │▷ .fsong { song name }
@@ -2776,6 +2778,7 @@ Example : .covid Sri Lanka°
  │  🍁👿 Downloader 👿🍁
  │
  │▷ .video { vid link }
+ │▷ .down { status down }
  │▷ .vid2 { vid link }
  │▷ .song { song name }
  │▷ .fsong { song name }
