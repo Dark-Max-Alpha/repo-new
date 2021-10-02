@@ -77,6 +77,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │ 🍁👿 Text To Img 👿🍁
  │
  │▷ .rlpack
+ │▷ .attppack
  │▷ .tlpack
  │▷ .ffpack
  │▷ .ttp { text }
@@ -815,8 +816,97 @@ Example : .covid Sri Lanka°
 ║        ╚ ENJOY WITH US ╝
 ╚══════════════════════
 `, rowId:"rowid6"},
-        {title: '👿 LOGO PACK 03 👿', description: `▷▷▷▷▷▷\n\n\n
-Comming soon ▷
+        {title: '👿 ATTP PACK 👿', description: `▷▷▷▷▷▷\n\n\n
+╔═════════════════════╗
+║      ❰🍁🔱  T Rex BOT  🔱🍁❱  
+║        ║🍁╚ATTP PACK╝🍁║
+║
+╠═➢ 🍁.01attp      ❴your text❵
+║send fiee fire logo
+╠═➢ 🍁.02attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.03attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.04attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.05attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.06attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.07attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.08attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.09attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.10attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.11attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.12attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.13attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.14attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.15attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.16attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.17attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.18attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.19attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.20attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.21attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.22attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.23attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.24attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.25attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.26attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.27attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.28attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.29attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.30attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.31attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.32attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.33attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.34attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.35attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.36attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.37attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.38attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.39attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.40attp       ❴your text❵
+║send Text logo
+║
+║▷Creator: HIRUSHA
+║
+║ ❰🍁🔱  T Rex BOT  🔱🍁❱  
+╚═════════════════════╝
+
 `, rowId:"rowid20"},
         {title: '👿 DOWNLOADER 👿', description: `▷▷▷▷▷▷\n\n\n
  ╭────────────────
@@ -914,6 +1004,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │ 🍁👿 Text To Img 👿🍁
  │
  │▷ .rlpack
+ │▷ .attppack
  │▷ .tlpack
  │▷ .ffpack
  │▷ .ttp { text }
@@ -1652,7 +1743,98 @@ Example : .covid Sri Lanka°
 ║        ╚ ENJOY WITH US ╝
 ╚══════════════════════
 `, rowId:"rowid6"},
-        {title: '👿 LOGO PACK 03 👿', description: "▷▷▷▷▷▷\n\n\n👿 COMING SOON 👿", rowId:"rowid20"},
+        {title: '👿 ATTP PACK 👿', description: `▷▷▷▷▷▷\n\n\n
+╔═════════════════════╗
+║      ❰🍁🔱  T Rex BOT  🔱🍁❱  
+║        ║🍁╚ATTP PACK╝🍁║
+║
+╠═➢ 🍁.01attp      ❴your text❵
+║send fiee fire logo
+╠═➢ 🍁.02attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.03attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.04attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.05attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.06attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.07attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.08attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.09attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.10attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.11attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.12attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.13attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.14attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.15attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.16attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.17attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.18attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.19attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.20attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.21attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.22attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.23attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.24attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.25attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.26attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.27attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.28attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.29attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.30attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.31attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.32attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.33attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.34attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.35attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.36attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.37attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.38attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.39attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.40attp       ❴your text❵
+║send Text logo
+║
+║▷Creator: HIRUSHA
+║
+║ ❰🍁🔱  T Rex BOT  🔱🍁❱  
+╚═════════════════════╝
+
+`, rowId:"rowid20"},
         {title: '👿 DOWNLOADER 👿', description:`▷▷▷▷▷▷\n\n\n
  ╭────────────────
  │  🍁👿 Downloader 👿🍁
@@ -1758,6 +1940,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │ 🍁👿 Text To Img 👿🍁
  │
  │▷ .rlpack
+ │▷ .attppack
  │▷ .tlpack
  │▷ .ffpack
  │▷ .ttp { text }
@@ -2046,7 +2229,7 @@ Example : .covid Sri Lanka°
 
 *➢ Description:* °🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Download instagram videos.°
 
-*🍁 Command:* °.fb°
+*?? Command:* °.fb°
 
 *➢ Description:* °🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Download Facebook videos.°
 
@@ -2496,7 +2679,98 @@ Example : .covid Sri Lanka°
 ║        ╚ ENJOY WITH US ╝
 ╚══════════════════════
 `, rowId:"rowid6"},
-        {title: '👿 LOGO PACK 03 👿', description: "▷▷▷▷▷▷\n\n\n👿 COMING SOON 👿", rowId:"rowid20"},
+        {title: '👿 ATTP PACK 👿', description: `▷▷▷▷▷▷\n\n\n
+╔═════════════════════╗
+║      ❰🍁🔱  T Rex BOT  🔱🍁❱  
+║        ║🍁╚ATTP PACK╝🍁║
+║
+╠═➢ 🍁.01attp      ❴your text❵
+║send fiee fire logo
+╠═➢ 🍁.02attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.03attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.04attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.05attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.06attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.07attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.08attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.09attp      ❴your text❵
+║send Text logo
+╠═➢ 🍁.10attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.11attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.12attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.13attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.14attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.15attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.16attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.17attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.18attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.19attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.20attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.21attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.22attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.23attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.24attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.25attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.26attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.27attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.28attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.29attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.30attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.31attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.32attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.33attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.34attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.35attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.36attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.37attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.38attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.39attp       ❴your text❵
+║send Text logo
+╠═➢ 🍁.40attp       ❴your text❵
+║send Text logo
+║
+║▷Creator: HIRUSHA
+║
+║ ❰🍁🔱  T Rex BOT  🔱🍁❱  
+╚═════════════════════╝
+
+`, rowId:"rowid20"},
 {title: '👿 DOWNLOADER 👿', description:`▷▷▷▷▷▷\n\n\n
  ╭────────────────
  │  🍁👿 Downloader 👿🍁
