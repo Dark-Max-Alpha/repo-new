@@ -188,40 +188,12 @@
             "SONG_DESC": "ඔබ ලියූ ගීතය උඩුගත කරයි.",
             "NEED_TEXT_SONG": "*කරුණාකර ගීතයක් කියන්න!*\n*උදාහරණයක්:* ```.song kelinma ahanna ayya song```",
             "NO_RESULT": "*මට කිසිවක් සොයාගත නොහැකි විය. :(*",
-            "DOWNLOADING_SONG": `
-            ╭──────•◈•──────╮
-            sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ sᴏɴɢ♪
-            ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ 
-              ━━━━━ •♬• ━━━━━
-            ╰──────•◈•──────╯
-            ﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
-            『T Rex Whatsapp Bot』`,
-            "UPLOADING_SONG": `
-            ╭──────•◈•──────╮
-            ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ sᴏɴɢ♫
-     ılı.lıllılı.ıllı.ılı.lıllılı.ıllı.
-             ━━━━━ •♬• ━━━━━
-            ╰──────•◈•──────╯
-            ﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
-            『T Rex Whatsapp Bot』`,
+            "DOWNLOADING_SONG": "DOWNLOADING",
+            "UPLOADING_SONG": "uploading",
             "VIDEO_DESC": "Downloading videos from YouTube",
             "NEED_VIDEO": "*වීඩියෝ ලින්කුවක් එවන්න.*\n*Example:* .video https://www.youtube.com/watch?v=cXcQMXC66c4",
-            "DOWNLOADING_VIDEO": `
-            ╭──────•◈•──────╮
-           sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ♪
-            ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ 
-              ━━━━━ •♬• ━━━━━
-            ╰──────•◈•──────╯
-            ﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
-            『T Rex Whatsapp Bot』`,
-            "UPLOADING_VIDEO": `
-            ╭──────•◈•──────╮
-            ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ♫
-      ılı.lıllılı.ıllı.ılı.lıllılı.ıllı.
-             ━━━━━ •♬• ━━━━━
-            ╰──────•◈•──────╯
-           ﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
-           『T Rex Whatsapp Bot』      `,
+            "DOWNLOADING_VIDEO": "DOWNLOADING",
+            "UPLOADING_VIDEO":"UPLOADING",
             "YT_DESC": "එය යූ ටියුබ් තුළ සොයයි 🍁➢ .",
             "NEED_WORDS": "```කරුණාකර වචන කිහිපයක් ලියන්න! 😒```",
             "GETTING_VIDEOS": "```🔎 කරුණාකර රැඳී සිටින්න, වීඩියෝ serach කරමින් පවති ➢ ...```",
