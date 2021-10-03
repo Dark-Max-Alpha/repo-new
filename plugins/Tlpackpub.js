@@ -298,7 +298,7 @@ if (Config.WORKTYPE == 'public') {
         if (match[1] === '') return await message.sendMessage(need);
 
         var rex = await axios.
-        get(`https://pencarikode.xyz/api/textpro/xmas?text=${encodeURIComponent(match[1])}&apikey=pais`, { responseType: 'arraybuffer' })
+        get(`https://h4ck3rs404-api.herokuapp.com/api/textprome/xmas?text=${encodeURIComponent(match[1])}&apikey=404Api`, { responseType: 'arraybuffer' })
         await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
 
     }));
