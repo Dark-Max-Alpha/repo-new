@@ -188,12 +188,40 @@
             "SONG_DESC": "Uploading the songs.",
             "NEED_TEXT_SONG": "*Please give me song name!*\n*Example:* ```.song build a bitch```",
             "NO_RESULT": "*I could not find anything. :(*",
-            "DOWNLOADING_SONG": "```🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Downloading your song...```",
-            "UPLOADING_SONG": "```🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Uploading your song...```",
+            "DOWNLOADING_SONG": `
+            ╭──────•◈•──────╮
+            sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ sᴏɴɢ♪
+            ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ 
+              ━━━━━ •♬• ━━━━━
+            ╰──────•◈•──────╯
+            ﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
+            『T Rex Whatsapp Bot』`,
+            "UPLOADING_SONG": `
+            ╭──────•◈•──────╮
+            ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ sᴏɴɢ♫
+     ılı.lıllılı.ıllı.ılı.lıllılı.ıllı.
+             ━━━━━ •♬• ━━━━━
+            ╰──────•◈•──────╯
+            ﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
+            『T Rex Whatsapp Bot』`,
             "VIDEO_DESC": "Downloading videos from YouTube",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* .video https://www.youtube.com/watch?v=cXcQMXC66c4",
-            "DOWNLOADING_VIDEO": "```🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Downloading your video...```",
-            "UPLOADING_VIDEO": "```🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Uploading your video...```",
+            "DOWNLOADING_VIDEO": `
+            ╭──────•◈•──────╮
+           sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ♪
+            ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ 
+              ━━━━━ •♬• ━━━━━
+            ╰──────•◈•──────╯
+            ﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
+            『T Rex Whatsapp Bot』`,
+            "UPLOADING_VIDEO": `
+            ╭──────•◈•──────╮
+            ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ♫
+      ılı.lıllılı.ıllı.ılı.lıllılı.ıllı.
+             ━━━━━ •♬• ━━━━━
+            ╰──────•◈•──────╯
+           ﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
+           『T Rex Whatsapp Bot』      `,
             "YT_DESC": "Searchng videos on YouTube.",
             "NEED_WORDS": "```Need words to search!```",
             "GETTING_VIDEOS": "```🔎 Please wait, the video is being searched...```",
