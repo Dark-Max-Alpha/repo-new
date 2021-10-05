@@ -17,16 +17,47 @@ if (Config.WORKTYPE == 'private') {
 
         if (Config.ALIVEMSG == 'default') {
             
+            const buttons = [
+  {buttonId: 'MENU', buttonText: {displayText: 'MENU'}, type: 1},//jakakkak
+ ]
+
+const btn = {
+   // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
+    contentText: "▷ CLICK MENU BUTTON TO GET MENU ▷",
+    footerText: 'BY T-REX BOT ▷',
+    buttons: buttons,
+    headerType: 1
+}
+
+            
             var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🍁```\n\n🍁 My name : ❰🍁🔱 T Rex BOT 🔱🍁❱\n\n🍁 Developer: HIRUWA\n\n🍁Thank You For Using ❰🍁🔱  T Rex BOT  🔱🍁❱"})
+            
+        await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
+
 
     }
     else {
+        const buttons = [
+  {buttonId: 'MENU', buttonText: {displayText: 'MENU'}, type: 1},//jakakkak
+  ]
+const btn = {
+   // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
+    contentText: "▷ CLICK MENU BUTTON TO GET MENU ▷",
+    footerText: 'BY T-REX BOT ▷',
+    buttons: buttons,
+    headerType: 1
+}
+
+
+
             
             var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*❰🍁🔱  T Rex BOT  🔱🍁❱*' })
+        await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
+
      }
     }));
 
