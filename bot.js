@@ -328,7 +328,24 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
                         let pp
                         try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
                         await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
-                        await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message }); });
+                        await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message }); 
+                        const buttons = [
+  {buttonId: 'infi', buttonText: {displayText: 'GROUP INFO'}, type: 1},//jakakkak
+  {buttonId: 'owner', buttonText: {displayText: 'Owner'}, type: 1}
+]
+
+const btn = {
+   // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
+    contentText: "🤩 YOU CAN GET GROUP INFO 🤩",
+    footerText: 'BY T-REX BOT ',
+    buttons: buttons,
+    headerType: 1
+}
+
+await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
+                            
+        });
+
                     }
                     return;
                 } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
