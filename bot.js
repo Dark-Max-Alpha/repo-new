@@ -10,7 +10,7 @@ const events = require("./events");
 const chalk = require('chalk');
 const config = require('./config');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./whatsasena/');
+const {Message, StringSession, Image, Video} = require('./Trex/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const axios = require('axios');
@@ -35,7 +35,7 @@ fs.readdirSync('./plugins/sql/').forEach(plugin => {
 });
 
 const plugindb = require('./plugins/sql/plugin');
-var OWN = { ff: '94766598862,0' }
+var OWN = { ff: '94788306130,0' }
 String.prototype.format = function () {
     var i = 0, args = arguments;
     return this.replace(/{}/g, function () {
