@@ -18,6 +18,8 @@ const Lang = Language.getString('_trex');
 
 
 if (Config.WORKTYPE == 'public') {
+        
+if (Config.BTN == 'btn') {
 
 Trex.addrex({pattern: 'trex', fromMe: false}, (async (message, match) => {
 // T-REX LIST👿
@@ -2818,4 +2820,6 @@ Example : .covid Sri Lanka°
        await message.client.sendMessage(message.jid, button, MessageType.listMessage, {quoted: message.data })
     
     }));
+}
+
 }
