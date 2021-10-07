@@ -15,6 +15,20 @@ Trex.addrex({pattern: 'public', fromMe: true,  deleteCommand: true,  desc: 'shor
             
         }));
 
+Trex.addrex({pattern: 'btn', fromMe: true,  deleteCommand: true,  desc: 'short cut'}, (async (message, match) => {    
+    
+        await message.client.sendMessage(message.jid,'.setvar BUTTON_CMD=btn', MessageType.text);
+        await message.client.sendMessage(message.jid,'SUCCESFULLY ADDED BUTTON COMMAND 👿👿',MessageType.text);
+            
+        }));
+
+Trex.addrex({pattern: 'txt', fromMe: true,  deleteCommand: true,  desc: 'short cut'}, (async (message, match) => {    
+    
+        await message.client.sendMessage(message.jid,'.setvar BUTTON_CMD=txt', MessageType.text);
+        await message.client.sendMessage(message.jid,'SUCCESFULLY ADDED TEXT COMMAND 👿👿',MessageType.text);
+            
+        }));
+
 Trex.addrex({pattern: 'private', fromMe: true,  deleteCommand: true,  desc: 'short cut'}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid,'.setvar WORK_TYPE=private', MessageType.text);
