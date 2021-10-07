@@ -17,7 +17,7 @@ const axios = require('axios');
 const got = require('got');
 
 // ════════════════════SQL🍁🍁
-const WhatsAsenaDB = config.DATABASE.define('WhatsAsena', {
+const TrexDB = config.DATABASE.define('Trex', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -57,9 +57,9 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function whatsAsena () {
+async function Trex () {
     await config.DATABASE.sync();
-    var StrSes_Db = await WhatsAsenaDB.findAll({
+    var StrSes_Db = await TrexDB.findAll({
         where: {
           info: 'StringSession'
         }
@@ -87,7 +87,7 @@ async function whatsAsena () {
 
         const authInfo = conn.base64EncodedAuthInfo();
         if (StrSes_Db.length < 1) {
-            await WhatsAsenaDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
+            await TrexDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
         } else {
             await StrSes_Db[0].update({ value: Session.createStringSession(authInfo) });
         }
@@ -461,4 +461,4 @@ ${chalk.blue.italic('👿 Connecting to WhatsApp...▶')}`);
     }
 }
 
-whatsAsena();
+Trex();
