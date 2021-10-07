@@ -15,7 +15,7 @@ if (config.WORKTYPE == 'public') {
   
 if (config.BTN == 'txt') {
 
-Trex.applyCMD({pattern: 'trex', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
+Trex.addrex({pattern: 'trex', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     
@@ -232,7 +232,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
 }));
 
-Trex.applyCMD({pattern: 'trex', fromMe: true, desc: 'it send bot menu'}, (async (message, match) => {
+Trex.addrex({pattern: 'trex', fromMe: true, desc: 'it send bot menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     
@@ -453,7 +453,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
 else if (config.WORKTYPE == 'private' ) {
     
-    Trex.applyCMD({pattern: 'trex', fromMe: true, desc: 'it send bot menu'}, (async (message, match) => {
+    Trex.addrex({pattern: 'trex', fromMe: true, desc: 'it send bot menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     
