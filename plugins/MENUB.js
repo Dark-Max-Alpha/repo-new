@@ -25,7 +25,7 @@ Trex.addrex({on: 'text', fromMe: false,  deleteCommand: false}, (async (message,
   
   if (menu.test(message.message)) {
     
-    var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Colombo' }).split(' ')[1]
+    var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
 
     var wish = ''
      
@@ -815,7 +815,7 @@ else if (Config.WORKTYPE == 'private') {
   
   if (menu.test(message.message)) {
     
-    var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Colombo' }).split(' ')[1]
+    var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
 
     var wish = ''
      
