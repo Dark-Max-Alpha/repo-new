@@ -11,7 +11,7 @@ const fs = require('fs');
 const Config = require('../config')
 const axios = require('axios')
 const request = require('request');
-const hrs = new Date().getHours({ timeZone: 'Asia/Colombo' })
+const hrs = new Date().getHours({ timeZone: Config.TIME })
 const os = require('os');
 const Language = require('../language');
 const Lang = Language.getString('_trex');
@@ -23,7 +23,7 @@ if (Config.BTN == 'btn') {
 
 Trex.addrex({pattern: 'trex', fromMe: false}, (async (message, match) => {
 // T-REX LIST👿
-        var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Colombo' }).split(' ')[1]
+        var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
 
     var wish = ''
      
@@ -952,7 +952,7 @@ Example : .covid Sri Lanka°
     Trex.addrex({pattern: 'trex', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
 // T-REX LIST
 
-var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Colombo' }).split(' ')[1]
+var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
 
     var wish = ''
      
@@ -1890,7 +1890,7 @@ else if (Config.WORKTYPE == 'private') {
 Trex.addrex({pattern: 'trex', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
 // T-REX LIST
 
-var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Colombo' }).split(' ')[1]
+var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
 
     var wish = ''
      
