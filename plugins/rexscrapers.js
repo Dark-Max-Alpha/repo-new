@@ -83,7 +83,6 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
             });
     }));
     
-    
     Trex.addrex({pattern: 'song ?(.*)', fromMe: true, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
@@ -91,12 +90,10 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
         arama = arama.all;
         if(arama.length < 1) return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
         var reply = await message.client.sendMessage(message.jid,`╭──────•◈•──────╮
-    sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ♪
-     ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ 
-      ━━━━━ •♬• ━━━━━
- ╰──────•◈•──────╯
-﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
-   『T Rex Whatsapp Bot』`,MessageType.text);
+    sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ♪
+     ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ 
+      ━━━━━ •♬• ━━━━━
+ ╰──────•◈•──────╯`,MessageType.text);
 
         let title = arama[0].title.replace(' ', '+');
         let stream = ytdl(arama[0].videoId, {
@@ -118,16 +115,17 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
                     });
                 writer.addTag();
 
-                reply = await message.client.sendMessage(message.jid,`╭──────•◈•──────╮ 
-   ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ♫
-       ılı.lıllılı.ıllı.ılı.lıllılı.ıllı.
-      ━━━━━ •♬• ━━━━━
- ╰──────•◈•──────╯
-﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
-   『T Rex Whatsapp Bot』`,MessageType.text);
-                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio,  {mimetype: Mimetype.mp4Audio, quoted: message.data});
+                reply = await message.client.sendMessage(message.jid, `╭──────•◈•──────╮ 
+   ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ♫
+       ılı.lıllılı.ıllı.ılı.lıllılı.ıllı.
+      ━━━━━ •♬• ━━━━━
+ ╰──────•◈•──────╯` ,MessageType.text);
+                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio, {mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: false});
             });
     }));
+    
+    
+    
          
     Trex.addrex({pattern: 'fsong ?(.*)', fromMe: true, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
@@ -174,45 +172,53 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
             });
     }));
   
-      Trex.addrex({ pattern: 'video ?(.*)', fromMe: true,  deleteCommand: false, desc: Lang.VIDEO_DESC}, (async (message, match) => {
-  
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
       
+     
+
+    Trex.addrex({pattern: 'video ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
+
+        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
+    
         var VID = '';
         try {
             if (match[1].includes('watch')) {
                 var tsts = match[1].replace('watch?v=', '')
                 var alal = tsts.split('/')[3]
                 VID = alal
-            } else {     
+            } 
+            
+            if (match[1].includes('shorts')) {
+                var rmx = match[1].replace('shorts/', '')
+				var rmy = rmx.replace('?feature=share', '')
+                var data = rmy.split('/')[3]
+                VID = data
+            }
+          
+            else {     
                 VID = match[1].split('/')[3]
             }
         } catch {
             return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
         }
         var reply = await message.client.sendMessage(message.jid,`╭──────•◈•──────╮
-   sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ♪
-     ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ 
-      ━━━━━ •♬• ━━━━━
- ╰──────•◈•──────╯
-﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
-   『T Rex Whatsapp Bot』`,MessageType.text);
-  
+   sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ♪
+     ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ 
+      ━━━━━ •♬• ━━━━━
+ ╰──────•◈•──────╯`,MessageType.text);
+
         var yt = ytdl(VID, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
         yt.pipe(fs.createWriteStream('./' + VID + '.mp4'));
-  
+
         yt.on('end', async () => {
             reply = await message.client.sendMessage(message.jid,`╭──────•◈•──────╮
    ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ♫
        ılı.lıllılı.ıllı.ılı.lıllılı.ıllı.
       ━━━━━ •♬• ━━━━━
- ╰──────•◈•──────╯
-﹏﹏﹏﹏﹏✪✭✪﹏﹏﹏﹏﹏
-   『T Rex Whatsapp Bot』`,MessageType.text);
-            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4, caption: "❰🍁🔱  T Rex BOT  🔱🍁❱"});
+ ╰──────•◈•──────╯`,MessageType.text);
+            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4, ptt: false, quoted: message.data});
         });
     }));
-
+    
     Trex.addrex({ pattern: 'insta ?(.*)', fromMe: true,  deleteCommand: false, desc: Lang.IG_DESC}, (async (message, match) => {
 
         const userName = match[1]
