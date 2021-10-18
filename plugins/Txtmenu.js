@@ -455,8 +455,12 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 }));
     
 }
-
+}
+  
+  
 else if (config.WORKTYPE == 'private' ) {
+  
+  if (config.BTN == 'txt') {
     
     Trex.addrex({pattern: 'trex', fromMe: true, desc: 'it send bot menu'}, (async (message, match) => {
 
