@@ -15,7 +15,7 @@ Trex.addrex({pattern: 'public', fromMe: true,  deleteCommand: true,  desc: 'shor
             
         }));
 
-Trex.addrex({pattern: 'btn', fromMe: true,  deleteCommand: true,  desc: 'short cut'}, (async (message, match) => {    
+Trex.addrex({pattern: 'button', fromMe: true,  deleteCommand: true,  desc: 'short cut'}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid,'.setvar BUTTON_CMD=btn', MessageType.text);
         await message.client.sendMessage(message.jid,'SUCCESFULLY ADDED BUTTON COMMAND 👿👿',MessageType.text);
