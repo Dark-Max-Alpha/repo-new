@@ -13,10 +13,12 @@ const hrs = new Date().getHours({ timeZone: config.TIME })
 
 if (config.WORKTYPE == 'public') {
   
-if (config.BTN == 'txt') {
+
 
 Trex.addrex({pattern: 'trex', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
 
+  if (config.BTN == 'txt') {
+    
     var r_text = new Array ();
     
     
@@ -232,11 +234,15 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
  
 `,quoted: message.data}) 
+    
+}
 
 }));
 
 Trex.addrex({pattern: 'trex', fromMe: true, desc: 'it send bot menu'}, (async (message, match) => {
 
+  if (config.BTN == 'txt') {
+    
     var r_text = new Array ();
     
     
@@ -452,18 +458,20 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  
 `,quoted: message.data}) 
 
+}
+  
 }));
     
 }
-}
+
   
   
 else if (config.WORKTYPE == 'private' ) {
   
-  if (config.BTN == 'txt') {
-    
+  
     Trex.addrex({pattern: 'trex', fromMe: true, desc: 'it send bot menu'}, (async (message, match) => {
-
+      
+    if (config.BTN == 'txt') {
     var r_text = new Array ();
     
     
@@ -675,8 +683,8 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  
  
 `,quoted: message.data}) 
+      
+}
 
 }));
-}
-  
 }
