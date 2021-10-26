@@ -50,3 +50,8 @@ Trex.addrex({pattern: 'voice off', fromMe: true,  deleteCommand: true,  desc: 's
         await message.client.sendMessage(message.jid,'DEACTIVATED VOICE CHAT 👿👿',MessageType.text);
             
         }));
+
+Trex.addrex({ pattern: 'alive ?(.*)', fromMe: true,dontAdCommandList: true }, (async (message, match) => {
+    
+    await.message.client.sendMessage(message.jid,'.setvar ALIVE_LOGO=${match[1]}',MessageType.text);
+    }));
