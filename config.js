@@ -21,6 +21,7 @@ module.exports = {
     SESSION: process.env.TREX_SESSION === undefined ? '' : process.env.TREX_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     TIME: process.env.TIME_ZONE === undefined ? 'Asia/Colombo' : process.env.TIME_ZONE,
+    AL: process.env.ALIVE_LOGO === undefined ? '' : process.env.ALIVE_LOGO,
     BTN: process.env.BUTTON_CMD === undefined ? 'btn' : process.env.BUTTON_CMD,
     AUTOBIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
