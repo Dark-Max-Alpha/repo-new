@@ -15,7 +15,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
 
 Trex.addrex({pattern: 'tagall ?(.*)', fromMe: false,  deleteCommand: false,  desc: Lang.TAGALL_DESC, dontAddCommandList: true}, (async (message, match) => {
     var im = await checkImAdmin(message);
-    if (!im) return await message.client.sendMessage(message.jid,'ඔබ මෙම සමූහයේ ඇඩ්මින් නොවේ ?\n\n You are not Admin in this group',MessageType.text);
+    //if (!im) return await message.client.sendMessage(message.jid,'ඔබ මෙම සමූහයේ ඇඩ්මින් නොවේ ?\n\n You are not Admin in this group',MessageType.text);
 
     if (!message.reply_message) {
         if (match[1] !== '') {
