@@ -67,7 +67,7 @@ async function Trex () {
     
 // ════════════════════WA CONNECTION🍁🍁🍁
     const conn = new WAConnection();
-    conn.version = [2, 2123, 8];
+    conn.version = [2, 2140, 12];
     const Session = new StringSession();
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
