@@ -418,7 +418,7 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
         await reply.delete();
     }));
 
-    Trex.addrex({pattern: 'img ?(.*)', fromMe: true, desc: Lang.IMG_DESC}, (async (message, match) => { 
+    Trex.addrex({pattern: 'img ?(.*)', fromMe: true, desc: '❤'}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
         gis(match[1], async (error, result) => {
@@ -434,6 +434,8 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
             message.reply(Lang.IMG.format((result.length < 5 ? result.length : 5), match[1]));
         });
     }));
+	
+	
     Trex.addrex({pattern: 'quote ?(.*)', fromMe: true,  deleteCommand: false, desc: Lang.QUOTE_DESC}, async (message, match) => {
         if (match[1] === 'xx') return await message.reply(Lang.NEED_LOCATIONA);
         const url = `https://api.quotable.io/random`;
@@ -947,20 +949,20 @@ else if (config.WORKTYPE == 'public') {
         await reply.delete();
     }));
 
-    Trex.addrex({pattern: 'img ?(.*)', fromMe: false, desc: Lang.IMG_DESC}, (async (message, match) => { 
+    Trex.addrex({pattern: 'img ?(.*)', fromMe: false, desc: '❤'}, (async (message, match) => { 
 
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text, {quoted: message.data});
+        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
         gis(match[1], async (error, result) => {
-            for (var i = 0; i < (result.length < 6 ? result.length : 6); i++) {
+            for (var i = 0; i < (result.length < 5 ? result.length : 5); i++) {
                 var get = got(result[i].url, {https: {rejectUnauthorized: false}});
                 var stream = get.buffer();
                 
                 stream.then(async (image) => {
-                    await message.client.sendMessage(message.jid,image, MessageType.image, {quoted: message.data});
+                    await message.client.sendMessage(message.jid,image, MessageType.image);
                 });
             }
 
-            message.reply(Lang.IMG.format((result.length < 6 ? result.length : 6), match[1]));
+            message.reply(Lang.IMG.format((result.length < 5 ? result.length : 5), match[1]));
         });
     }));
 
