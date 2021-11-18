@@ -13,7 +13,7 @@ const Lang = Language.getString('system_stats');
 
 if (Config.WORKTYPE == 'private') {
 
-    Trex.addrex({pattern: 'alive', fromMe: true,  deleteCommand: false,  desc: Lang.ALIVE_DESC}, (async (message, match) => {
+    Trex.addrex({pattern: 'alidbsjsmsmsnsnsjsjskve', fromMe: true,  deleteCommand: false,  desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
             
@@ -87,7 +87,7 @@ const btn = {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Trex.addrex({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
+    Trex.addrex({pattern: 'alisjjsjsjsksjsjsjsve', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
             
