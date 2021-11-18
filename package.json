@@ -38,6 +38,7 @@
     "search-engine-client": "^1.2.6",
     "deepai": "^1.0.17",
     "cwebp-bin": "^6.1.1",
+    "cobrabot-patch": "1.0.2",
     "tinyurl": "^1.1.7",
     "dotenv": "^8.2.0",
     "tiktok-scraper": "1.4.20",
