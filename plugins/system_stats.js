@@ -13,18 +13,19 @@ const Lang = Language.getString('system_stats');
 
 if (Config.WORKTYPE == 'private') {
 
-    Trex.addrex({pattern: 'alidbsjsmsmsnsnsjsjskve', fromMe: true,  deleteCommand: false,  desc: Lang.ALIVE_DESC}, (async (message, match) => {
+    Trex.addrex({pattern: 'alive', fromMe: true,  deleteCommand: false,  desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
             
             const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: 'MENU'}, type: 1},//jakakkak
+  {buttonId: 'MENU', buttonText: {displayText: 'I am Fine 🤭'}, type: 1},//jakakkak
+  {buttonId: 'MNU', buttonText: {displayText: 'Bad Day 😪'}, type: 1},
  ]
 
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
-    contentText: "▷ CLICK MENU BUTTON TO GET MENU ▷",
-    footerText: 'BY T-REX BOT ▷',
+    contentText: "▷ How Are You ▷",
+    footerText: 'T-REX BOT ▷',
     buttons: buttons,
     headerType: 1
 }
@@ -34,13 +35,14 @@ const btn = {
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🍁```\n\n🍁 My name : ❰🍁🔱 T Rex BOT 🔱🍁❱\n\n🍁 Developer: HIRUWA\n\n🍁Thank You For Using ❰🍁🔱  T Rex BOT  🔱🍁❱"})
             
-     //   await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
+        await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
 
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: 'MENU'}, type: 1},//jakakkak
+  {buttonId: 'MENU', buttonText: {displayText: 'I am Fine 🤭'}, type: 1},//jakakkak
+  {buttonId: 'MNU', buttonText: {displayText: 'Bad Day 😪'}, type: 1},
   ]
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
@@ -56,7 +58,7 @@ const btn = {
             var image = await axios.get ( Config.AL , {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*❰🍁🔱  T Rex BOT  🔱🍁❱*' })
-       // await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
+        await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
      }
     }));
@@ -87,17 +89,18 @@ const btn = {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Trex.addrex({pattern: 'alisjjsjsjsksjsjsjsve', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
+    Trex.addrex({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
             
             const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: 'MENU'}, type: 1},//jakakkak
+  {buttonId: 'MENU', buttonText: {displayText: 'I am Fine 🤭'}, type: 1},//jakakkak
+  {buttonId: 'MNU', buttonText: {displayText: 'Bad Day 😪'}, type: 1},
  ]
 
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
-    contentText: "▷ CLICK MENU BUTTON TO GET MENU ▷",
+    contentText: "❤ HOW ARE YOU ❤",
     footerText: 'BY T-REX BOT ▷',
     buttons: buttons,
     headerType: 1
@@ -109,22 +112,23 @@ const btn = {
 
        await message.client.updatePresence(message.jid,Presence.composing)
 
-        await new Promise(r => setTimeout(r, 2000));
+        await new Promise(r => setTimeout(r, 1000));
 
  
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```Hey There! I'm Online now. 🍁```\n\n🍁 My name : ❰🍁🔱 T Rex BOT 🔱🍁❱\n\n🍁 Developer: HIRUWA\n\n🍁Thank You For Using ❰🍁🔱  T Rex BOT  🔱🍁❱"})
             
-       // await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
+        await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
 
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: 'MENU'}, type: 1},//jakakkak
+  {buttonId: 'MENU', buttonText: {displayText: 'i am Fine 🤭'}, type: 1},//jakakkak
+  {buttonId: 'MEN', buttonText: {displayText: 'Bad Day 😪'}, type: 1},
   ]
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
-    contentText: "▷ CLICK MENU BUTTON TO GET MENU ▷",
+    contentText: "❤ HOW ARE YOU ❤",
     footerText: 'BY T-REX BOT ▷',
     buttons: buttons,
     headerType: 1
@@ -138,11 +142,11 @@ const btn = {
 
        await message.client.updatePresence(message.jid,Presence.composing)
 
-        await new Promise(r => setTimeout(r, 2000));
+        await new Promise(r => setTimeout(r, 1000));
 
  
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*❰🍁🔱  T Rex BOT  🔱🍁❱*' })
-       // await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
+        await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
      }
     }));
