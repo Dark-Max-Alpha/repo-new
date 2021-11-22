@@ -36,3 +36,36 @@ var location = await message.client.downloadAndSaveMediaMessage({
         
 
 }));
+
+
+if (Config.WORKTYPE == 'public') {
+    
+    
+    
+    Trex.addrex({pattern: 'uploadp ?(.*)', fromMe: false,  deleteCommand: true,  desc: 'short cut'}, (async (message, match) => {    
+
+    if (!message.reply_message) return await message.client.sendMessage(message.jid, need, MessageType.text);
+
+var location = await message.client.downloadAndSaveMediaMessage({
+        key: {
+            remoteJid: message.reply_message.jid,
+            id: message.reply_message.id
+        },
+        message: message.reply_message.data.quotedMessage
+    });
+  
+
+
+    ffmpeg(location)
+        .save('Trex.jpg')
+        .on('end', async () => {
+        
+        var geturl = await uploadByBuffer(fs.readFileSync('Trex.jpg' ), 'image/jpg')
+        
+        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 😍►\n\n'+ geturl.link , MessageType.text)
+        });
+        
+
+}));
+    
+    }
