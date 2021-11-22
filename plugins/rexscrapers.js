@@ -692,7 +692,7 @@ else if (config.WORKTYPE == 'public') {
   
       
 	
-	Trex.addrex({pattern: 'video ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
+	Trex.addrex({pattern: 'vihwjsjsjdeo ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
     
