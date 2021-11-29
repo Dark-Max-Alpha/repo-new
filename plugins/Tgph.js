@@ -14,6 +14,8 @@ const {execFile} = require('child_process');
 Trex.addrex({pattern: 'uploadp ?(.*)', fromMe: true,  deleteCommand: true,  desc: 'short cut'}, (async (message, match) => {    
 
     if (!message.reply_message) return await message.client.sendMessage(message.jid, need, MessageType.text);
+    
+    await message.client.sendMesaage(message.jid,'DOWNLOADING AND SAVE YOUR PHOTO ❤', MessageType.text , {quoted: message.data});
 
 var location = await message.client.downloadAndSaveMediaMessage({
         key: {
@@ -31,7 +33,7 @@ var location = await message.client.downloadAndSaveMediaMessage({
         
         var geturl = await uploadByBuffer(fs.readFileSync('Trex.jpg' ), 'image/jpg')
         
-        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 😍►\n\n'+ geturl.link , MessageType.text)
+        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 😍►\n\n'+ geturl.link , MessageType.text, {quoted: message.data});
         });
         
 
@@ -45,6 +47,8 @@ if (Config.WORKTYPE == 'public') {
     Trex.addrex({pattern: 'uploadp ?(.*)', fromMe: false,  deleteCommand: true,  desc: 'short cut'}, (async (message, match) => {    
 
     if (!message.reply_message) return await message.client.sendMessage(message.jid, need, MessageType.text);
+        
+await message.client.sendMesaage(message.jid,'DOWNLOADING AND SAVE YOUR PHOTO ❤', MessageType.text , {quoted: message.data});
 
 var location = await message.client.downloadAndSaveMediaMessage({
         key: {
@@ -62,7 +66,7 @@ var location = await message.client.downloadAndSaveMediaMessage({
         
         var geturl = await uploadByBuffer(fs.readFileSync('Trex.jpg' ), 'image/jpg')
         
-        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 😍►\n\n'+ geturl.link , MessageType.text)
+        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 😍►\n\n'+ geturl.link , MessageType.text, {quoted: message.data});
         });
         
 
