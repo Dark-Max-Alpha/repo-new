@@ -167,9 +167,9 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
       
      
 
-    Trex.addrex({pattern: 'videjajajo ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
+    Trex.addrex({pattern: 'video ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
 
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
+        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD,MessageType.text);    
     
         var VID = '';
         try {
@@ -192,21 +192,13 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
         } catch {
             return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
         }
-        var reply = await message.client.sendMessage(message.jid,`╭──────•◈•──────╮
-   sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ♪
-     ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ 
-      ━━━━━ •♬• ━━━━━
- ╰──────•◈•──────╯`,MessageType.text);
+        var reply = await message.client.sendMessage(message.jid,config.VD,MessageType.text);
 
         var yt = ytdl(VID, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
         yt.pipe(fs.createWriteStream('./' + VID + '.mp4'));
 
         yt.on('end', async () => {
-            reply = await message.client.sendMessage(message.jid,`╭──────•◈•──────╮
-   ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ♫
-       ılı.lıllılı.ıllı.ılı.lıllılı.ıllı.
-      ━━━━━ •♬• ━━━━━
- ╰──────•◈•──────╯`,MessageType.text);
+            reply = await message.client.sendMessage(message.jid,config.VU,MessageType.text);
             await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4, ptt: false, quoted: message.data});
         });
     }));
@@ -676,7 +668,7 @@ else if (config.WORKTYPE == 'public') {
   
       
 	
-	Trex.addrex({pattern: 'vihwjsjsjdeo ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
+	Trex.addrex({pattern: 'video ?(.*)', fromMe: false, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
     
@@ -701,21 +693,13 @@ else if (config.WORKTYPE == 'public') {
         } catch {
             return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
         }
-        var reply = await message.client.sendMessage(message.jid,`╭──────•◈•──────╮
-   sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ♪
-     ▄ ▅ ▆ ▇ █ █ ▇ ▆ ▅ ▄ 
-      ━━━━━ •♬• ━━━━━
- ╰──────•◈•──────╯`,MessageType.text);
+        var reply = await message.client.sendMessage(message.jid,config.VD,MessageType.text);
 
         var yt = ytdl(VID, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
         yt.pipe(fs.createWriteStream('./' + VID + '.mp4'));
 
         yt.on('end', async () => {
-            reply = await message.client.sendMessage(message.jid,`╭──────•◈•──────╮
-   ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ᴠɪᴅᴇᴏ♫
-       ılı.lıllılı.ıllı.ılı.lıllılı.ıllı.
-      ━━━━━ •♬• ━━━━━
- ╰──────•◈•──────╯`,MessageType.text);
+            reply = await message.client.sendMessage(message.jid,config.VU,MessageType.text);
             await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4, ptt: false, quoted: message.data});
         });
     }));
