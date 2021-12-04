@@ -62,6 +62,7 @@ else if (Config.WORKTYPE == 'private') {
     }));
 
  
+ 
 
  Trex.addrex({ pattern: 'gm', fromMe: true, dontAddCommandList: false }, (async (message, match) => {
 
