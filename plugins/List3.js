@@ -35,7 +35,9 @@ const sections = [{title: `${topText}`, rows: rows}]
 
 const button = {
  buttonText: 'Click Me!',
- description: `${topText}`,
+ description: `${topText}
+ 
+ 🎅❄️ T-REX BOT ☃️❄️`,
  sections: sections,
  listType: 1
 }
