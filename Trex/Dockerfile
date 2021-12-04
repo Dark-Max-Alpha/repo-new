@@ -1,7 +1,7 @@
-FROM fusuf/whatsasena:latest
+FROM T-REX/HIRUWA:latest
 
-RUN git clone https://github.com/DARKCRIME1/ng19 /root/ng19
-WORKDIR /root/ng19/
+RUN git clone https://github.com/DARKCRIME1/xmas /root/xmas
+WORKDIR /root/xmas/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN yarn install --no-audit
