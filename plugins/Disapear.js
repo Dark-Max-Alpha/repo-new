@@ -1,9 +1,9 @@
 const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
 const Trex = require('../events');
 const Config = require('../config');
-const UNQ = "dont type words after command 👿"
-const DDO = "👿 turn on disappering mode 👿"
-const ONO = "👿 Sucsessfuly Turned on 👿"
+const UNQ = "☃️ dont type words after command 🎅❄️"
+const DDO = "☃️ turn on disappering mode 🎅❄️"
+const ONO = "☃️ Sucsessfuly Turned on 🎅❄️"
 const Language = require('../language');
 const Lang = Language.getString('admin');
 const mut = Language.getString('mute');
@@ -34,7 +34,7 @@ Trex.addrex({pattern: 'dis off ?(.*)', fromMe: true, desc: DDO,dontAddCMDList: t
 
         if (match[1] == '') {
             await message.client.toggleDisappearingMessages(message.jid, 0);
-            await message.client.sendMessage(message.jid,'👿 Disapearing off 👿',MessageType.text);
+            await message.client.sendMessage(message.jid,'☃️ Disapearing off 🎅❄️',MessageType.text);
         }
         else {
             return await message.client.sendMessage(message.jid, UNQ, MessageType.text);
