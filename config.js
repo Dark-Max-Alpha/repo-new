@@ -15,7 +15,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'V 3.0.0 PUBLIC - STABLE 🍁',
+    VERSION: 'V 3.0.0 PUBLIC - STABLE ☃️❄️',
     ZRUN: "zenzapi",
     CHANNEL: 'https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML',
     SESSION: process.env.TREX_SESSION === undefined ? '' : process.env.TREX_SESSION,
