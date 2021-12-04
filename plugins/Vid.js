@@ -10,7 +10,7 @@ const YT_NEED = "*Need Song Yt Link!.*"
 const NO_RESULT = "*🌀can't Find Anything...* Use Yt Link only ..."
 const tk = Config.WORKTYPE == 'public' ? false : true
 
-    Trex.addrex({ pattern: 'video ?(.*)', fromMe: false, deleteCommand: false, desc: "hin",  deleteCommand: false}, async (message, match) => {
+    Trex.addrex({ pattern: 'vid2 ?(.*)', fromMe: false, deleteCommand: false, desc: "hin",  deleteCommand: false}, async (message, match) => {
         const linkk = match[1]
         if (!linkk) return await message.client.sendMessage(message.jid,YT_NEED,MessageType.text)
         await message.client.sendMessage(message.jid,Config.VD,MessageType.text);
