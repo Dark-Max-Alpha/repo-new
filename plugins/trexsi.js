@@ -341,7 +341,9 @@ AI chat bot අක්‍රිය කිරීමට, .switch CHAT_BOT:false ව
 else if (Config.WORKTYPE == 'private') {
  
  Trex.addrex({ pattern: 'alive', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  if (Config.AUTOVOICE == 'true') {
    await message.client.sendMessage(message.jid,alive, MessageType.audio, {mimetype: 'audio/mp4', ptt:true,quoted: message.data})
+  }
   }));
  
  Trex.addrex({ pattern: 'atrex', fromMe: true, dontAddCommandList: false }, (async (message, match) => {
