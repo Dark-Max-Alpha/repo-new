@@ -154,7 +154,7 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
   
       
      
-Trec.addrex({pattern: 'video ?(.*)', fromMe: true, desc: 'hu'}, (async (message, match) => { 
+Trex.addrex({pattern: 'video ?(.*)', fromMe: true, desc: 'hu'}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
     
