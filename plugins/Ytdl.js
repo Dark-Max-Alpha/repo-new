@@ -154,7 +154,7 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
   
       
      
-Trex.addrex({pattern: 'video ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (async (message, match) => { 
+Trec.addrex({pattern: 'video ?(.*)', fromMe: true, desc: 'hu'}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_VIDEO,MessageType.text);    
     
@@ -164,16 +164,7 @@ Trex.addrex({pattern: 'video ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (asyn
                 var tsts = match[1].replace('watch?v=', '')
                 var alal = tsts.split('/')[3]
                 VID = alal
-            } 
-            
-            if (match[1].includes('shorts')) {
-                var rmx = match[1].replace('shorts/', '')
-				var rmy = rmx.replace('?feature=share', '')
-                var data = rmy.split('/')[3]
-                VID = data
-            }
-          
-            else {     
+            } else {     
                 VID = match[1].split('/')[3]
             }
         } catch {
@@ -186,7 +177,7 @@ Trex.addrex({pattern: 'video ?(.*)', fromMe: true, desc: Lang.VIDEO_DESC}, (asyn
 
         yt.on('end', async () => {
             reply = await message.client.sendMessage(message.jid,config.VU,MessageType.text);
-            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4, ptt: false, quoted: message.data});
+            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4});
         });
     }));
 	
