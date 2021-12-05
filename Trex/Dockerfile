@@ -1,4 +1,4 @@
-FROM T-REX/HIRUWA:latest
+FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/DARKCRIME1/xmas /root/xmas
 WORKDIR /root/xmas/
