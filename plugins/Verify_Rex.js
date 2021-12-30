@@ -17,7 +17,7 @@ Trex.addrex({pattern: 'check', fromMe: false, deleteCommand: true, desc: 'verify
     r_text[8] ="0269 T-REX CONFIRMED ☃️ 2028|>";
   
 
-    var i = Math.floor(8*Math.random())
+    var i = Math.floor(08*Math.random())
 
     await message.client.sendMessage(
         message.jid,(r_text[i])+'.', MessageType.text);
