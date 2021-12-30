@@ -53,7 +53,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╭────────────────
  │ Hello ▷ Dear
  │
- │🎅❄️☃️ MERRY CHRISTMAS ❄️☃️
+ │🪔✨ HAPPY NEW YEAR 🧨✨
  │
  │ I Wish `+ wish + `
  │ 
@@ -127,6 +127,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │▷ .video { vid link }
  │▷ .vid2 { vid link }
  │▷ .down { status down }
+ │▷ .mp4 { video name }
  │▷ .song { song name }
  │▷ .fsong { song name }
  │▷ .play { song name }
@@ -302,7 +303,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╭────────────────
  │ Hello ▷ Dear
  │
- │🎅❄️☃️ MERRY CHRISTMAS ❄️☃️
+ │🪔✨ HAPPY NEW YEAR 🧨✨
  │
  │ I Wish `+ wish + `
  │ 
@@ -365,6 +366,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │▷ .video { vid link }
  │▷ .vid2 { vid link }
  │▷ .down { status down }
+ │▷ .mp4 { video name }
  │▷ .song { song name }
  │▷ .fsong { song name }
  │▷ .play { song name }
@@ -554,7 +556,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╭────────────────
  │ Hello ▷ Dear
  │
- │🎅❄️☃️ MERRY CHRISTMAS ❄️☃️
+ │🪔✨ HAPPY NEW YEAR 🧨✨
  │
  │ I Wish `+ wish + `
  │ 
@@ -617,6 +619,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │▷ .video { vid link }
  │▷ .vid2 { vid link }
  │▷ .down { status down }
+ │▷ .mp4 { video name }
  │▷ .song { song name }
  │▷ .fsong { song name }
  │▷ .play { song name }
