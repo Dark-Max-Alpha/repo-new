@@ -67,8 +67,11 @@ async function Trex () {
     
 // ════════════════════WA CONNECTION🍁🍁🍁
     const conn = new WAConnection();
-    conn.version = [2, 2140, 12];
+    conn.version = [3,2147,14];
     const Session = new StringSession();
+    
+    conn.browserDescription = ["T-REX", "Safari", '4.0.0']
+
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
     var nodb;
