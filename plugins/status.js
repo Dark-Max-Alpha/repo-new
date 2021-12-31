@@ -5,7 +5,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const {execFile} = require('child_process');
 const cwebp = require('cwebp-bin');
 const Config = require('../config');
-const Down = '🎅❄️ DOWNLOADING STATUS ☃️❄️.'
+const Down = '🪔✨ DOWNLOADING STATUS 🧨✨.'
 
     Trex.addrex({pattern: 'down$', fromMe: true }, (async (message, match) => {    
 
