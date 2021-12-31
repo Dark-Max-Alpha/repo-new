@@ -15,8 +15,7 @@ Trex.addrex({pattern: 'uploadp ?(.*)', fromMe: true,  deleteCommand: true,  desc
 
     if (!message.reply_message) return await message.client.sendMessage(message.jid, need, MessageType.text);
     
-    await message.client.sendMesaage(message.jid,'DOWNLOADING AND SAVE YOUR PHOTO ❤', MessageType.text , {quoted: message.data});
-
+    
 var location = await message.client.downloadAndSaveMediaMessage({
         key: {
             remoteJid: message.reply_message.jid,
@@ -48,7 +47,6 @@ if (Config.WORKTYPE == 'public') {
 
     if (!message.reply_message) return await message.client.sendMessage(message.jid, need, MessageType.text);
         
-await message.client.sendMesaage(message.jid,'DOWNLOADING AND SAVE YOUR PHOTO ❤', MessageType.text , {quoted: message.data});
 
 var location = await message.client.downloadAndSaveMediaMessage({
         key: {
