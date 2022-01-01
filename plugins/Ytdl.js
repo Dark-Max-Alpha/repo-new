@@ -125,7 +125,7 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
         let arama = await yts(match[1]);
         arama = arama.all;
         if(arama.length < 1) return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
-        var reply = await message.client.sendMessage(message.jid,config.VD,MessageType.text);
+        var reply = await message.client.sendMessage(message.jid,config.SD,MessageType.text);
 
         let title = arama[0].title.replace(' ', '+');
         let stream = ytdl(arama[0].videoId, {
@@ -147,7 +147,7 @@ Trex.addrex({pattern: 'play ?(.*)', fromMe: true, desc: Lang.PLAY_DESC}, (async 
                     });
                 writer.addTag();
 
-                reply = await message.client.sendMessage(message.jid,config.VU,MessageType.text);
+                reply = await message.client.sendMessage(message.jid,config.SU,MessageType.text);
                 await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: title + '.mp3', mimetype: 'audio/mpeg'});
             });
     }));
