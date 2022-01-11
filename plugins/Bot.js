@@ -11,7 +11,7 @@ const Lang = Language.getString('system_stats');
 
 if (Config.WORKTYPE == 'private') {
 
-    Trex.addrex({pattern: 'bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
+    Trex.addrex({pattern: 'info', fromMe: true,  deleteCommand: false }, (async (message, match) => {
             
             var image = await axios.get ('https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg', {responseType: 'arraybuffer'})
        
@@ -30,7 +30,7 @@ if (Config.WORKTYPE == 'private') {
 
 🪔✨ HAPPY NEW YEAR 🧨✨
 
-🍁 *Developer - Hirusha Rushan ( Hiruwa )*
+🍁 *Developer - Hirusha Rukshan ( Hiruwa )*
 
 🍁 *Language - NODE JS*
 
@@ -50,14 +50,10 @@ if (Config.WORKTYPE == 'private') {
 🍒 *Kasun Ravihara* 🍒
 ➻ *ʙᴏᴛ ɢʀᴀᴘʜɪᴄ ᴅᴇꜱɪɢʜɴᴇʀ*
 
-🍒 *Black Amda* 
-➻ *ʙᴏᴛ ʙᴀꜱᴇ ᴏᴡɴᴇʀ* 
 
 🍒 *Achiya* 🍒
 ➻ *ʙᴏᴛ ᴛᴇꜱᴛ ʜᴇʟᴘᴇᴇʀ*
 
-🍒 *Seneth Indeepa*
-➻ *ʙᴏᴛ ᴛʀᴀɪʟᴇʀ ɪɴᴛʀᴏ ᴍᴀᴋᴇʀ*
 
  .       
          🍒 *𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴* 🍒
@@ -104,7 +100,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Trex.addrex({pattern: 'bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
+    Trex.addrex({pattern: 'info', fromMe: true,  deleteCommand: false }, (async (message, match) => {
 
           
             var image = await axios.get ('https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg', {responseType: 'arraybuffer'})
@@ -123,7 +119,7 @@ else if (Config.WORKTYPE == 'public') {
 
 🪔✨ HAPPY NEW YEAR 🧨✨
 
-🍁 *Developer - Hirusha Rushan ( Hiruwa )*
+🍁 *Developer - Hirusha Rukshan ( Hiruwa )*
 
 🍁 *Language - NODE JS*
 
@@ -143,14 +139,9 @@ else if (Config.WORKTYPE == 'public') {
 🍒 *Kasun Ravihara* 🍒
 ➻ *ʙᴏᴛ ɢʀᴀᴘʜɪᴄ ᴅᴇꜱɪɢʜɴᴇʀ*
 
-🍒 *Black Amda* 
-➻ *ʙᴏᴛ ʙᴀꜱᴇ ᴏᴡɴᴇʀ* 
-
 🍒 *Achiya* 🍒
 ➻ *ʙᴏᴛ ᴛᴇꜱᴛ ʜᴇʟᴘᴇᴇʀ*
 
-🍒 *Seneth Indeepa*
-➻ *ʙᴏᴛ ᴛʀᴀɪʟᴇʀ ɪɴᴛʀᴏ ᴍᴀᴋᴇʀ*
 
  .       
          🍒 *𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴* 🍒
@@ -194,7 +185,7 @@ else if (Config.WORKTYPE == 'public') {
 
     }));
   
-  Trex.addrex({pattern: 'bot', fromMe: false,  deleteCommand: false }, (async (message, match) => {
+  Trex.addrex({pattern: 'info', fromMe: false,  deleteCommand: false }, (async (message, match) => {
 
           
             var image = await axios.get ('https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg', {responseType: 'arraybuffer'})
@@ -234,14 +225,10 @@ else if (Config.WORKTYPE == 'public') {
 🍒 *Kasun Ravihara* 🍒
 ➻ *ʙᴏᴛ ɢʀᴀᴘʜɪᴄ ᴅᴇꜱɪɢʜɴᴇʀ*
 
-🍒 *Black Amda* 
-➻ *ʙᴏᴛ ʙᴀꜱᴇ ᴏᴡɴᴇʀ* 
 
 🍒 *Achiya* 🍒
 ➻ *ʙᴏᴛ ᴛᴇꜱᴛ ʜᴇʟᴘᴇᴇʀ*
 
-🍒 *Seneth Indeepa*
-➻ *ʙᴏᴛ ᴛʀᴀɪʟᴇʀ ɪɴᴛʀᴏ ᴍᴀᴋᴇʀ*
 
  .       
           🍒 *𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴* 🍒
