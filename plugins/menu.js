@@ -968,7 +968,21 @@ Example : .covid Sri Lanka°
        
        const button = {
         buttonText: 'Click Me▷',
-        description: "🧨✨ T-REX ALL COMMAND 🧨🪔",
+        description: `
+        
+        ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── 
+        ───█▒▒░░░░░░░░░▒▒█─── 
+        ────█░░█░░░░░█░░█──── 
+        ─▄▄──█░░░▀█▀░░░█──▄▄─ 
+        █░░█─▀▄░░░░░░░▄▀─█░░█
+        █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ 
+        █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█ 
+        █░░║║║╠─║─║─║║║║║╠─░░█ 
+        █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█ 
+        █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
+        
+        
+        🧨✨ T-REX ALL COMMAND 🧨🪔`,
         sections: sections,
         listType: 1
        }
@@ -1930,7 +1944,21 @@ Example : .covid Sri Lanka°
        
        const button = {
         buttonText: 'Click Me▷',
-        description: "🪔✨ T-REX COMMAND PANEL 🧨✨",
+        description: `
+        
+        ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── 
+        ───█▒▒░░░░░░░░░▒▒█─── 
+        ────█░░█░░░░░█░░█──── 
+        ─▄▄──█░░░▀█▀░░░█──▄▄─ 
+        █░░█─▀▄░░░░░░░▄▀─█░░█
+        █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ 
+        █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█ 
+        █░░║║║╠─║─║─║║║║║╠─░░█ 
+        █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█ 
+        █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
+        
+        
+        🧨✨ T-REX ALL COMMAND 🧨🪔`,
         sections: sections,
         listType: 1
        }
@@ -2898,7 +2926,21 @@ Example : .covid Sri Lanka°
        
        const button = {
         buttonText: 'Click Me▷',
-        description: "🪔✨ T-REX COMMAND PANEL 🧨✨",
+        description: `
+        
+        ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── 
+        ───█▒▒░░░░░░░░░▒▒█─── 
+        ────█░░█░░░░░█░░█──── 
+        ─▄▄──█░░░▀█▀░░░█──▄▄─ 
+        █░░█─▀▄░░░░░░░▄▀─█░░█
+        █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ 
+        █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█ 
+        █░░║║║╠─║─║─║║║║║╠─░░█ 
+        █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█ 
+        █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
+        
+        
+        🧨✨ T-REX ALL COMMAND 🧨🪔`,
         sections: sections,
         listType: 1
        }
