@@ -18,13 +18,13 @@ if (Config.WORKTYPE == 'private') {
         if (Config.ALIVEMSG == 'default') {
             
             const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '🪔✨ HAPPY NEW YEAR 🧨✨'}, type: 1},//jakakkak
-  {buttonId: 'MNU', buttonText: {displayText: '🪔 SAME TO YOU 🧨'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '🙈 I AM FINE 😜'}, type: 1},//jakakkak
+  {buttonId: 'MNU', buttonText: {displayText: '🥺 I  AM SAD 😥'}, type: 1},
  ]
 
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
-    contentText: "🪔 I WISH YOU 🧨✨ HAPPY NEW YEAR 🪔✨",
+    contentText: "♥️💫 HOW ARE YOU 🙈♥️",
     footerText: 'T-REX BOT ▷',
     buttons: buttons,
     headerType: 1
@@ -41,12 +41,12 @@ const btn = {
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '🪔✨ HAPPY NEW YEAR 🧨✨'}, type: 1},//jakakkak
-  {buttonId: 'MNU', buttonText: {displayText: '🪔 SAME TO YOU 🧨'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '🙈 I AM FINE 😜'}, type: 1},//jakakkak
+  {buttonId: 'MNU', buttonText: {displayText: '🥺 I  AM SAD 😥'}, type: 1},
   ]
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
-    contentText: "🪔 I WISH YOU 🧨✨ HAPPY NEW YEAR 🪔✨",
+    contentText: "♥️💫 HOW ARE YOU 🙈♥️",
     footerText: 'BY T-REX BOT ▷',
     buttons: buttons,
     headerType: 1
@@ -94,13 +94,13 @@ else if (Config.WORKTYPE == 'public') {
         if (Config.ALIVEMSG == 'default') {
             
             const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '🪔✨ HAPPY NEW YEAR 🧨✨'}, type: 1},//jakakkak
-  {buttonId: 'MNU', buttonText: {displayText: '🪔 SAME TO  YOU 🧨'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '🙈 I AM FINE 😜'}, type: 1},//jakakkak
+  {buttonId: 'MNU', buttonText: {displayText: '🥺 I  AM SAD 😥'}, type: 1},
  ]
 
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
-    contentText: "🪔 I WISH YOU 🧨✨ HAPPY NEW YEAR 🪔✨",
+    contentText: "♥️💫 HOW ARE YOU 🙈♥️",
     footerText: 'BY T-REX BOT ▷',
     buttons: buttons,
     headerType: 1
@@ -123,12 +123,12 @@ const btn = {
     }
     else {
         const buttons = [
-  {buttonId: 'MENU', buttonText: {displayText: '🪔✨ HAPPY NEW YEAR 🧨✨'}, type: 1},//jakakkak
-  {buttonId: 'MEN', buttonText: {displayText: '🪔 SAME TO YOU 🧨'}, type: 1},
+  {buttonId: 'MENU', buttonText: {displayText: '🙈 I AM FINE 😜'}, type: 1},//jakakkak
+  {buttonId: 'MEN', buttonText: {displayText: '🥺 I  AM SAD 😥'}, type: 1},
   ]
 const btn = {
    // imageMessage: 'https://telegra.ph/file/cd35928cef2be17d339c1.jpg',
-    contentText: "🪔 I WISH YOU 🧨✨ HAPPY NEW YEAR 🪔✨",
+    contentText: "♥️💫 HOW ARE YOU 🙈♥️",
     footerText: 'BY T-REX BOT ▷',
     buttons: buttons,
     headerType: 1
