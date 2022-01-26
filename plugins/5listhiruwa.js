@@ -43,7 +43,7 @@ const button = {
  buttonText: 'Click Me!',
  description: `${topText}
  
- 💫✨ T-REX BOT 🧨✨`,
+ ⎝🛡️ ALPHA 🛡️⎠ WhatsApp User Bot`,
  sections: sections,
  listType: 1
 }
