@@ -21,7 +21,7 @@ if (Config.WORKTYPE == 'public') {
         
 if (Config.BTN == 'btn') {
 
-Trex.addrex({pattern: 'trex', fromMe: false}, (async (message, match) => {
+Trex.addrex({pattern: 'Alpha', fromMe: false}, (async (message, match) => {
 // T-REX LIST👿
         var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
 
@@ -964,25 +964,11 @@ Example : .covid Sri Lanka°
 `, rowId:"rowid2"}
        ]
        
-       const sections = [{title: "🧨 T-REX Command Panel 🪔✨", rows: rows}]
+       const sections = [{title: "⎝🛡️ ALPHA 🛡️⎠ CMD 🖲️ PANEL. 📛", rows: rows}]
        
        const button = {
         buttonText: 'Click Me▷',
-        description: `
-        
-        ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── 
-        ───█▒▒░░░░░░░░░▒▒█─── 
-        ────█░░█░░░░░█░░█──── 
-        ─▄▄──█░░░▀█▀░░░█──▄▄─ 
-        █░░█─▀▄░░░░░░░▄▀─█░░█
-        █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ 
-        █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█ 
-        █░░║║║╠─║─║─║║║║║╠─░░█ 
-        █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█ 
-        █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
-        
-        
-        🧨✨ T-REX ALL COMMAND 🧨🪔`,
+        description: `⎝🛡️ ALPHA 🛡️⎠ CMD 🖲️ PANEL. 📛`,
         sections: sections,
         listType: 1
        }
@@ -991,7 +977,7 @@ Example : .covid Sri Lanka°
     
     }));
         
-    Trex.addrex({pattern: 'trex', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
+    Trex.addrex({pattern: 'Alpha', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
 // T-REX LIST
 
 var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
@@ -1940,25 +1926,11 @@ Example : .covid Sri Lanka°
         {title: '🧨✨ Work Type PRIVATE 🧨', description:"▷▷▷▷▷▷\n\n\n Type .private to private mode ▷", rowId:"rowid2"}
        ]
        
-       const sections = [{title: "🧨✨ T-REX Command Panel 🧨✨", rows: rows}]
+       const sections = [{title: "⎝🛡️ ALPHA 🛡️⎠ CMD 🖲️ PANEL. 📛", rows: rows}]
        
        const button = {
         buttonText: 'Click Me▷',
-        description: `
-        
-        ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── 
-        ───█▒▒░░░░░░░░░▒▒█─── 
-        ────█░░█░░░░░█░░█──── 
-        ─▄▄──█░░░▀█▀░░░█──▄▄─ 
-        █░░█─▀▄░░░░░░░▄▀─█░░█
-        █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ 
-        █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█ 
-        █░░║║║╠─║─║─║║║║║╠─░░█ 
-        █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█ 
-        █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
-        
-        
-        🧨✨ T-REX ALL COMMAND 🧨🪔`,
+        description: `⎝🛡️ ALPHA 🛡️⎠ CMD 🖲️ PANEL. 📛`,
         sections: sections,
         listType: 1
        }
@@ -1974,7 +1946,7 @@ else if (Config.WORKTYPE == 'private') {
         
 if (Config.BTN == 'btn') {
         
-Trex.addrex({pattern: 'trex', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
+Trex.addrex({pattern: 'Alpha', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
 // T-REX LIST
 
 var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
@@ -2922,25 +2894,11 @@ Example : .covid Sri Lanka°
         {title: '🪔✨ Work Type PRIVATE 🧨', description:"▷▷▷▷▷▷\n\n\nType .private to private mode", rowId:"rowid2"}
        ]
        
-       const sections = [{title: "🧨✨ T-REX Command Panel 🪔✨", rows: rows}]
+       const sections = [{title: "⎝🛡️ ALPHA 🛡️⎠ CMD 🖲️ PANEL. 📛", rows: rows}]
        
        const button = {
         buttonText: 'Click Me▷',
-        description: `
-        
-        ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── 
-        ───█▒▒░░░░░░░░░▒▒█─── 
-        ────█░░█░░░░░█░░█──── 
-        ─▄▄──█░░░▀█▀░░░█──▄▄─ 
-        █░░█─▀▄░░░░░░░▄▀─█░░█
-        █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ 
-        █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█ 
-        █░░║║║╠─║─║─║║║║║╠─░░█ 
-        █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█ 
-        █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ 
-        
-        
-        🧨✨ T-REX ALL COMMAND 🧨🪔`,
+        description: `⎝🛡️ ALPHA 🛡️⎠ CMD 🖲️ PANEL. 📛`,
         sections: sections,
         listType: 1
        }
