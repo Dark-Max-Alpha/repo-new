@@ -18,7 +18,7 @@ module.exports = {
     VERSION: 'V 3.0.0 PUBLIC - STABLE ☃️❄️',
     ZRUN: "zenzapi",
     CHANNEL: 'https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML',
-    SESSION: process.env.TREX_SESSION === undefined ? '' : process.env.ALPHA_SESSION,
+    SESSION: process.env.ALPHA_SESSION === undefined ? '' : process.env.ALPHA_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     TIME: process.env.TIME_ZONE === undefined ? 'Asia/Colombo' : process.env.TIME_ZONE,
     AL: process.env.ALIVE_LOGO === undefined ? '' : process.env.ALIVE_LOGO,
