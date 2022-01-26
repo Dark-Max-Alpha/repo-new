@@ -21,7 +21,7 @@ if (Config.WORKTYPE == 'public') {
         
 if (Config.BTN == 'btn') {
 
-Trex.addrex({pattern: 'Alpha', fromMe: false}, (async (message, match) => {
+Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
 // T-REX LIST👿
         var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
 
@@ -41,12 +41,10 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
     const rows = [
         {title: '🧨 ALL MENU 🪔🧨', description: `▷▷▷▷▷▷\n\n\n
  ╭────────────────
- │❰🍁🔱  T Rex BOT  🔱🍁❱
+ │  ⎝🛡️ ALPHA 🛡️⎠
  ╰────────────────
  ╭────────────────
  │ Hello ▷ Dear
- │
- │🪔✨ HAPPY NEW YEAR 🧨✨
  │
  │ I Wish `+ wish + `
  │ 
@@ -255,7 +253,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
         {title: '🧨 ADVANCE MENU 🪔✨', description:`▷▷▷▷▷▷\n\n\n
 ╔═══════════════════════╗
 
-           ❰🍁🔱  T Rex BOT  🔱🍁❱
+           ⎝🛡️ ALPHA 🛡️⎠
 
 ═════════════════════════
 
@@ -267,13 +265,10 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
 *➢ Description:* °To get the admin command list°
 
-*🍁 Command:* °.trex°
+*🍁 Command:* °.alpha°
 
 *➢ Description:*°all commands°
 
-*🍁 Command* °.rlpack°
-
-*➢ Description:* °T-REX LOGO COLLECTION 01°
 
 *🍁 Command:* °.lovepack°
 
@@ -290,20 +285,6 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 *🍁 Command:* °.rules°
 
 *➢ Description: * °Send Group Rules°
-
-*🍁 Command:* °.rex°
-
-*➢ Description:* °Chat with AI bot.°
-
-*🍁 Command:* °.switch°
-
-*➢ Description:* °Turn on/off chat bot.
-
-⌨️ Example: To turn on AI chat, *.switch CHAT_BOT:true*
-
-To turn on AI chat, *.switch CHAT_BOT:false*
-
-(This is a only admin command)°
 
 *🍁 Command:* °.anime°
 
@@ -391,11 +372,11 @@ Example : .covid Sri Lanka°
 
 *🍁 Command:* °.insta°
 
-*➢ Description:* °🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Download instagram videos.°
+*➢ Description:* °🍁➢  ⎝🛡️ ALPHA 🛡️⎠ Download instagram videos.°
 
 *🍁 Command:* °.fb°
 
-*➢ Description:* °🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Download Facebook videos.°
+*➢ Description:* °🍁➢ ⎝🛡️ ALPHA 🛡️⎠ Download Facebook videos.°
 
 *🍁 Command:* °.trt°
 
@@ -439,7 +420,7 @@ Example : .covid Sri Lanka°
 
 *➢ Description:* °Stalk github profiles of given username.
 
-⌨️ Example: .github TRex°
+⌨️ Example: .github Alpha°
 
 *🍁 Command:* °.tk°
 
@@ -503,11 +484,11 @@ Example : .covid Sri Lanka°
 
 *➢ Description:* °Convert text into Carbon effect°
 
-*🍁 Command:* °.tgm°
+*🍁 Command:* °.agm°
 
 *➢ Description:* °it sends good morning text message°
 
-*🍁 Command:* °.tgn°
+*🍁 Command:* °.agn°
 
 *➢ Description:* °it sends good night text message°
 
@@ -640,7 +621,7 @@ Example : .covid Sri Lanka°
 `, rowId:"rowid4"},
         {title: '🧨 FF PACK 🪔✨', description:`▷▷▷▷▷▷\n\n\n
 ╔═════════════════════╗
-║      ❰🍁🔱  T Rex BOT  🔱🍁❱  
+║          ⎝🛡️ ALPHA 🛡️⎠  
 ║         ║🍁╚FF PACK╝🍁║
 ║
 ╠═➢ 🍁.ff9       ❴your text❵
@@ -845,7 +826,7 @@ Example : .covid Sri Lanka°
 `, rowId:"rowid6"},
         {title: '🧨 ATTP PACK 🪔✨', description: `▷▷▷▷▷▷\n\n\n
 ╔═════════════════════╗
-║      ❰🍁🔱  T Rex BOT  🔱🍁❱  
+║          ⎝🛡️ ALPHA 🛡️⎠ 
 ║        ║🍁╚ATTP PACK╝🍁║
 ║
 ╠═➢ 🍁.01attp      ❴your text❵
@@ -977,7 +958,7 @@ Example : .covid Sri Lanka°
     
     }));
         
-    Trex.addrex({pattern: 'Alpha', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
+    Trex.addrex({pattern: 'alpha', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
 // T-REX LIST
 
 var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
@@ -1946,7 +1927,7 @@ else if (Config.WORKTYPE == 'private') {
         
 if (Config.BTN == 'btn') {
         
-Trex.addrex({pattern: 'Alpha', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
+Trex.addrex({pattern: 'alpha', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
 // T-REX LIST
 
 var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
