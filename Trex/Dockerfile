@@ -1,7 +1,7 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/DARKCRIME1/xmas /root/xmas
-WORKDIR /root/xmas/
+RUN git clone https://github.com/Dark-Maxv1/V4 /root/V4
+WORKDIR /root/V4/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN yarn install --no-audit
