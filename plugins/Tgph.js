@@ -27,12 +27,12 @@ var location = await message.client.downloadAndSaveMediaMessage({
 
 
     ffmpeg(location)
-        .save('Trex.jpg')
+        .save('Alpha.jpg')
         .on('end', async () => {
         
-        var geturl = await uploadByBuffer(fs.readFileSync('Trex.jpg' ), 'image/jpg')
+        var geturl = await uploadByBuffer(fs.readFileSync('Alpha.jpg' ), 'image/jpg')
         
-        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 😍►\n\n'+ geturl.link , MessageType.text, {quoted: message.data});
+        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 🖲️ ►\n\n'+ geturl.link , MessageType.text, {quoted: message.data});
         });
         
 
@@ -59,12 +59,12 @@ var location = await message.client.downloadAndSaveMediaMessage({
 
 
     ffmpeg(location)
-        .save('Trex.jpg')
+        .save('Alpha.jpg')
         .on('end', async () => {
         
-        var geturl = await uploadByBuffer(fs.readFileSync('Trex.jpg' ), 'image/jpg')
+        var geturl = await uploadByBuffer(fs.readFileSync('Alpha.jpg' ), 'image/jpg')
         
-        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 😍►\n\n'+ geturl.link , MessageType.text, {quoted: message.data});
+        await message.client.sendMessage(message.jid,'YOUR IMAGE TELEGRAPH LINK IS 🖲️ ►\n\n'+ geturl.link , MessageType.text, {quoted: message.data});
         });
         
 
