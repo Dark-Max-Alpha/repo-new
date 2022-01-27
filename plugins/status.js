@@ -5,7 +5,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const {execFile} = require('child_process');
 const cwebp = require('cwebp-bin');
 const Config = require('../config');
-const Down = '🪔✨ DOWNLOADING STATUS 🧨✨.'
+const Down = '🖲️  DOWNLOADING STATUS .'
 
     Trex.addrex({pattern: 'down$', fromMe: true }, (async (message, match) => {    
 
@@ -23,7 +23,7 @@ const Down = '🪔✨ DOWNLOADING STATUS 🧨✨.'
             ffmpeg(location)
                 .save('stat.png')
                 .on('end', async () => {
-                    await message.client.sendMessage(message.client.user.jid,fs.readFileSync('stat.png'), MessageType.image,{mimetype: Mimetype.png, caption: '❰🍁🔱  T Rex BOT  🔱🍁❱' ,quoted: message.data});
+                    await message.client.sendMessage(message.client.user.jid,fs.readFileSync('stat.png'), MessageType.image,{mimetype: Mimetype.png, caption: '⎝🛡️ ALPHA 🛡️⎠' ,quoted: message.data});
             });
         return 
         }
@@ -31,7 +31,7 @@ const Down = '🪔✨ DOWNLOADING STATUS 🧨✨.'
         ffmpeg(location)
             .save('statu.mp4')
             .on('end', async () => {
-                await message.client.sendMessage(message.client.user.jid,fs.readFileSync('statu.mp4'), MessageType.video,{mimetype: Mimetype.mp4, caption: '❰🍁🔱  T Rex BOT  🔱🍁❱' ,quoted: message.data});
+                await message.client.sendMessage(message.client.user.jid,fs.readFileSync('statu.mp4'), MessageType.video,{mimetype: Mimetype.mp4, caption: '⎝🛡️ ALPHA 🛡️⎠' ,quoted: message.data});
             });
         return 
     }));
