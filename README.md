@@ -97,12 +97,15 @@ Usage is entirely the responsibility of the user. The operating system is not re
 HAVE A FUN!
 ```
 
-## Visit our official website to install the Whatsapp Bot
-QR Code generator and full instructions available there.
+
 <div>
-	<a href="https://duanf0484.wixsite.com/achi-bro-lk/alpha-bot-service">
-<img src="https://i.ibb.co/dr27VyW/59060c190cbeef0acff9a657.png" width="200"></br></a>
+[![TRAILER](https://telegra.ph/file/3e7b77ce00c3fb8900452.jpg)](https://www.youtube.com/watch?v=9kJlE9RYKeo)
+
+<div align="center">
+  <h1>❰ 🇱🇰🔰✥▬ALPHA▬✥🔰🇱🇰 ❱ OFFICIAL VIDEO</h1>
+  <p>📛 WATCH How To Make Sinhala WhatsApp Bot With Full Tutorial || Tutorial 02 || Alpha Wa Bot VIDEO CLICK This Post📛
 </div>
+
 
 ## T-REX Team Offcial
 
@@ -119,15 +122,15 @@ QR Code generator and full instructions available there.
 										<tbody>
 											<tr>
 												<td><a href="https://wa.me/94717954374"><img src="https://telegra.ph/file/022fc0c8a33f74ca448c5.jpg" width="200" height="200" alt="Sanjula"></a></td>
-												<td><a href="https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ"><img src="https://i.ibb.co/HzfN8pD/5-Joka.jpg" width="200" height="200" alt="Sanjana"></a></td>
-                        <td><a href="httsp://github.com/BlackAmda/"><img src="https://i.ibb.co/bj4LqJh/6-Kapaya.jpg" width="200" height="200" alt="ᴋᴀᴘᴀʏᴀ"></a></td>
+												<td><a href="https://www.youtube.com/c/TechDeiyo"><img src="https://telegra.ph/file/0176e25255e97de0bdc4b.jpg" width="200" height="200" alt="Sanjaana"></a></td>
+                        <td><a href="httsp://github.com/BlackAmda/"><img src="https://telegra.ph/file/868958cca51f2bd68d5ac.jpg" width="200" height="200" alt="Thinura"></a></td>
 											</tr>
 									</table>
                   <table>
 										<tbody>
 											<tr>
-												<td><a href="https://www.thinknfree.com/"><img src="https://i.ibb.co/2kHWJBD/7-Zeus.jpg" width="200" height="200" alt="ᴢᴇᴜs"></a></td>
-												<td><a href="httsp://github.com/BlackAmda/"><img src="https://i.ibb.co/x3MjnWn/8-Pancha.jpg" width="200" height="200" alt="ZEYREX"></a></td>
+												<td><a href="https://www.youtube.com/channel/UCAafO2_JLzGHl_Le7BTkY3A/featured"><img src="https://telegra.ph/file/81559ab4dce492370645c.jpg" width="200" height="200" alt="DM bro"></a></td>
+												<td><a href="https://wa.me/94785972996"><img src="https://telegra.ph/file/a1ca412b0b92cc45aaa6a.jpg" width="200" height="200" alt="Pasiya"></a></td>
 												<td><a href="https://wa.me/94703164788"><img src="https://telegra.ph/file/0953550b78a8b1861346b.jpg" width="200" height="200" alt="paraveen"></a></td>
 											</tr>
 										</tbody>
