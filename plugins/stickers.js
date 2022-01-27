@@ -113,7 +113,7 @@ if (Config.WORKTYPE == 'private') {
             await Axios({ method: "GET", url: rest.result, responseType: "stream"}).then(({ data }) => {
                 const saving = data.pipe(fs.createWriteStream('/root/ng19/vstic.mp4')) //OI OI MEKA WENAS KRAN ROOT
                 saving.on("finish", async () => {
-                    await message.client.sendMessage(msgid, fs.readFileSync('/root/ng19/vstic.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: ' ❰🍁🔱  T Rex BOT  🔱🍁❱   ', quoted: message.data })
+                    await message.client.sendMessage(msgid, fs.readFileSync('/root/ng19/vstic.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: ' ⎝🛡️ ALPHA 🛡️⎠   ', quoted: message.data })
                     if (fs.existsSync(savedFilename)) fs.unlinkSync(savedFilename)
                     if (fs.existsSync('/root/ng19/vstic.mp4')) fs.unlinkSync('/root/ng19/vstic.mp4')
                 })
@@ -172,7 +172,7 @@ else if (Config.WORKTYPE == 'public') {
             await Axios({ method: "GET", url: rest.result, responseType: "stream"}).then(({ data }) => {
                 const saving = data.pipe(fs.createWriteStream('/root/ng19/vstic.mp4')) //OI OI MEKA WENAS KRAN ROOTjaanan
                 saving.on("finish", async () => {
-                    await message.client.sendMessage(msgid, fs.readFileSync('/root/ng19/vstic.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: ' ❰🍁🔱  T Rex BOT  🔱🍁❱   ', quoted: message.data })
+                    await message.client.sendMessage(msgid, fs.readFileSync('/root/ng19/vstic.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: ' ⎝🛡️ ALPHA 🛡️⎠   ', quoted: message.data })
                     if (fs.existsSync(savedFilename)) fs.unlinkSync(savedFilename)
                     if (fs.existsSync('/root/ng19/vstic.mp4')) fs.unlinkSync('/root/ng19/vstic.mp4')
                 })
