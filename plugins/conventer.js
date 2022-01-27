@@ -37,9 +37,9 @@ if (Config.WORKTYPE == 'private') {
 
         ffmpeg(location)
             .withNoVideo()
-            .save('Trex.mp3')
+            .save('Alpha.mp3')
             .on('end', async () => {
-                await message.client.sendMessage(message.jid, fs.readFileSync('Trex.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: false});
+                await message.client.sendMessage(message.jid, fs.readFileSync('Alpha.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: false});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -65,7 +65,7 @@ if (Config.WORKTYPE == 'private') {
             .fromFormat('webp_pipe')
             .save('Trex.jpg')
             .on('end', async () => {
-                await message.client.sendMessage(message.jid, fs.readFileSync('Trex.jpg'), MessageType.image, {quoted: message.data}, {mimetype: Mimetype.jpg , Caption : '❰🍁🔱  T Rex BOT  🔱🍁❱'});
+                await message.client.sendMessage(message.jid, fs.readFileSync('Trex.jpg'), MessageType.image, {quoted: message.data}, {mimetype: Mimetype.jpg , Caption : '⎝🛡️ ALPHA 🛡️⎠'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -91,9 +91,9 @@ else if (Config.WORKTYPE == 'public') {
 
         ffmpeg(location)
             .withNoVideo()
-            .save('Trex.mp3')
+            .save('Alpha.mp3')
             .on('end', async () => {
-                await message.client.sendMessage(message.jid, fs.readFileSync('Trex.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: false});
+                await message.client.sendMessage(message.jid, fs.readFileSync('Alpha.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: false});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -117,9 +117,9 @@ else if (Config.WORKTYPE == 'public') {
 
         ffmpeg(location)
             .fromFormat('webp_pipe')
-            .save('Trex.jpg')
+            .save('Alpha.jpg')
             .on('end', async () => {
-                await message.client.sendMessage(message.jid, fs.readFileSync('Trex.jpg'), MessageType.image, {quoted: message.data}, {mimetype: Mimetype.jpg, Caption : '❰🍁🔱  T Rex BOT  🔱🍁❱'});
+                await message.client.sendMessage(message.jid, fs.readFileSync('Alpha.jpg'), MessageType.image, {quoted: message.data}, {mimetype: Mimetype.jpg, Caption : '⎝🛡️ ALPHA 🛡️⎠'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
