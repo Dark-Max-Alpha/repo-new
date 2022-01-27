@@ -27,7 +27,7 @@ if (Config.WORKTYPE == 'private') {
 		    '*ℹ ' + Lang.DESC +':* ```' + json.weather[0].description + '```\n' +
 		    '*☀ ' + Lang.HUMI +':* ```%' + json.main.humidity + '```\n' + 
 		    '*💨 ' + Lang.WIND +':* ```' + json.wind.speed + 'm/s```\n' + 
-		    '*☁ ' + Lang.CLOUD +':* ```%' + json.clouds.all + '```\n\n❰🍁🔱  T Rex BOT  🔱🍁❱\n\n', MessageType.text);
+		    '*☁ ' + Lang.CLOUD +':* ```%' + json.clouds.all + '```\n\n⎝🛡️ ALPHA 🛡️⎠\n\n', MessageType.text);
 	    } catch {
 		    return await message.client.sendMessage(message.jid, Lang.NOT_FOUND, MessageType.text);
 	    }
@@ -52,7 +52,7 @@ if (Config.WORKTYPE == 'public') {
 		    '*ℹ ' + Lang.DESC +':* ```' + json.weather[0].description + '```\n' +
 		    '*☀ ' + Lang.HUMI +':* ```%' + json.main.humidity + '```\n' + 
 		    '*💨 ' + Lang.WIND +':* ```' + json.wind.speed + 'm/s```\n' + 
-		    '*☁ ' + Lang.CLOUD +':* ```%' + json.clouds.all + '```\n\n❰🍁🔱  T Rex BOT  🔱🍁❱\n\n', MessageType.text);
+		    '*☁ ' + Lang.CLOUD +':* ```%' + json.clouds.all + '```\n\n⎝🛡️ ALPHA 🛡️⎠\n\n', MessageType.text);
 	    } catch {
 		    return await message.client.sendMessage(message.jid, Lang.NOT_FOUND, MessageType.text);
 	    }
