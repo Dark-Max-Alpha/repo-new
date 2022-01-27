@@ -48,7 +48,7 @@ if (Config.WORKTYPE == 'private') {
             bottomText: bottomText,
         }, async function(err) {
             if(err) throw new Error(err)
-            await message.client.sendMessage(message.jid, fs.readFileSync('ammo-meme.png'), MessageType.image, {filename: 'T-Rex-meme.png', mimetype: Mimetype.png, caption: '❰🍁🔱  T Rex BOT  🔱🍁❱ '});
+            await message.client.sendMessage(message.jid, fs.readFileSync('ammo-meme.png'), MessageType.image, {filename: 'T-Rex-meme.png', mimetype: Mimetype.png, caption: '⎝🛡️ ALPHA 🛡️⎠ '});
             await info.delete();    
         });
     }));
@@ -92,7 +92,7 @@ else if (Config.WORKTYPE == 'public') {
             bottomText: bottomText,
         }, async function(err) {
             if(err) throw new Error(err)
-            await message.client.sendMessage(message.jid, fs.readFileSync('ammo-meme.png'), MessageType.image, {filename: 'T-Rex-meme.png', mimetype: Mimetype.png, caption: '❰🍁🔱  T Rex BOT  🔱🍁❱ ' ,quoted: message.data});
+            await message.client.sendMessage(message.jid, fs.readFileSync('ammo-meme.png'), MessageType.image, {filename: 'T-Rex-meme.png', mimetype: Mimetype.png, caption: '⎝🛡️ ALPHA 🛡️⎠ ' ,quoted: message.data});
             await info.delete();    
         });
     }));
@@ -135,7 +135,7 @@ else if (Config.WORKTYPE == 'public') {
             bottomText: bottomText,
         }, async function(err) {
             if(err) throw new Error(err)
-            await message.client.sendMessage(message.jid, fs.readFileSync('ammo-meme.png'), MessageType.image, {filename: 'T-Rex-meme.png', mimetype: Mimetype.png, caption: '❰🍁🔱  T Rex BOT  🔱🍁❱ '});
+            await message.client.sendMessage(message.jid, fs.readFileSync('ammo-meme.png'), MessageType.image, {filename: 'T-Rex-meme.png', mimetype: Mimetype.png, caption: '⎝🛡️ ALPHA 🛡️⎠ '});
             await info.delete();    
         });
     }));
