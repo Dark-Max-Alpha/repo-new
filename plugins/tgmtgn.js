@@ -7,7 +7,7 @@ const Config = require('../config');
 
 
 if (Config.WORKTYPE == 'private') {
-Trex.addrex({pattern: 'tgm', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
+Trex.addrex({pattern: 'agm', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -28,7 +28,7 @@ Trex.addrex({pattern: 'tgm', fromMe: true, deleteCommand: true, desc: GM,}, (asy
     }));
 
 
-Trex.addrex({pattern: 'tgn', fromMe: true, deleteCommand: true, desc: GN,}, (async (message, match) => {
+Trex.addrex({pattern: 'agn', fromMe: true, deleteCommand: true, desc: GN,}, (async (message, match) => {
 
         var r_text = new Array ();
     
@@ -51,7 +51,7 @@ Trex.addrex({pattern: 'tgn', fromMe: true, deleteCommand: true, desc: GN,}, (asy
     
 
     if (Config.WORKTYPE == 'public') {
-        Trex.addrex({pattern: 'tgm', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
+        Trex.addrex({pattern: 'agm', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
         
             var r_text = new Array ();
         
@@ -72,7 +72,7 @@ Trex.addrex({pattern: 'tgn', fromMe: true, deleteCommand: true, desc: GN,}, (asy
             }));
         
         
-        Trex.addrex({pattern: 'tgn', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
+        Trex.addrex({pattern: 'agn', fromMe: false, deleteCommand: true, desc: GN,}, (async (message, match) => {
         
                 var r_text = new Array ();
             
@@ -90,7 +90,7 @@ Trex.addrex({pattern: 'tgn', fromMe: true, deleteCommand: true, desc: GN,}, (asy
                     message.jid,(r_text[i]), MessageType.text);
             
                 }));    
-                Trex.addrex({pattern: 'tgm', fromMe: true, deleteCommand: true,dontAddCMDList: true }, (async (message, match) => {
+                Trex.addrex({pattern: 'agm', fromMe: true, deleteCommand: true,dontAddCMDList: true }, (async (message, match) => {
         
                     var r_text = new Array ();
                 
@@ -111,7 +111,7 @@ Trex.addrex({pattern: 'tgn', fromMe: true, deleteCommand: true, desc: GN,}, (asy
                     }));
                 
                 
-                Trex.addrex({pattern: 'tgn', fromMe: true, deleteCommand: true,dontAddCMDList: true }, (async (message, match) => {
+                Trex.addrex({pattern: 'agn', fromMe: true, deleteCommand: true,dontAddCMDList: true }, (async (message, match) => {
                 
                         var r_text = new Array ();
                     
