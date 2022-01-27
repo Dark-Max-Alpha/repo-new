@@ -111,15 +111,15 @@ QR Code generator and full instructions available there.
 											<tr>
 												<td><a href="https://duanf0484.wixsite.com/achi-bro-lk"><img src="https://telegra.ph/file/13fb228cedfabbd2224ac.jpg" width="200" height="200" alt="Achi Fernando"></a></td>
 												<td><a href="https://github.com/Dark-Knight-Hiruwa"><img src="https://telegra.ph/file/696ea20f2c93ad64aa239.jpg" width="200" height="200" alt="Hiruwa"></a></td>
-												<td><a href="https://www.instagram.com/saji_x.x_4/"><img src="https://i.ibb.co/6FZsnvQ/3-Sajiya.jpg" width="200" height="200" alt="ʟɪʟ ʟᴜᴢɪ"></a></td>
+												<td><a href="https://www.youtube.com/c/PearlYT-JRVSW"><img src="https://telegra.ph/file/ae66d42d972430f1d53c9.jpg" width="200" height="200" alt="Kasun"></a></td>
 											</tr>
 										</tbody>
 									</table>
                   <table>
 										<tbody>
 											<tr>
-												<td><a href="https://dinaaofficial.github.io/dina-official/"><img src="https://i.ibb.co/rvYYcVD/4-Dina.jpg" width="200" height="200" alt="ᴍʀ.ᴅɪɴᴀ"></a></td>
-												<td><a href="https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ"><img src="https://i.ibb.co/HzfN8pD/5-Joka.jpg" width="200" height="200" alt="ᴊᴏᴋᴀ ᴛᴀᴍᴀ"></a></td>
+												<td><a href="https://wa.me/94717954374"><img src="https://telegra.ph/file/022fc0c8a33f74ca448c5.jpg" width="200" height="200" alt="Sanjula"></a></td>
+												<td><a href="https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ"><img src="https://i.ibb.co/HzfN8pD/5-Joka.jpg" width="200" height="200" alt="Sanjana"></a></td>
                         <td><a href="httsp://github.com/BlackAmda/"><img src="https://i.ibb.co/bj4LqJh/6-Kapaya.jpg" width="200" height="200" alt="ᴋᴀᴘᴀʏᴀ"></a></td>
 											</tr>
 									</table>
@@ -128,7 +128,7 @@ QR Code generator and full instructions available there.
 											<tr>
 												<td><a href="https://www.thinknfree.com/"><img src="https://i.ibb.co/2kHWJBD/7-Zeus.jpg" width="200" height="200" alt="ᴢᴇᴜs"></a></td>
 												<td><a href="httsp://github.com/BlackAmda/"><img src="https://i.ibb.co/x3MjnWn/8-Pancha.jpg" width="200" height="200" alt="ZEYREX"></a></td>
-												<td><a href="httsp://github.com/BlackAmda/"><img src="https://i.ibb.co/ySvhR4J/9-Saiko.jpg" width="200" height="200" alt="sɪɢᴇᴅᴇʀɪᴇɴ"></a></td>
+												<td><a href="https://wa.me/94703164788"><img src="https://telegra.ph/file/0953550b78a8b1861346b.jpg" width="200" height="200" alt="paraveen"></a></td>
 											</tr>
 										</tbody>
 									</table>
