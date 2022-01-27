@@ -32,7 +32,7 @@ if (read.WORKTYPE == 'private') {
             })
 
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: '❰🍁🔱  T Rex BOT  🔱🍁❱',
+              caption: '⎝🛡️ ALPHA 🛡️⎠',
             })
           })
           .catch(
@@ -64,7 +64,7 @@ else if (read.WORKTYPE == 'public') {
             })
 
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: '❰🍁🔱  T Rex BOT  🔱🍁❱',
+              caption: '⎝🛡️ ALPHA 🛡️⎠',
             })
           })
           .catch(
@@ -93,7 +93,7 @@ else if (read.WORKTYPE == 'public') {
             })
 
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: '❰🍁🔱  T Rex BOT  🔱🍁❱',
+              caption: '⎝🛡️ ALPHA 🛡️⎠',
             })
           })
           .catch(
