@@ -7,7 +7,7 @@ const Language = require('../language');
 const Lang = Language.getString('Trex');
 const YTV_DESC = "❤❤"
 const YT_NEED = "*Need Song Yt Link!.*"
-const NO_RESULT = "*🌀can't Find Anything...* Use Yt Link only ..."
+const NO_RESULT = "*🖲️can't Find Anything...* Use Yt Link only ..."
 const tk = Config.WORKTYPE == 'public' ? false : true
 
     Trex.addrex({ pattern: 'vid2 ?(.*)', fromMe: false, deleteCommand: false, desc: "hin",  deleteCommand: false}, async (message, match) => {
