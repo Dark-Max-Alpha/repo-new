@@ -10,7 +10,7 @@ const got = require('got');
 if (Config.WORKTYPE == 'private') {
 	Trex.addrex({pattern: 'movie', fromMe: false }, (async (message, match) => { 
 		var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'}) 
-		await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " ❰🍁🔱 T Rex BOT MENU 🔱🍁❱ "}) 
+		await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " ⎝🛡️ ALPHA 🛡️⎠ "}) 
 	}));
 	Trex.addrex({ pattern: 'movie ?(.*)', fromMe: true,  deleteCommand: false,  desc: "Movies වල විස්තර ලබාදීම." }, (async (message, match) => {
 		if (match[1] === '') return await message.client.sendMessage(message.jid, '*නමක් ලබාදෙන්න.*', MessageType.text, { quoted: message.data });
@@ -19,23 +19,23 @@ if (Config.WORKTYPE == 'private') {
 		const json = JSON.parse(response.body);
 		if (json.Response != 'True') return await message.client.sendMessage(message.jid, '*Not found.*', MessageType.text, { quoted: message.data });
 		let msg = '```';
-		msg += '🍁 Title       ' + '➢ '+json.Title + '\n\n';
-		msg += '🍁 Year        ' + '➢ '+json.Year + '\n\n';
-		msg += '🍁 Rated       ' + '➢ '+json.Rated + '\n\n';
-		msg += '🍁 Released    ' + '➢ '+json.Released + '\n\n';
-		msg += '🍁 Runtime     ' + '➢ '+json.Runtime + '\n\n';
-		msg += '🍁 Genre       ' + '➢ '+json.Genre + '\n\n';
-		msg += '🍁 Director    ' + '➢ '+json.Director + '\n\n';
-		msg += '🍁 Writer      ' + '➢ '+json.Writer + '\n\n';
-		msg += '🍁 Actors      ' + '➢ '+json.Actors + '\n\n';
-		msg += '🍁 Plot        ' + '➢ '+json.Plot + '\n\n';
-		msg += '🍁 Language    ' + '➢ '+json.Language + '\n\n';
-		msg += '🍁 Country     ' + '➢ '+json.Country + '\n\n';
-		msg += '🍁 Awards      ' + '➢ '+json.Awards + '\n\n';
-		msg += '🍁 BoxOffice   ' + '➢ '+json.BoxOffice + '\n\n';
-		msg += '🍁 Production  ' + '➢ '+json.Production + '\n\n';
-		msg += '🍁 imdbRating  ' + '➢ '+json.imdbRating + '\n\n';
-		msg += '🍁 imdbVotes   ' + '➢ '+json.imdbVotes + '```\n\n❰🍁🔱  T Rex BOT  🔱🍁❱';
+		msg += '🖲️  Title       ' + '➢ '+json.Title + '\n\n';
+		msg += '🖲️  Year        ' + '➢ '+json.Year + '\n\n';
+		msg += '🖲️  Rated       ' + '➢ '+json.Rated + '\n\n';
+		msg += '🖲️  Released    ' + '➢ '+json.Released + '\n\n';
+		msg += '🖲️  Runtime     ' + '➢ '+json.Runtime + '\n\n';
+		msg += '🖲️  Genre       ' + '➢ '+json.Genre + '\n\n';
+		msg += '🖲️  Director    ' + '➢ '+json.Director + '\n\n';
+		msg += '🖲️  Writer      ' + '➢ '+json.Writer + '\n\n';
+		msg += '🖲️  Actors      ' + '➢ '+json.Actors + '\n\n';
+		msg += '🖲️  Plot        ' + '➢ '+json.Plot + '\n\n';
+		msg += '🖲️  Language    ' + '➢ '+json.Language + '\n\n';
+		msg += '🖲️  Country     ' + '➢ '+json.Country + '\n\n';
+		msg += '🖲️  Awards      ' + '➢ '+json.Awards + '\n\n';
+		msg += '🖲️  BoxOffice   ' + '➢ '+json.BoxOffice + '\n\n';
+		msg += '🖲️  Production  ' + '➢ '+json.Production + '\n\n';
+		msg += '🖲️  imdbRating  ' + '➢ '+json.imdbRating + '\n\n';
+		msg += '🖲️  imdbVotes   ' + '➢ '+json.imdbVotes + '```\n\n⎝🛡️ ALPHA 🛡️⎠';
 		await message.client.sendMessage(message.jid, msg, MessageType.text, { quoted: message.data });
 	}));
 }
@@ -43,7 +43,7 @@ if (Config.WORKTYPE == 'private') {
 else if (Config.WORKTYPE == 'public') {
 	Trex.addrex({pattern: 'movie', fromMe: false }, (async (message, match) => { 
 		var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'}) 
-		await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " ❰🍁🔱 T Rex BOT MENU 🔱🍁❱ "}) 
+		await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " ⎝🛡️ ALPHA 🛡️⎠ "}) 
 	}));
 	Trex.addrex({ pattern: 'movie ?(.*)', fromMe: false, desc: "Movies වල විස්තර ලබාදීම." }, (async (message, match) => {
 		if (match[1] === '') return await message.client.sendMessage(message.jid, '*නමක් ලබාදෙන්න.*', MessageType.text, { quoted: message.data });
@@ -52,23 +52,23 @@ else if (Config.WORKTYPE == 'public') {
 		const json = JSON.parse(response.body);
 		if (json.Response != 'True') return await message.client.sendMessage(message.jid, '*Not found.*', MessageType.text, { quoted: message.data });
 		let msg = '```';
-		msg += '🍁 Title       ' + '➢ '+ json.Title + '\n\n';
-		msg += '🍁 Year        ' + '➢ '+ json.Year + '\n\n';
-		msg += '🍁 Rated       ' + '➢ '+ json.Rated + '\n\n';
-		msg += '🍁 Released    ' + '➢ '+ json.Released + '\n\n';
-		msg += '🍁 Runtime     ' + '➢ '+json.Runtime + '\n\n';
-		msg += '🍁 Genre       ' + '➢ '+json.Genre + '\n\n';
-		msg += '🍁 Director    ' + '➢ '+json.Director + '\n\n';
-		msg += '🍁 Writer      ' + '➢ '+json.Writer + '\n\n';
-		msg += '🍁 Actors      ' + '➢ '+json.Actors + '\n\n';
-		msg += '🍁 Plot        ' + '➢ '+json.Plot + '\n\n';
-		msg += '🍁 Language    ' + '➢ '+json.Language + '\n\n';
-		msg += '🍁 Country     ' + '➢ '+json.Country + '\n\n';
-		msg += '🍁 Awards      ' + '➢ '+json.Awards + '\n\n';
-		msg += '🍁 BoxOffice   ' + '➢ '+json.BoxOffice + '\n\n';
-		msg += '🍁 Production  ' + '➢ '+json.Production + '\n\n';
-		msg += '🍁 imdbRating  ' + '➢ '+json.imdbRating + '\n\n';
-		msg += '🍁 imdbVotes   ' + '➢ '+json.imdbVotes + '```\n\n❰🍁🔱  T Rex BOT  🔱🍁❱';
+		msg += '🖲️  Title       ' + '➢ '+ json.Title + '\n\n';
+		msg += '🖲️  Year        ' + '➢ '+ json.Year + '\n\n';
+		msg += '🖲️  Rated       ' + '➢ '+ json.Rated + '\n\n';
+		msg += '🖲️  Released    ' + '➢ '+ json.Released + '\n\n';
+		msg += '🖲️  Runtime     ' + '➢ '+json.Runtime + '\n\n';
+		msg += '🖲️  Genre       ' + '➢ '+json.Genre + '\n\n';
+		msg += '🖲️  Director    ' + '➢ '+json.Director + '\n\n';
+		msg += '🖲️  Writer      ' + '➢ '+json.Writer + '\n\n';
+		msg += '🖲️  Actors      ' + '➢ '+json.Actors + '\n\n';
+		msg += '🖲️  Plot        ' + '➢ '+json.Plot + '\n\n';
+		msg += '🖲️  Language    ' + '➢ '+json.Language + '\n\n';
+		msg += '🖲️  Country     ' + '➢ '+json.Country + '\n\n';
+		msg += '🖲️  Awards      ' + '➢ '+json.Awards + '\n\n';
+		msg += '🖲️  BoxOffice   ' + '➢ '+json.BoxOffice + '\n\n';
+		msg += '🖲️  Production  ' + '➢ '+json.Production + '\n\n';
+		msg += '🖲️  imdbRating  ' + '➢ '+json.imdbRating + '\n\n';
+		msg += '🖲️  imdbVotes   ' + '➢ '+json.imdbVotes + '```\n\n⎝🛡️ ALPHA 🛡️⎠';
 		await message.client.sendMessage(message.jid, msg, MessageType.text, { quoted: message.data });
 	}));
 	
@@ -79,23 +79,23 @@ else if (Config.WORKTYPE == 'public') {
 		const json = JSON.parse(response.body);
 		if (json.Response != 'True') return await message.client.sendMessage(message.jid, '*Not found.*', MessageType.text, { quoted: message.data });
 		let msg = '```';
-		msg += '🍁 Title       ' + '➢ '+json.Title + '\n\n';
-		msg += '🍁 Year        ' + '➢ '+json.Year + '\n\n';
-		msg += '🍁 Rated       ' + '➢ '+json.Rated + '\n\n';
-		msg += '🍁 Released    ' + '➢ '+json.Released + '\n\n';
-		msg += '🍁 Runtime     ' + '➢ '+json.Runtime + '\n\n';
-		msg += '🍁 Genre       ' + '➢ '+json.Genre + '\n\n';
-		msg += '🍁 Director    ' + '➢ '+json.Director + '\n\n';
-		msg += '🍁 Writer      ' + '➢ '+json.Writer + '\n\n';
-		msg += '🍁 Actors      ' + '➢ '+json.Actors + '\n\n';
-		msg += '🍁 Plot        ' + '➢ '+json.Plot + '\n\n';
-		msg += '🍁 Language    ' + '➢ '+json.Language + '\n\n';
-		msg += '🍁 Country     ' + '➢ '+json.Country + '\n\n';
-		msg += '🍁 Awards      ' + '➢ '+json.Awards + '\n\n';
-		msg += '🍁 BoxOffice   ' + '➢ '+json.BoxOffice + '\n\n';
-		msg += '🍁 Production  ' + '➢ '+json.Production + '\n\n';
-		msg += '🍁 imdbRating  ' + '➢ '+json.imdbRating + '\n\n';
-		msg += '🍁 imdbVotes   ' + '➢ '+json.imdbVotes + '```\n\n❰🍁🔱  T Rex BOT  🔱🍁❱';
+		msg += '🖲️  Title       ' + '➢ '+json.Title + '\n\n';
+		msg += '🖲️  Year        ' + '➢ '+json.Year + '\n\n';
+		msg += '🖲️  Rated       ' + '➢ '+json.Rated + '\n\n';
+		msg += '🖲️  Released    ' + '➢ '+json.Released + '\n\n';
+		msg += '🖲️  Runtime     ' + '➢ '+json.Runtime + '\n\n';
+		msg += '🖲️  Genre       ' + '➢ '+json.Genre + '\n\n';
+		msg += '🖲️  Director    ' + '➢ '+json.Director + '\n\n';
+		msg += '🖲️  Writer      ' + '➢ '+json.Writer + '\n\n';
+		msg += '🖲️  Actors      ' + '➢ '+json.Actors + '\n\n';
+		msg += '🖲️  Plot        ' + '➢ '+json.Plot + '\n\n';
+		msg += '🖲️  Language    ' + '➢ '+json.Language + '\n\n';
+		msg += '🖲️  Country     ' + '➢ '+json.Country + '\n\n';
+		msg += '🖲️  Awards      ' + '➢ '+json.Awards + '\n\n';
+		msg += '🖲️  BoxOffice   ' + '➢ '+json.BoxOffice + '\n\n';
+		msg += '🖲️  Production  ' + '➢ '+json.Production + '\n\n';
+		msg += '🖲️  imdbRating  ' + '➢ '+json.imdbRating + '\n\n';
+		msg += '🖲️  imdbVotes   ' + '➢ '+json.imdbVotes + '```\n\n⎝🛡️ ALPHA 🛡️⎠';
 		await message.client.sendMessage(message.jid, msg, MessageType.text, { quoted: message.data });
 	}));
 }
