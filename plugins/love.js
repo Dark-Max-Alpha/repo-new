@@ -7,51 +7,45 @@ const Ln = "  *Send Love Messages.. , ආදර පණිවිඩ යැවී�
 
  if (Config.WORKTYPE == 'public') {
   
-/*  Trex.addrex({ pattern: 'lovepack', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+ Trex.addrex({ pattern: 'lovepack', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
         var ttinullimage = await axios.get(`https://telegra.ph/file/0e96fae1520475124d275.jpg`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  `╔═══════════════════════╗
-
-           ❰🍁🔱  T Rex BOT  🔱🍁❱
-
+                 ⎝🛡️ ALPHA 🛡️⎠
 ═════════════════════════
-
                   ♥ LOVE PACK ♥
-
                   
 ♥ Command : .love you
 ➢ Description :  Send I love you message with Image..
-
 ♥ Command : .miss you
 ➢ Description :  Send i miss you message with image..
-
 ♥ Command : .love you somuch
 ➢ Description :  Send I love you so much message with image..
-
 ♥ Command : .hate you
 ➢ Description :  Send i hate you message 😪..
-
 ♥ Command : .cry
 ➢ Description :  Send I m cry message..
-
 ♥ Command : .alone
 ➢ Description :  Send i am alone message..
-
 ♥ Command : .single
 ➢ Description : Send i am single message..
-
 ♥ Command : .need gf
 ➢ Description :  Send I need Girl friend message..
-
 ♥ Command : need bf
 ➢ Description :  Send i need Boy friend message..
+      ╔═⎝🛡️ ALPHA 🛡️⎠═╗
+       ╚ ENJOY WITH US ╝
+╚══════════════════════
+
 ` ,quoted: message.data})
 
     }));*/
-    Trex.addrex({pattern:  'ffpack', fromMe: false }, (async (message, match) => {
+   
+  
+  /* Trex.addrex({pattern:  'ffpack', fromMe: false }, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -179,11 +173,11 @@ const Ln = "  *Send Love Messages.. , ආදර පණිවිඩ යැවී�
 ║▷Creator: HIRUSHA
 ║
 ║ ❰🍁🔱  T Rex BOT  🔱🍁❱  
-╚═════════════════════╝`  ,quoted: message.data})
+╚═════════════════════╝`  ,quoted: message.data}) 
 
-    }));
+    }));*/
 
- /* Trex.addrex({pattern: 'love you', fromMe: false }, (async (message, match) => {
+  Trex.addrex({pattern: 'love you', fromMe: false }, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -243,7 +237,7 @@ const Ln = "  *Send Love Messages.. , ආදර පණිවිඩ යැවී�
 
     }));
  */
-  Trex.addrex({pattern:  'ffpack', fromMe: true }, (async (message, match) => {
+ /* Trex.addrex({pattern:  'ffpack', fromMe: true }, (async (message, match) => {
 
     var r_text = new Array ();
 
