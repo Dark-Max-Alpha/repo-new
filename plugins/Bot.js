@@ -49,7 +49,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Trex.addrex({pattern: '.bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
+    Trex.addrex({pattern: 'bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
 
           
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
@@ -85,7 +85,7 @@ else if (Config.WORKTYPE == 'public') {
 
     }));
   
-  Trex.addrex({pattern: '.bot', fromMe: false,  deleteCommand: false }, (async (message, match) => {
+  Trex.addrex({pattern: 'bot', fromMe: false,  deleteCommand: false }, (async (message, match) => {
 
           
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
