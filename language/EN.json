@@ -49,7 +49,7 @@
             "NEED_SUB": "You must type a group name.",
             "END": "Clear chat",
             "SEARCH": "To view the current plugin list supported to Queen Amdi.",
-            "AD_DESC": "   ❰🍁🔱  T Rex BOT  🔱🍁❱\n\n🍁 COMMAND: *.ban*\nℹ️ DESCRIPTION: Remove someone from the group. Mention the message or tag a person to use command.\n\n🍁 COMMAND: *.add*\nℹ️ DESCRIPTION: Adds someone to the group.\n\n🍁 COMMAND: *.mute*\nℹ️ DESCRIPTION: Mute group chat. Messages can only be sent by admin. \n\n🍁 COMMAND: *.unmute*\nℹ️ DESCRIPTION: Remove group chat mute. Anyone can send a message.\n\n🍁 COMMAND: *.clear*\nℹ️ DESCRIPTION: Clearing chat.\n\n🍁 COMMAND: *.name*\nℹ️ DESCRIPTION: Change group name. \n\n🍁 COMMAND: *.promote*\nℹ️ DESCRIPTION: Promoting members to admin.\n\n🍁 COMMAND: *.demote*\nℹ️ DESCRIPTION: Demoting admins.\n\n🍁 COMMAND: *.myplugin*\nℹ️ DESCRIPTION: To view the current plugin list from ❰🍁🔱  T Rex BOT  🔱🍁❱.\n\n🍁 COMMAND: *.plug*\nℹ️ DESCRIPTION: Install external plugins.\n\n🍁 COMMAND: *.unplug*\nℹ️ DESCRIPTION: Removes the plugin.\n\n🍁 COMMAND: *.invite*\nℹ️ DESCRIPTION: Provides group invitation link.\n\n🍁 COMMAND: *.afk*\nℹ️ DESCRIPTION: It turns bot bot AFK - Away From Keyboard.\n\n🍁 COMMAND: *.restart*\n➢ DESCRIPTION: Restart the bot.\n\n🍁 COMMAND: *.shutdown*\n➢ DESCRIPTION: Shutdown the Bot.\n\n🍁 COMMAND: *.setvar*\n➢ DESCRIPTION: Change heroku config vars.\n\n🍁 COMMAND: *.getvar*\n➢ DESCRIPTION: Get heroku config var.\n\n🍁 COMMAND: *.speedtest*\n➢ DESCRIPTION:Check download and upload speed.\n\n🍁 COMMAND: *.filter*\nℹ️ DESCRIPTION: It adds filters. If someone writes your filter word, it sends the answer. If you write a .filter it will show your list of filters.\n\n🍁 COMMAND: *.stop*\nℹ️ DESCRIPTION: Stops the filters you added earlier.\n\n🍁 COMMAND: *.welcome*\nℹ️ DESCRIPTION: It sets the welcome message.\n\n🍁 COMMAND: *.goodbye*\nℹ️ DESCRIPTION: Sets the goodbye  message.\n\n🍁 COMMAND: *.kickme*\nℹ️ DESCRIPTION: It removes the bot from the group that provided the command.\n\n🍁 COMMAND: *.pp*\nℹ️ DESCRIPTION: The photo you mention mentions the bot profile photo.\n\n🍁 COMMAND: *.block*\nℹ️ DESCRIPTION: Block tagged user.\n\n🍁 COMMAND: *.unblock*\nℹ️ DESCRIPTION: Unblock tagged user.\n\n🍁 COMMAND: *.jid*\nℹ️ DESCRIPTION: Giving user JID.\n\n🍁 COMMAND *.tagall*\nℹ️ DESCRIPTION: Tag everyone in group.\n\n🍁 COMMAND: *.up*\nℹ️ DESCRIPTION: Check for updates.\n\n🍁 COMMAND: *.uptrex*\nℹ️ DESCRIPTION: To update your bot.\n\n🍁 COMMAND: *.dyno*\nℹ️ DESCRIPTION: Showing heroku dyno hours.\n\n🍁 COMMAND: *.sysd*\nℹ️ DESCRIPTION: Show system properties.\n\n🍁 COMMAND: *.scam*\nℹ️ DESCRIPTION: Scam actions for 5min.\n\n🍁 COMMAND: *.antilink*\nℹ️ DESCRIPTION: Anti link on Ex: .antilink on/off\n\n🍁 COMMAND: *.antibad*\nℹ️ DESCRIPTION: Remove bad word users Ex: .antibad on/off\n\n🍁 COMMAND: *.chatbot*\nℹ️DESCRIPTION: Auto chat on Ex: .chatbot on/off\n👿 Command: .voice on/off\n▷ Description: Activate and deactivate voice chat\n\n👿 Command: .public ▷ Description: set bot as public\n\n 👿 Command: .private\n▷ Description: Set your bot as private\n\n*⚠️ The above command only works for Admin, Bot and SUDO numbers.\n\n❰🍁🔱  T Rex BOT  🔱🍁❱*"
+            "AD_DESC": "   ⎝🛡️ ALPHA 🛡️⎠\n\n🖲️ COMMAND: *.ban*\nℹ️ DESCRIPTION: Remove someone from the group. Mention the message or tag a person to use command.\n\n🖲️ COMMAND: *.add*\nℹ️ DESCRIPTION: Adds someone to the group.\n\n🖲️ COMMAND: *.mute*\nℹ️ DESCRIPTION: Mute group chat. Messages can only be sent by admin. \n\n🖲️ COMMAND: *.unmute*\nℹ️ DESCRIPTION: Remove group chat mute. Anyone can send a message.\n\n🖲️ COMMAND: *.clear*\nℹ️ DESCRIPTION: Clearing chat.\n\n🖲️ COMMAND: *.name*\nℹ️ DESCRIPTION: Change group name. \n\n🖲️ COMMAND: *.promote*\nℹ️ DESCRIPTION: Promoting members to admin.\n\n🖲️ COMMAND: *.demote*\nℹ️ DESCRIPTION: Demoting admins.\n\n🖲️ COMMAND: *.myplugin*\nℹ️ DESCRIPTION: To view the current plugin list from ⎝🛡️ ALPHA 🛡️⎠.\n\n🖲️ COMMAND: *.plug*\nℹ️ DESCRIPTION: Install external plugins.\n\n🖲️ COMMAND: *.unplug*\nℹ️ DESCRIPTION: Removes the plugin.\n\n🖲️ COMMAND: *.invite*\nℹ️ DESCRIPTION: Provides group invitation link.\n\n🖲️ COMMAND: *.afk*\nℹ️ DESCRIPTION: It turns bot bot AFK - Away From Keyboard.\n\n🖲️ COMMAND: *.restart*\n➢ DESCRIPTION: Restart the bot.\n\n🖲️ COMMAND: *.shutdown*\n➢ DESCRIPTION: Shutdown the Bot.\n\n🖲️ COMMAND: *.setvar*\n➢ DESCRIPTION: Change heroku config vars.\n\n🖲️ COMMAND: *.getvar*\n➢ DESCRIPTION: Get heroku config var.\n\n🖲️ COMMAND: *.speedtest*\n➢ DESCRIPTION:Check download and upload speed.\n\n🖲️ COMMAND: *.filter*\nℹ️ DESCRIPTION: It adds filters. If someone writes your filter word, it sends the answer. If you write a .filter it will show your list of filters.\n\n🖲️ COMMAND: *.stop*\nℹ️ DESCRIPTION: Stops the filters you added earlier.\n\n🖲️ COMMAND: *.welcome*\nℹ️ DESCRIPTION: It sets the welcome message.\n\n🖲️ COMMAND: *.goodbye*\nℹ️ DESCRIPTION: Sets the goodbye  message.\n\n🖲️ COMMAND: *.kickme*\nℹ️ DESCRIPTION: It removes the bot from the group that provided the command.\n\n🖲️ COMMAND: *.pp*\nℹ️ DESCRIPTION: The photo you mention mentions the bot profile photo.\n\n🖲️ COMMAND: *.block*\nℹ️ DESCRIPTION: Block tagged user.\n\n🖲️  COMMAND: *.unblock*\nℹ️ DESCRIPTION: Unblock tagged user.\n\n🖲️ COMMAND: *.jid*\nℹ️ DESCRIPTION: Giving user JID.\n\n🖲️  COMMAND *.tagall*\nℹ️ DESCRIPTION: Tag everyone in group.\n\n🖲️  COMMAND: *.up*\nℹ️ DESCRIPTION: Check for updates.\n\n🖲️  COMMAND: *.uptrex*\nℹ️ DESCRIPTION: To update your bot.\n\n🖲️  COMMAND: *.dyno*\nℹ️ DESCRIPTION: Showing heroku dyno hours.\n\n🖲️  COMMAND: *.sysd*\nℹ️ DESCRIPTION: Show system properties.\n\n🖲️  COMMAND: *.scam*\nℹ️ DESCRIPTION: Scam actions for 5min.\n\n🖲️  COMMAND: *.antilink*\nℹ️ DESCRIPTION: Anti link on Ex: .antilink on/off\n\n🖲️  COMMAND: *.antibad*\nℹ️ DESCRIPTION: Remove bad word users Ex: .antibad on/off\n\n🖲️  COMMAND: *.chatbot*\nℹ️DESCRIPTION: Auto chat on Ex: .chatbot on/off\n🖲️ Command: .voice on/off\n▷ Description: Activate and deactivate voice chat\n\n🖲️  Command: .public ▷ Description: set bot as public\n\n 🖲️  Command: .private\n▷ Description: Set your bot as private\n\n*⚠️ The above command only works for Admin, Bot and SUDO numbers.\n\n⎝🛡️ ALPHA 🛡️⎠*"
         },
         "locate": {
             "L_DESC": "It sends your locations.",
@@ -84,10 +84,10 @@
             "MUST_TEXT": "```Please tag any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart Queen ❰🍁🔱  T Rex BOT  🔱🍁❱",
-            "RESTART_MSG": "```❰🍁🔱  T Rex BOT  🔱🍁❱ ♻️ Restarting...```",
+            "RESTART_DESC": "Restart Queen ⎝🛡️ ALPHA 🛡️⎠",
+            "RESTART_MSG": "```⎝🛡️ ALPHA 🛡️⎠ ♻️ Restarting...```",
             "SHUTDOWN_DESC": "To shut down bot",
-            "SHUTDOWN_MSG": "```❰🍁🔱  T Rex BOT  🔱🍁❱ Shutdown ⛔```",
+            "SHUTDOWN_MSG": "```⎝🛡️ ALPHA 🛡️⎠ Shutdown ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -140,18 +140,18 @@
         "memes": {
             "MEMES_DESC": "The photos you replied to are memes.",
             "NEED_REPLY": "*Mention a photo!*",
-            "DOWNLOADING": "🍁➢  Media download and meme creation started ..."
+            "DOWNLOADING": "🖲️ ➢  Media download and meme creation started ..."
         },
         "ocr": {
             "OCR_DESC": "Scan your picture into text.",
             "NEED_REPLY": "*Please reply a picture!*",
-            "DOWNLOADING": "```🍁➢ Downloading and reading...```",
+            "DOWNLOADING": "```🖲️ ➢ Downloading and reading...```",
             "ERROR": "```Sorry, Can't read this :/```\n*Error:*```{}```",
             "RESULT": "*Language:* ```{}```\n*This is what I read:* ```{}```"
         },
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! I am going🏻➢🍁 ```",
+            "KICKME": "```Bye bye! I am going🏻➢🖲️  ```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
             "NEED_PHOTO": "*Give me a photo!*",
             "PPING": "```Setting profile photo...```",
@@ -170,7 +170,7 @@
             "REMOVEBG_DESC": "Removing background of image.",
             "NEED_PHOTO": "*Please reply to a image!*",
             "NO_API_KEY": "*You haven't got API key!*\nYou can get API key by sigining up remove.bg site",
-            "RBGING": "```🍁➢ Removing background...```"
+            "RBGING": "```🖲️ ➢ Removing background...```"
         },
         "scrapers": {
             "TRANSLATE_DESC": "It translates with Google Translator. You must mention any message.",
@@ -201,10 +201,10 @@
             "SEARCHING": "*🔎 Searching...*",
             "WIKI_DESC": "Search Wikipedia.",
             "IMG_DESC": "Downloading google images.",
-            "IMG": "🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Uploading images ```{}``` numbers ```{} ```...",
+            "IMG": "🖲️ ➢ ⎝🛡️ ALPHA 🛡️⎠ Uploading images ```{}``` numbers ```{} ```...",
             "CURRENCY_DESC": "To convert currencies.",
             "EFFECT_DESC": "A set of commands for converting text to effect images.",
-            "IG_DESC": "🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Download instagram videos.",
+            "IG_DESC": "🖲️ ➢ ⎝🛡️ ALPHA 🛡️⎠ Download instagram videos.",
             "NEED_WORD": "Please enter a valid link!",
             "QUOTE_DESC": "It Sends Random Quote",
             "NEED_LOCATIONA": "*Invalid Request*",
@@ -217,20 +217,20 @@
             "WAME_DESC": "Get a link to the user chat.",
             "WAME": "```Chat link from```@{}: https://wa.me/{}",
             "NEED_UWONG": "*Give me a user!*",
-            "FBDESC": "🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Download Facebook videos.",
+            "FBDESC": "🖲️ ➢ ⎝🛡️ ALPHA 🛡️⎠ Download Facebook videos.",
             "NOT_FOUNDFB": "Can't find the video",
             "CAPTION": "Caption",
-            "DL_VID": "🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Downloading your video...",
-            "UP_VID": "🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Uploading your video...",
+            "DL_VID": "🖲️ ➢ ❰⎝🛡️ ALPHA 🛡️⎠ Downloading your video...",
+            "UP_VID": "🖲️ ➢ ⎝🛡️ ALPHA 🛡️⎠Uploading your video...",
             "ERR_VID": "Please enter a valid link!"
         },
         "sticker": {
             "STICKER_DESC": "Make stickers to your images. Reply to an image.",
             "NEED_REPLY": "*Please reply an image!*",
-            "DOWNLOADING": "```🍁➢ Downloading media and making sticker...```",
-            "ANI_STICK": "🍁➢ Converts animated stickers to video.",
-            "ANI_REPLY": "*🍁➢ Please reply an animated sticker*",
-            "ANIMATE": "```🍁➢ Converting Animated Sticker To Video..```"
+            "DOWNLOADING": "```🖲️ ➢ Downloading media and making sticker...```",
+            "ANI_STICK": "🖲️ ➢ Converts animated stickers to video.",
+            "ANI_REPLY": "*🖲️ ➢ Please reply an animated sticker*",
+            "ANIMATE": "```🖲️ ➢ Converting Animated Sticker To Video..```"
         },
         "system_stats": {
             "ALIVE_DESC": "Check bot online or not",
@@ -245,14 +245,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Check for updates.",
-            "UPDATE": "*❰🍁🔱  T Rex BOT  🔱🍁❱ is completely updated!✅*",
+            "UPDATE": "*⎝🛡️ ALPHA 🛡️⎠ is completely updated!✅*",
             "NEW_UPDATE": "*Your bot have some updates!*\nType *.uptrex*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "Updating your bot",
-            "UPDATING": "_Updating...🍁➢_",
+            "UPDATING": "_Updating...🖲️ ➢_",
             "INVALID_HEROKU": "*❌ Your HEROKU_API_KEY wrong! Visit https://dashboard.heroku.com/account . Scroll down to API key. Click reveal buttong. Copy that API key and paste it in HEROKU_API_KEY config vars.*",
             "UPDATED": "*✅ Successfully updated!*",
             "UPDATED_LOCAL": "*✅ Successfully updated!*",
-            "AFTER_UPDATE": "*💬 ❰🍁🔱  T Rex BOT  🔱🍁❱ automatically restarting!*",
+            "AFTER_UPDATE": "*💬 ⎝🛡️ ALPHA 🛡️⎠ automatically restarting!*",
             "VERIFY_DESC": "Verify your bot officially.",
             "VERIFY": "*Your bot is verified!✅*",
             "VERIFIED": "*✅ Successfully verified!*",
@@ -281,11 +281,11 @@
         },
         "conventer": {
             "MP4TOAUDİO_DESC": "Convert mp4 into mp3.",
-            "MP4TOAUDİO_NEEDREPLY": "*🍁 Please reply to a video!*",
-            "MP4TOAUDİO": "```🍁➢ Converting mp4 to mp3..```",
-            "STİCKER_DESC": "🍁➢ Convert sticker into an image.",
-            "STİCKER_NEEDREPLY": "*🍁 Please reply to a sticker!*",
-            "STİCKER": "```🍁➢ Converting sticker into image..```",
+            "MP4TOAUDİO_NEEDREPLY": "*🖲️  Please reply to a video!*",
+            "MP4TOAUDİO": "```🖲️ ➢ Converting mp4 to mp3..```",
+            "STİCKER_DESC": "🖲️ ➢ Convert sticker into an image.",
+            "STİCKER_NEEDREPLY": "*🖲️  Please reply to a sticker!*",
+            "STİCKER": "```🖲️ ➢ Converting sticker into image..```",
             "XMEDİA_DESC": "A plugin that have 25 media tools.",
             "T_FALSE": "```❌ Incorrect Blend Effect Entered!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
             "T_NOT": "```💭 You Need To Enter Any Blend Effects!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
@@ -373,11 +373,11 @@
         "unvoice": {
             "UV_DESC": "Convert mp3 into a WA voice message",
             "UV_REPLY": "*Please reply to a mp3!*",
-            "UV_PROC": "```🍁➢  Recording the audio..```"
+            "UV_PROC": "```🖲️ ➢  Recording the audio..```"
         },
         "ffmpeg": {
             "FF_DESC": "Apply ffmpeg filter to a video\n⌨️ Example: .ffmpeg fade=in:0:30",
-            "FF_PROC": "🍁➢  Applying Effect.."
+            "FF_PROC": "🖲️ ➢  Applying Effect.."
         },
         "spammer": {
             "SPAM_DESC": "This not available.\n⌨️ Example: .spam test",
@@ -404,9 +404,9 @@
         "ttp": {
             "TTP_DESC": "Make text image",
             "ATTP_DESC": "Make animated text stickers in Rainbow theme",
-            "NEED_WORD": "*🍁➢ Please enter words!*",
-            "ANIME_DESC": "🍁➢ Write text on anime girl's paper",
-            "TRUMP_DESC": "🍁➢ Write text on Trump Twitter",
+            "NEED_WORD": "*🖲️ ➢ Please enter words!*",
+            "ANIME_DESC": "🖲️ ➢ Write text on anime girl's paper",
+            "TRUMP_DESC": "🖲️ ➢ Write text on Trump Twitter",
             "CHANGE_DESC": "Weite chaged my mind themed memes"
        },
        "anime": { 
@@ -440,40 +440,40 @@
             "NEED_WORD": "*Please enter a IG username*",
             "USAGE": ".insta <userName>",
             "DESC": "Stalk instagram account details",
-            "LOADING": "🍁➢ Checking username.. Please wait..",
-            "USERNAME": "🍁 Username",
-            "NAME": "🍁🍁Name",
-            "BIO": "🍁 Bio",
-            "FOLLOWERS": "🍁 Followers",
-            "FOLLOWS": "🍁 Follows",
-            "ACCOUNT": "🍁 Account privacy",
-            "PUBLIC": "🍁 Public",
-            "HIDDEN": "🍁 Hidden",
-            "NOT_FOUND":"🍁➢ User not found: ",
-            "POST_COUNT":"🍁 Post",
-            "HL_COUNT":"🍁 Highlight story"
+            "LOADING": "🖲️ ➢ Checking username.. Please wait..",
+            "USERNAME": "🖲️  Username",
+            "NAME": "🖲️ Name",
+            "BIO": "🖲️  Bio",
+            "FOLLOWERS": "🖲️  Followers",
+            "FOLLOWS": "🖲️  Follows",
+            "ACCOUNT": "🖲️  Account privacy",
+            "PUBLIC": "🖲️  Public",
+            "HIDDEN": "🖲️  Hidden",
+            "NOT_FOUND":"🖲️ ➢ User not found: ",
+            "POST_COUNT":"🖲️  Post",
+            "HL_COUNT":"🖲️  Highlight story"
         },
         "github": {
             "GİTHUB_DESC": "Stalk github profiles of given username.\n⌨️ Example: .github TRex",
-            "REPLY": "```🍁➢ Please type github username!```",
+            "REPLY": "```🖲️ ➢ Please type github username!```",
             "NOT": "```➢ User not found!```",
-            "FOLLOWERS": "🍁 Followers:",
-            "NAME": "🍁 Name:",
-            "USERNAME": "🍁 Username:",
-            "REPO": "🍁 Public Repos:",
-            "BİO": "🍁 Biography:",
-            "FOLLOWİNG": "🍁 Following:",
-            "COMPANY": "🍁 Company:",
-            "BLOG": "🍁 Blog:",
-            "MAİL": "🍁 Mail Address:",
-            "LOCATİON": "🍁 Location:",
-            "GİST": "🍁 Public Gists:",
-            "JOİN": "🍁 Joining Date:",
+            "FOLLOWERS": "🖲️  Followers:",
+            "NAME": "🖲️  Name:",
+            "USERNAME": "🖲️  Username:",
+            "REPO": "🖲️  Public Repos:",
+            "BİO": "🖲️  Biography:",
+            "FOLLOWİNG": "🖲️  Following:",
+            "COMPANY": "🖲️  Company:",
+            "BLOG": "🖲️  Blog:",
+            "MAİL": "🖲️  Mail Address:",
+            "LOCATİON": "🖲️  Location:",
+            "GİST": "🖲️  Public Gists:",
+            "JOİN": "🖲️  Joining Date:",
             "HİRE_FALSE": "➢ Cannot Hirable 🚫",
             "HİRE_TRUE": "➢ Hirable ☑️",
             "HİRE": "➢ Can s/he Hirable?:",
-            "URL": "🍁 Profile URL:",
-            "UPDATE": "🍁➢ Last Update:"
+            "URL": "🖲️  Profile URL:",
+            "UPDATE": "🖲️ ➢ Last Update:"
         },
         "info": {
             "INFO_DESC": "Show chat details",
@@ -488,8 +488,8 @@
         "spotify": {
             "SPO_DESC": "Download spotify songs.",
             "SPO_NEED": "Please enter a link!",
-            "SPO_DOWN": "🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Downloading your song...",
-            "SPO_UP": "🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Uploading your song...",
+            "SPO_DOWN": "🖲️ ➢ ⎝🛡️ ALPHA 🛡️⎠ Downloading your song...",
+            "SPO_UP": "🖲️ ➢ ⎝🛡️ ALPHA 🛡️⎠ Uploading your song...",
             "SPO_ERR": "Please enter a valid spotify link!"
         },
         "chatbot":{
@@ -521,8 +521,8 @@
             "NOT": "```User not found!```",
             "TIKTOK_DESC": "Download without watermark videos from Tiktok",
             "NEED_WORD": "Must Enter a tiktok link!",
-            "DLOAD_TK": "```🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Your tiktok is downloading...```",
-            "UPLOADING_TK": "```🍁➢ ❰🍁🔱  T Rex BOT  🔱🍁❱ Your tiktok is uploading...```",
+            "DLOAD_TK": "```🖲️ ➢ ⎝🛡️ ALPHA 🛡️⎠ Your tiktok is downloading...```",
+            "UPLOADING_TK": "```🖲️ ➢ ⎝🛡️ ALPHA 🛡️⎠ Your tiktok is uploading...```",
             "INVALID_TK": "*I could not find anything :(*"
         },
         "lyric":{
@@ -556,7 +556,7 @@
             "ID_WORD": "║ _Report ID :_ ",
             "USER": "║ _User :_ ",
             "REASON": "║ _Reason :_ ",
-            "END": "╚═➤ *❰🍁🔱  T Rex BOT  🔱🍁❱* ═➤",
+            "END": "╚═➤ *⎝🛡️ ALPHA 🛡️⎠* ═➤",
             "REPLY": "Please reply to a message",
             "BR": "║"
         }
