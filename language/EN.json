@@ -246,7 +246,7 @@
         "updater": {
             "UPDATER_DESC": "Check for updates.",
             "UPDATE": "*⎝🛡️ ALPHA 🛡️⎠ is completely updated!✅*",
-            "NEW_UPDATE": "*Your bot have some updates!*\nType *.uptrex*\n\nChanges:\n```",
+            "NEW_UPDATE": "*Your bot have some updates!*\nType *.upalpha*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "Updating your bot",
             "UPDATING": "_Updating...🖲️ ➢_",
             "INVALID_HEROKU": "*❌ Your HEROKU_API_KEY wrong! Visit https://dashboard.heroku.com/account . Scroll down to API key. Click reveal buttong. Copy that API key and paste it in HEROKU_API_KEY config vars.*",
