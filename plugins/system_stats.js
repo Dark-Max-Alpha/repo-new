@@ -33,7 +33,7 @@ const btn = {
             
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " 🔮 Hay All I'm Alive now 🔮\n\n🧿 My name : ⎝🛡️ ALPHA 🛡️⎠\n\n🧿 Developer: Achiya\n\n🖲️Thank You For Using ⎝🛡️ ALPHA 🛡️⎠"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: " 🔮 Hay All I'm Alive now 🔮\n\n🧿 My name : ⎝🛡️ ALPHA 🛡️⎠\n\n\n ◐. Developer: ACHI FERNANDO \n ◐. Github - https://bit.ly/3FEWS4h \n ◐. Youtube - https://bit.ly/3IeLP3Q \n ◐. Owner - https://bit.ly/3A5DTyQ \n ◐. Our Web - https://bit.ly/3Kig1Na \n\n ◐. All Cammands -Type .alpha\n\n\n🖲️Thank You For Using ⎝🛡️ ALPHA 🛡️⎠"})
             
         await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
@@ -82,7 +82,7 @@ const btn = {
                 `*⎝🛡️ ALPHA 🛡️⎠*\n\n` + 
                 '```Installed version :```\n' +
                 ' V 4.0.0 Public'+
-                `\n\n🍁 Check github for bot: https://github.com/Dark-Knight-Hiruwa/T-REX`
+                `\n\n🍁 Check github for bot: https://github.com/AchiyaCT/ALPHA-V4`
            , MessageType.text);
             
         }));
@@ -115,7 +115,7 @@ const btn = {
         await new Promise(r => setTimeout(r, 1000));
 
  
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "🔮 Hay All I'm Alive now 🔮\n\n🧿 My name : ⎝🛡️ ALPHA 🛡️⎠\n\n🧿 Developer: Achiya\n\n🖲️Thank You For Using ⎝🛡️ ALPHA 🛡️⎠❱"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "🔮 Hay All I'm Alive now 🔮\n\n🧿 My name : ⎝🛡️ ALPHA 🛡️⎠\n\n\n ◐. Developer: ACHI FERNANDO \n ◐. Github - https://bit.ly/3FEWS4h \n ◐. Youtube - https://bit.ly/3IeLP3Q \n ◐. Owner - https://bit.ly/3A5DTyQ \n ◐. Our Web - https://bit.ly/3Kig1Na \n\n ◐. All Cammands -Type .alpha\n\n\n🖲️Thank You For Using ⎝🛡️ ALPHA 🛡️⎠"})
             
         await message.client.sendMessage (message.jid, btn, MessageType.buttonsMessage)
 
@@ -170,7 +170,7 @@ const btn = {
                 `*⎝🛡️ ALPHA 🛡️⎠*\n\n` + 
                 '```Installed version :```\n' +
                 ' V 4.0.0 - Public'+
-                `\n\n🍁 Check github for bot:  https://github.com/Dark-Knight-Hiruwa/T-REX`
+                `\n\n🍁 Check github for bot:  https://github.com/AchiyaCT/ALPHA-V4`
            , MessageType.text);
             
         }));
