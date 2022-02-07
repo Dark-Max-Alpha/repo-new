@@ -48,7 +48,7 @@ module.exports = {
     WARN2: process.env.WARN_MSG_2 === undefined ? '\n    📛 GROUP WARN 📛 \n\n🔱 NO WARNA 🔱\n\n': process.env.WARN_MSG_2,
     WARN3: process.env.WARN_MSG_3 === undefined ? '\n    📛 GROUP WARN 📛 \n\n🔱 NO WARNA 🔱\n\n': process.env.WARN_MSG_3,
     WARN4: process.env.WARN_MSG_4 === undefined ? '\n    📛 GROUP WARN 📛 \n\n🔱 NO WARNA 🔱\n\n': process.env.WARN_MSG_4,
-    GROUPN1: process.env.GROUP_NAME_1 === undefined ? 'Alpha OFFICIAL SUPPORT': process.env.GROUP_NAME_1,
+    GROUPN1: process.env.GROUP_DETAILS === undefined ? 'Alpha OFFICIAL SUPPORT': process.env.GROUP_DETAILS,
     GROUPL1: process.env.GROUP_LINK_1 === undefined ? 'https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML': process.env.GROUP_LINK_1,
     GROUPN2: process.env.GROUP_NAME_2 === undefined ? 'Alpha OFFICIAL TEST': process.env.GROUP_NAME_2,
     GROUPL2: process.env.GROUP_LINK_2 === undefined ? 'https://chat.whatsapp.com/LtXba8cXnFjLZw0QAaiPau': process.env.GROUP_LINK_2,
