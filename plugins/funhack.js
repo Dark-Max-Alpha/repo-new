@@ -44,7 +44,7 @@ _✅ Hack successfully!_
 *ʜᴀᴄᴋᴇᴅ ʙʏ: ${Config.U_NAME} 😈*
 `
 
-Trex.addrex({pattern: 'hack$', fromMe: WType, desc: HACK_DESC, deleteCommand: true}, (async (message, match) => {
+Alpha.addrex({pattern: 'hack$', fromMe: WType, desc: HACK_DESC, deleteCommand: true}, (async (message, match) => {
 
 var thumb = await axios.get("https://telegra.ph/file/dfa0564731ced96dc2b73.jpg", {responseType: "arraybuffer"});
 
