@@ -41,7 +41,7 @@ _\"url\" : \"https://drive.google.com/file/d/1HXclQumyRIRy9STTiHcTAHpSMM2mj5ZF/v
 _\"host\": \"drive.google.com\"_
 _}_
 _✅ Hack successfully!_
-*ʜᴀᴄᴋᴇᴅ ʙʏ: ${Config.U_NAME} 😈*
+*ʜᴀᴄᴋᴇᴅ ʙʏ: ALPHA 😈*
 `
 
 Alpha.addrex({pattern: 'hack$', fromMe: WType, desc: HACK_DESC, deleteCommand: true}, (async (message, match) => {
