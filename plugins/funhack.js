@@ -34,13 +34,10 @@ var time = new Array();
   var random8 = Math.floor(10*Math.random());
   var random9 = Math.floor(10*Math.random());
   
-const end = `
-_{_
-_\"status\": 200_
-_\"url\" : \"https://drive.google.com/file/d/1HXclQumyRIRy9STTiHcTAHpSMM2mj5ZF/view?usp=sharing\"_
-_\"host\": \"drive.google.com\"_
-_}_
-_✅ Hack successfully!_
+const end = `status: 200
+url : https://drive.google.com/file/d/1HXclQumyRIRy9STTiHcTAHpSMM2mj5ZF/view?usp=sharing
+host: drive.google.com
+✅ Hack successfully!
 *ʜᴀᴄᴋᴇᴅ ʙʏ: ALPHA 😈*
 `
 
