@@ -26,7 +26,7 @@ module.exports = {
     SU: process.env.SONG_UPLOAD === undefined ? '' : process.env.SONG_UPLOAD,
     VD: process.env.VIDEO_DOWNLOAD === undefined ? '' : process.env.VIDEO_DOWNLOAD,
     VU: process.env.VIDEO_UPLOAD === undefined ? '' : process.env.VIDEO_UPLOAD,
-    BTN: process.env.BUTTON_CMD === undefined ? 'btn' : process.env.BUTTON_CMD,
+    BTN: process.env.BUTTON_CMD === undefined ? 'txt' : process.env.BUTTON_CMD,
     AUTOBIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
     BAD_KICK: process.env.BAD_KICK === undefined ? 'false' : process.env.BAD_KICK,
