@@ -87,7 +87,6 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╭────────────────
  │ 🖲️ Text To Img 🖲️ 
  │
- │▷ .attppack
  │▷ .ffpack
  │▷ .ttp { text }
  │▷ .dttp { text }
@@ -148,19 +147,6 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │ 
  │   By Achi Bro lk      
  │
- ╰────────────────
- ╭────────────────
- │  🖲️ For owner 🖲️
- │
- │▷ .name { change name }
- │▷ .pp { cha profilr pic}
- │▷ .bio { change bio }
- │
- │  Now you can change 
- │    your whatsapp 
- │ name,profile pic,bio
- │      easy with
- │      Alpha BOT
  ╰────────────────
  ╭────────────────
  │   🖲️ Search 🖲️ 
@@ -373,33 +359,20 @@ Example : .covid Sri Lanka°
 🖲️ Command: °.short°
 ➢ Description: °Shorten link.°
 `, rowId:"rowid3"},
-        {title: '⎝🛡️ Love Pack 🛡️⎠ ', description: `▷▷▷▷▷▷\n\n\n
-╔═══════════════════════╗
-                 ⎝🛡️ ALPHA 🛡️⎠
-═════════════════════════
-                  ♥ LOVE PACK ♥
-                  
-♥ Command : .love you
-➢ Description :  Send I love you message with Image..
-♥ Command : .miss you
-➢ Description :  Send i miss you message with image..
-♥ Command : .love you somuch
-➢ Description :  Send I love you so much message with image..
-♥ Command : .hate you
-➢ Description :  Send i hate you message 😪..
-♥ Command : .cry
-➢ Description :  Send I m cry message..
-♥ Command : .alone
-➢ Description :  Send i am alone message..
-♥ Command : .single
-➢ Description : Send i am single message..
-♥ Command : .need gf
-➢ Description :  Send I need Girl friend message..
-♥ Command : need bf
-➢ Description :  Send i need Boy friend message..
-      ╔═⎝🛡️ ALPHA 🛡️⎠═╗
-       ╚ ENJOY WITH US ╝
-╚══════════════════════
+        {title: '⎝🛡️ For owner 🛡️⎠ ', description: `▷▷▷▷▷▷\n\n\n
+ ╭────────────────
+ │  🖲️ For owner 🖲️
+ │
+ │▷ .name { change name }
+ │▷ .pp { cha profilr pic}
+ │▷ .bio { change bio }
+ │
+ │  Now you can change 
+ │    your whatsapp 
+ │ name,profile pic,bio
+ │      easy with
+ │      Alpha BOT
+ ╰────────────────
 `, rowId:"rowid5"},
         {title: '⎝🛡️ FF PACK 🛡️⎠', description: `▷▷▷▷▷▷\n\n\n
 ╔═════════════════════╗
@@ -635,7 +608,6 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╭────────────────
  │ 🖲️ Text To Img 🖲️ 
  │
- │▷ .attppack
  │▷ .ffpack
  │▷ .ttp { text }
  │▷ .dttp { text }
@@ -696,19 +668,6 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │ 
  │   By Achi Bro lk      
  │
- ╰────────────────
- ╭────────────────
- │  🖲️ For owner 🖲️
- │
- │▷ .name { change name }
- │▷ .pp { cha profilr pic}
- │▷ .bio { change bio }
- │
- │  Now you can change 
- │    your whatsapp 
- │ name,profile pic,bio
- │      easy with
- │      Alpha BOT
  ╰────────────────
  ╭────────────────
  │   🖲️ Search 🖲️ 
@@ -921,34 +880,20 @@ Example : .covid Sri Lanka°
 🖲️ Command: °.short°
 ➢ Description: °Shorten link.°
 `, rowId:"rowid3"},
-        {title: '⎝🛡️ Love Pack 🛡️⎠ ', description:`▷▷▷▷▷▷▷\n\n\n
-╔═══════════════════════╗
-                 ⎝🛡️ ALPHA 🛡️⎠
-═════════════════════════
-                  ♥ LOVE PACK ♥
-                  
-♥ Command : .love you
-➢ Description :  Send I love you message with Image..
-♥ Command : .miss you
-➢ Description :  Send i miss you message with image..
-♥ Command : .love you somuch
-➢ Description :  Send I love you so much message with image..
-♥ Command : .hate you
-➢ Description :  Send i hate you message 😪..
-♥ Command : .cry
-➢ Description :  Send I m cry message..
-♥ Command : .alone
-➢ Description :  Send i am alone message..
-♥ Command : .single
-➢ Description : Send i am single message..
-♥ Command : .need gf
-➢ Description :  Send I need Girl friend message..
-♥ Command : need bf
-➢ Description :  Send i need Boy friend message..
-
-      ╔═⎝🛡️ ALPHA 🛡️⎠═╗
-       ╚ ENJOY WITH US ╝
-╚══════════════════════
+        {title: '⎝🛡️ For owner 🛡️⎠ ', description:`▷▷▷▷▷▷▷\n\n\n
+ ╭────────────────
+ │  🖲️ For owner 🖲️
+ │
+ │▷ .name { change name }
+ │▷ .pp { cha profilr pic}
+ │▷ .bio { change bio }
+ │
+ │  Now you can change 
+ │    your whatsapp 
+ │ name,profile pic,bio
+ │      easy with
+ │      Alpha BOT
+ ╰────────────────
 `, rowId:"rowid4"},
         {title: '⎝🛡️ FF PACK 🛡️⎠ ', description: `▷▷▷▷▷▷\n\n\n
 ╔═════════════════════╗
@@ -1206,7 +1151,6 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╭────────────────
  │ 🖲️ Text To Img 🖲️ 
  │
- │▷ .attppack
  │▷ .ffpack
  │▷ .ttp { text }
  │▷ .dttp { text }
@@ -1267,19 +1211,6 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │ 
  │   By Achi Bro lk      
  │
- ╰────────────────
- ╭────────────────
- │  🖲️ For owner 🖲️
- │
- │▷ .name { change name }
- │▷ .pp { cha profilr pic}
- │▷ .bio { change bio }
- │
- │  Now you can change 
- │    your whatsapp 
- │ name,profile pic,bio
- │      easy with
- │      Alpha BOT
  ╰────────────────
  ╭────────────────
  │   🖲️ Search 🖲️ 
@@ -1492,33 +1423,20 @@ Example : .covid Sri Lanka°
 🖲️ Command: °.short°
 ➢ Description: °Shorten link.°
 `, rowId:"rowid3"},
-        {title: '⎝🛡️ Love Pack 🛡️⎠ ', description:`▷▷▷▷▷▷\n\n\n
-╔═══════════════════════╗
-                 ⎝🛡️ ALPHA 🛡️⎠
-═════════════════════════
-                  ♥ LOVE PACK ♥
-                  
-♥ Command : .love you
-➢ Description :  Send I love you message with Image..
-♥ Command : .miss you
-➢ Description :  Send i miss you message with image..
-♥ Command : .love you somuch
-➢ Description :  Send I love you so much message with image..
-♥ Command : .hate you
-➢ Description :  Send i hate you message 😪..
-♥ Command : .cry
-➢ Description :  Send I m cry message..
-♥ Command : .alone
-➢ Description :  Send i am alone message..
-♥ Command : .single
-➢ Description : Send i am single message..
-♥ Command : .need gf
-➢ Description :  Send I need Girl friend message..
-♥ Command : need bf
-➢ Description :  Send i need Boy friend message..
-      ╔═⎝🛡️ ALPHA 🛡️⎠═╗
-       ╚ ENJOY WITH US ╝
-╚══════════════════════
+        {title: '⎝🛡️ For owner 🛡️⎠ ', description:`▷▷▷▷▷▷\n\n\n
+ ╭────────────────
+ │  🖲️ For owner 🖲️
+ │
+ │▷ .name { change name }
+ │▷ .pp { cha profilr pic}
+ │▷ .bio { change bio }
+ │
+ │  Now you can change 
+ │    your whatsapp 
+ │ name,profile pic,bio
+ │      easy with
+ │      Alpha BOT
+ ╰────────────────
 `, rowId:"rowid4"},
         {title: '⎝🛡️ FF PACK 🛡️⎠', description: `▷▷▷▷▷▷\n\n\n
 ╔═════════════════════╗
