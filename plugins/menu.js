@@ -21,7 +21,7 @@ if (Config.WORKTYPE == 'public') {
         
 if (Config.BTN == 'btn') {
 
-Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
+Trex.addrex({pattern: Config.MEN, fromMe: false}, (async (message, match) => {
 // T-REX LIST👿
         var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
 
@@ -541,7 +541,7 @@ Example : .covid Sri Lanka°
     
     }));
         
-    Trex.addrex({pattern: 'alpha', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
+    Trex.addrex({pattern: Config.MEN, fromMe: true, dontaddCommandList:true}, (async (message, match) => {
 // T-REX LIST
 
 var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
@@ -1084,7 +1084,7 @@ else if (Config.WORKTYPE == 'private') {
         
 if (Config.BTN == 'btn') {
         
-Trex.addrex({pattern: 'alpha', fromMe: true, dontaddCommandList:true}, (async (message, match) => {
+Trex.addrex({pattern: Config.MEN, fromMe: true, dontaddCommandList:true}, (async (message, match) => {
 // T-REX LIST
 
 var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
