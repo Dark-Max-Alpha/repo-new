@@ -13,6 +13,10 @@
             "description": "YOU NEED BUTTON COMMANDS TYPE ( btn ) YOU NEED TEXT COMMAND TYPE ( txt ) බටන් කමාන්ඩ් සමහර ෆෝන් වලට වැඩ කරන් නෑ..",
             "value":"btn"
         },
+        "MENU_CMD": {
+            "description": "TYPE YOUR MENU COMMAND.",
+            "value":"alpha"
+        },
         "ALIVE_LOGO": {
             "description": "If you do not want to change Alive Logo put here to your image direct link or, type default.",
             "required": false,
