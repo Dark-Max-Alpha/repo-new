@@ -18,6 +18,7 @@ module.exports = {
     VERSION: 'V 4.0.0 PUBLIC',
     ZRUN: "zenzapi",
     CHANNEL: 'https://chat.whatsapp.com/GT5V8RakkftB7DAKWMeQML',
+    MEN: process.env.MENU_CMD === undefined ? 'alpha' : process.env.MENU_CMD,
     SESSION: process.env.ALPHA_SESSION === undefined ? '' : process.env.ALPHA_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     TIME: process.env.TIME_ZONE === undefined ? 'Asia/Colombo' : process.env.TIME_ZONE,
