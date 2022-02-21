@@ -41,9 +41,7 @@ const sections = [{title: `${topText}`, rows: rows}]
 
 const button = {
  buttonText: 'Click Me!',
- description: `${topText}
- 
- ⎝🛡️ ALPHA 🛡️⎠ WhatsApp User Bot`,
+ description: `${topText}`,
  sections: sections,
  listType: 1
 }
