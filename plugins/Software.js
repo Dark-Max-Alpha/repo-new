@@ -12,7 +12,7 @@ if (Config.WORKTYPE == 'public') {
             var image = await axios.get ('https://telegra.ph/file/24429ad5b37c11525894e.jpg', {responseType: 'arraybuffer'})
 
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╭───────────────
-│  🔰 SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
+│  ⎝🛡️ SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
 │
 │  ◎Adobe Editing Softwares type =.adobe
 │  ◎Wondershare Softwares type =.ws
@@ -34,7 +34,7 @@ if (Config.WORKTYPE == 'public') {
             var image = await axios.get ('https://telegra.ph/file/4fb6db2465bed4af3eb51.jpg', {responseType: 'arraybuffer'})
 
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╭───────────────
-│  🔰 SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
+│  ⎝🛡️ SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
 │    adobe editing softwares
 │    
 │  ◎Adobe Photoshop =.aps
@@ -56,7 +56,7 @@ if (Config.WORKTYPE == 'public') {
 
             var image = await axios.get ('https://telegra.ph/file/4b7a5d02fba1b2e147f41.jpg', {responseType: 'arraybuffer'})
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╭───────────────
-│  🔰 SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
+│  ⎝🛡️ SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
 │         Operating System
 │
 │  ◎Windwos 7 =.win7
@@ -75,7 +75,7 @@ if (Config.WORKTYPE == 'public') {
 
             var image = await axios.get ('https://telegra.ph/file/4d6dc262fedc23e93cc69.jpg', {responseType: 'arraybuffer'})
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╭───────────────
-│  🔰 SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
+│  ⎝🛡️ SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
 │       Android Emulator From Pc
 │  
 │   ◎Blustaucks 5 =.bl
@@ -88,30 +88,12 @@ if (Config.WORKTYPE == 'public') {
 
     }));
 
-  Trex.addrex({pattern: 'ws', fromMe: false,  deleteCommand: true }, (async (message, match) => {
-
-
-            var image = await axios.get ('https://telegra.ph/file/011d37f1cef06440daf7a.jpg', {responseType: 'arraybuffer'})
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╭───────────────
-│  🔰 SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
-│      Wondershare Softwares 
-│  
-│  ◎Filmora 7.8.9 =.f9
-│  ◎Filmora 10.1.20 =.f20
-│  ◎Filmora 10.5.10 =.f10
-│  ◎Filmora 10.7.8.12 =.f12
-│
-│         🛡️POWERD BY🛡️
-│        ⎝🛡️ ALPHA 🛡️⎠
-╰──────────────`,quoted: message.data})
-
-    }));
     Trex.addrex({pattern: 'vs', fromMe: false,  deleteCommand: true }, (async (message, match) => {
 
 
             var image = await axios.get ('https://telegra.ph/file/44f514afcbb5953196b92.jpg', {responseType: 'arraybuffer'})
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╭───────────────
-│  🔰 SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
+│  ⎝🛡️ SOFTWARE STORE BY ACHI BRO LK 🛡️⎠
 │        Antivirus Softwares
 │  ◎Avira Antivirus Pro 15.0.29 =.aa
 │  ◎IObit Advanced SystemCare Pro 12.4.0 =.as1
