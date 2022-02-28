@@ -1,9 +1,11 @@
 const Trex = require('../events');
+const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const {spawnSync} = require('child_process');
 const Config = require('../config');
 const chalk = require('chalk');
 const axios = require('axios');
 
+if (Config.WORKTYPE == 'public') {
 
      Trex.addrex({pattern: 'ws', fromMe: false,  deleteCommand: true }, (async (message, match) => {
 
