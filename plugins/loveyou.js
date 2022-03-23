@@ -47,6 +47,6 @@ const axios = require('axios');
 
 alpha.addrex({pattern: 'infolove', fromMe: false}, (async (message, match) => {
 
-    await message.sendMessage("Codded by Achiya😎 KDA \n*ආදරේ කියන්න හොදම විදිහ ❤️⃟✦⃝̮̮̮̯̯̯😌🔥*  \n❄️Usage: .love\n Dont Copy Plugin I'm Achi Fernando ")
+    await message.sendMessage("Codded by Achiya😎 \n*ආදරේ කියන්න හොදම විදිහ ❤️⃟✦⃝̮̮̮̯̯̯😌🔥*  \n❄️Usage: .love\n Dont Copy Plugin I'm Achi Fernando ")
 
 }));
