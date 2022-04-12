@@ -1,8 +1,9 @@
-FROM fusuf/whatsasena:latest
+FROM node:latest
 
-RUN git clone https://github.com/Dark-Max-Alpha/repo-new /root/repo-new
-WORKDIR /root/repo-new/
-ENV TZ=Europe/Istanbul
+RUN git clone https://github.com/Dark-Max-Alpha/v5-new /root/v5-new
+WORKDIR /root/v5-new/
+RUN git clone https://github.com/Dark-Max-Alpha/v5-new
+ENV TZ=Asia/Colombo
 RUN npm install supervisor -g
 RUN yarn install --no-audit
 
